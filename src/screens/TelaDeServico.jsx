@@ -1,16 +1,16 @@
 import React from "react"
-import { View, Pressable } from "react-native"
+import { View, Image, ScrollView } from "react-native"
 import { BotaoDeVoltar } from "../components/BotaoDeVoltar"
 import { Subtitulo } from "../components/Subtitulo"
 import { Titulo } from "../components/Titulo"
 
 export const TelaDeServico = () => {
   return (
-    <View
+    <ScrollView
       style={{
         flex: 1,
-        backgroundColor: '#34A853'
       }}
+      showsVerticalScrollIndicator={false}
     >
       <BotaoDeVoltar />
 
@@ -22,6 +22,7 @@ export const TelaDeServico = () => {
         style={{
           backgroundColor: '#fff',
           height: 1,
+          marginTop: 10,
           width: '100%',
         }}
       />
@@ -33,51 +34,50 @@ export const TelaDeServico = () => {
           borderRadius: 4,
           backgroundColor: '#A0F6B5',
           paddingVertical: 27,
-          paddingHorizontal: 20
+          paddingHorizontal: 20,
+          shadowColor: "#000",
+          shadowOffset: {
+            width: 0,
+            height: 3,
+          },
+          shadowOpacity: 0.27,
+          shadowRadius: 4.65,
+
+          elevation: 6,
         }}
       >
 
         <Subtitulo
           subtitulo={'Endereço'}
+          conteudo={'Passagem Esperança, 63 - Jurunas, Belém - PA, 66030-135'}
         />
         <Subtitulo
           subtitulo={'Telefone'}
+          conteudo={'(91) 4006-9002'}
         />
         <Subtitulo
           subtitulo={'Site'}
+          conteudo={'http://www.belem.pa.gov.br/'}
         />
-        <Subtitulo
-          subtitulo={'Redes Sociais'}
-        />
-
-        <View>
-          <Pressable>
-            <View
-              style={{
-                backgroundColor: '#ff0000',
-                width: 35,
-                height: 35,
-              }}
-            />
-          </Pressable>
-
-          <Pressable>
-            <View
-              style={{
-                backgroundColor: '#ff0000',
-                width: 35,
-                height: 35,
-              }}
-            />
-          </Pressable>
-        </View>
 
         <Subtitulo
           subtitulo={'Localização'}
         />
 
+        <Image
+          source={require('../../assets/upa_jurunas.png')}
+          style={{
+            height: 174,
+            borderRadius: 4,
+            marginTop: 8,
+            width: '100%',
+            resizeMode: 'cover',
+            // borderColor: 'red',
+            // borderWidth: 1,
+          }}
+        />
       </View>
 
-    </View>
+    </ScrollView>
   )
 }
