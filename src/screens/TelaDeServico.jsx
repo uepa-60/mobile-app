@@ -1,8 +1,9 @@
-import React from "react"
-import { View, Image, ScrollView } from "react-native"
-import { BotaoDeVoltar } from "../components/BotaoDeVoltar"
-import { Subtitulo } from "../components/Subtitulo"
-import { Titulo } from "../components/Titulo"
+import React from 'react'
+import { Titulo } from '../components/Titulo'
+import { Subtitulo } from '../components/Subtitulo'
+import { View, Image, ScrollView } from 'react-native'
+import { BotaoDeVoltar } from '../components/BotaoDeVoltar'
+import { Divisor } from '../components/Divisor'
 
 export const TelaDeServico = () => {
   return (
@@ -18,14 +19,7 @@ export const TelaDeServico = () => {
         titulo={'UPA do Jurunas'}
       />
 
-      <View
-        style={{
-          backgroundColor: '#fff',
-          height: 1,
-          marginTop: 10,
-          width: '100%',
-        }}
-      />
+      <Divisor />
 
       <View
         style={{
@@ -35,7 +29,7 @@ export const TelaDeServico = () => {
           backgroundColor: '#A0F6B5',
           paddingVertical: 27,
           paddingHorizontal: 20,
-          shadowColor: "#000",
+          shadowColor: '#000',
           shadowOffset: {
             width: 0,
             height: 3,
@@ -47,6 +41,10 @@ export const TelaDeServico = () => {
         }}
       >
 
+        <Subtitulo
+          subtitulo={'Descrição'}
+          conteudo={'A Unidade de Pronto Atendimento (UPA 24h) faz parte da Rede de Atenção às Urgências. O objetivo é concentrar os atendimentos de saúde de complexidade intermediária, compondo uma rede organizada em conjunto com a atenção básica, atenção hospitalar, atenção domiciliar e o Serviço de Atendimento Móvel de Urgência - SAMU 192.'}
+        />
         <Subtitulo
           subtitulo={'Endereço'}
           conteudo={'Passagem Esperança, 63 - Jurunas, Belém - PA, 66030-135'}
@@ -72,8 +70,16 @@ export const TelaDeServico = () => {
             marginTop: 8,
             width: '100%',
             resizeMode: 'cover',
-            // borderColor: 'red',
-            // borderWidth: 1,
+
+            shadowColor: '#000',
+            shadowOffset: {
+              width: 0,
+              height: 3,
+            },
+            shadowOpacity: 0.27,
+            shadowRadius: 4.65,
+
+            elevation: 6,
           }}
         />
       </View>

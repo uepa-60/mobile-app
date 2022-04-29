@@ -20,6 +20,7 @@ export const Subtitulo = ({ subtitulo, conteudo }) => {
             fontFamily: 'RegularFont',
             fontSize: 16,
             marginTop: 8,
+            textAlign: 'justify',
             marginBottom: 13
           }}
         >

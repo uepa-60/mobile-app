@@ -1,7 +1,9 @@
 import React from 'react'
 import { Text } from 'react-native'
 
-export const Titulo = ({ titulo }) => {
+export const Titulo = ({ titulo, ...props }) => {
+  const { style, ...rest } = props
+
   return (
     <Text
       style={{
@@ -9,7 +11,9 @@ export const Titulo = ({ titulo }) => {
         marginTop: 25,
         fontFamily: 'MediumFont',
         color: '#fff',
+        ...style
       }}
+      {...rest}
     >
       {titulo}
     </Text>
