@@ -1,13 +1,14 @@
-import AppLoading from 'expo-app-loading';
-import { StatusBar } from 'expo-status-bar';
-import { TelaDeServico } from './src/screens/TelaDeServico.jsx';
-import { JosefinSans_500Medium, useFonts, JosefinSans_400Regular } from '@expo-google-fonts/josefin-sans'
-import { View } from 'react-native';
+import { View } from 'react-native'
+import AppLoading from 'expo-app-loading'
+import { StatusBar } from 'expo-status-bar'
+import { RotaPrincipal } from './src/routes/RotaPrincipal'
+import { NavigationContainer } from '@react-navigation/native'
+import { Quicksand_700Bold, Quicksand_400Regular, useFonts } from '@expo-google-fonts/quicksand'
 
 export default function App() {
   const [fontsLoaded] = useFonts({
-    MediumFont: JosefinSans_500Medium,
-    RegularFont: JosefinSans_400Regular,
+    MediumFont: Quicksand_700Bold,
+    RegularFont: Quicksand_400Regular,
   })
 
   if (!fontsLoaded) {
@@ -30,9 +31,17 @@ export default function App() {
           maxWidth: 500
         }}
       >
-        <StatusBar style="light" translucent={false} backgroundColor={'#34A853'} />
-        <TelaDeServico />
+        <StatusBar style='light' translucent={false} backgroundColor={'#34A853'} />
+        <NavigationContainer
+          theme={{
+            colors: {
+              background: 'transparent',
+            }
+          }}
+        >
+          <RotaPrincipal />
+        </NavigationContainer>
       </View>
     </View>
-  );
+  )
 }

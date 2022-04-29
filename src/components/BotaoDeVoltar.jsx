@@ -1,12 +1,15 @@
-import React from "react";
-import { Pressable, View } from "react-native";
-import { Ionicons } from '@expo/vector-icons';
+import React from 'react'
+import { Pressable, View } from 'react-native'
+import { Ionicons } from '@expo/vector-icons'
+import { useNavigation } from '@react-navigation/native'
 
 export const BotaoDeVoltar = () => {
+  const navigation = useNavigation()
+
   return (
     <Pressable
       onPress={() => {
-        alert('Você clicou no botão')
+        navigation.goBack()
       }}
     >
       <View
@@ -17,7 +20,7 @@ export const BotaoDeVoltar = () => {
           borderRadius: 20,
           alignItems: 'center',
           justifyContent: 'center',
-          shadowColor: "#000",
+          shadowColor: '#000',
           shadowOffset: {
             width: 0,
             height: 3,
@@ -28,7 +31,7 @@ export const BotaoDeVoltar = () => {
           elevation: 6,
         }}
       >
-        <Ionicons name="arrow-back" size={24} color="#34A853" />
+        <Ionicons name='arrow-back' size={24} color='#34A853' />
       </View>
     </Pressable>
   )
