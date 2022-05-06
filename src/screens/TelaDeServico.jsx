@@ -1,11 +1,11 @@
 import React from 'react'
 import { Titulo } from '../components/Titulo'
 import { Subtitulo } from '../components/Subtitulo'
-import { View, Image, ScrollView } from 'react-native'
+import { View, ScrollView } from 'react-native'
 import { BotaoDeVoltar } from '../components/BotaoDeVoltar'
 import { Divisor } from '../components/Divisor'
 
-export const TelaDeServico = () => {
+export const TelaDeServico = ({ route }) => {
   return (
     <ScrollView
       style={{
@@ -16,7 +16,7 @@ export const TelaDeServico = () => {
       <BotaoDeVoltar />
 
       <Titulo
-        titulo={'UPA do Jurunas'}
+        titulo={route.params.item.nome}
       />
 
       <Divisor />
@@ -36,52 +36,51 @@ export const TelaDeServico = () => {
           },
           shadowOpacity: 0.27,
           shadowRadius: 4.65,
-
           elevation: 6,
         }}
       >
 
         <Subtitulo
-          subtitulo={'Descrição'}
-          conteudo={'A Unidade de Pronto Atendimento (UPA 24h) faz parte da Rede de Atenção às Urgências. O objetivo é concentrar os atendimentos de saúde de complexidade intermediária, compondo uma rede organizada em conjunto com a atenção básica, atenção hospitalar, atenção domiciliar e o Serviço de Atendimento Móvel de Urgência - SAMU 192.'}
-        />
-        <Subtitulo
           subtitulo={'Endereço'}
-          conteudo={'Passagem Esperança, 63 - Jurunas, Belém - PA, 66030-135'}
-        />
-        <Subtitulo
-          subtitulo={'Telefone'}
-          conteudo={'(91) 4006-9002'}
-        />
-        <Subtitulo
-          subtitulo={'Site'}
-          conteudo={'http://www.belem.pa.gov.br/'}
+          conteudo={route.params.item.endereco}
         />
 
         <Subtitulo
-          subtitulo={'Localização'}
+          subtitulo={'Descrição'}
+          conteudo={route.params.item.descricao}
         />
 
-        <Image
-          source={require('../../assets/upa_jurunas.png')}
-          style={{
-            height: 174,
-            borderRadius: 4,
-            marginTop: 8,
-            width: '100%',
-            resizeMode: 'cover',
+        {
+          route.params.item.servicos &&
+          <Subtitulo
+            subtitulo={'Serviços disponíveis'}
+            conteudo={route.params.item.servicos.reduce((acc, servico) => {
+              return acc + servico + '\n'
+            }, '')}
+          />
+        }
 
-            shadowColor: '#000',
-            shadowOffset: {
-              width: 0,
-              height: 3,
-            },
-            shadowOpacity: 0.27,
-            shadowRadius: 4.65,
-
-            elevation: 6,
-          }}
+        {
+          route.params.item.telefones &&
+          <Subtitulo
+            subtitulo={'Telefone'}
+            conteudo={route.params.item.telefones.reduce((acc, telefone) => {
+              return acc + telefone + ', '
+            }, '')}
+          />
+        }
+        <Subtitulo
+          subtitulo={'Horário'}
+          conteudo={route.params.item.horario}
         />
+        {
+          route.params.item.site &&
+          <Subtitulo
+            subtitulo={'Site'}
+            tipo='link'
+            conteudo={route.params.item.site}
+          />
+        }
       </View>
 
     </ScrollView>
