@@ -2,7 +2,7 @@ import React from 'react'
 import { Text, Pressable } from 'react-native'
 import { useNavigation } from '@react-navigation/native'
 
-export const CardSelecao = ({ titulo, chave }) => {
+export const CardSelecao = ({ titulo, irPara, parametros }) => {
   const navigation = useNavigation()
 
   return (
@@ -10,8 +10,10 @@ export const CardSelecao = ({ titulo, chave }) => {
       style={{
         backgroundColor: 'white',
         borderRadius: 25,
-        flex: 1,
-        maxWidth: 150,
+        // flex: 1,
+        // maxHeight: '60%',
+        width: '100%',
+        maxWidth: 250,
         padding: 25,
         shadowColor: '#000',
         shadowOffset: {
@@ -24,10 +26,7 @@ export const CardSelecao = ({ titulo, chave }) => {
         elevation: 6,
       }}
       onPress={() => {
-        navigation.navigate('Listagem', {
-          tipo: chave,
-          titulo: titulo
-        })
+        navigation.navigate(irPara, parametros)
       }}
     >
       <Text
