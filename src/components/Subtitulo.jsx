@@ -1,7 +1,12 @@
 import React from 'react'
 import { Text } from 'react-native'
 
-export const Subtitulo = ({ subtitulo, conteudo }) => {
+export const Subtitulo = ({ subtitulo, conteudo, tipo = 'padrao' }) => {
+  const estilizacaoExtra = (tipo === 'link') ? {
+    textDecorationLine: 'underline',
+    color: '#00AEEF',
+  } : undefined
+
   return (
     <>
       <Text
@@ -16,13 +21,17 @@ export const Subtitulo = ({ subtitulo, conteudo }) => {
 
       {conteudo &&
         <Text
-          style={{
-            fontFamily: 'RegularFont',
-            fontSize: 16,
-            marginTop: 8,
-            textAlign: 'justify',
-            marginBottom: 13
-          }}
+          style={[
+            {
+              fontFamily: 'RegularFont',
+              fontSize: 16,
+              marginTop: 8,
+              textAlign: 'justify',
+              marginBottom: 13,
+
+            },
+            estilizacaoExtra
+          ]}
         >
           {conteudo}
         </Text>
