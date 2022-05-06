@@ -2,10 +2,11 @@ import React from 'react'
 import { View } from 'react-native'
 import { Titulo } from '../components/Titulo'
 import { CardSelecao } from '../components/CardSelecao'
+import { BotaoDeVoltar } from '../components/BotaoDeVoltar'
 import { Ionicons } from '@expo/vector-icons'
 import { FontAwesome5 } from '@expo/vector-icons'
 
-export const TelaDeSelecaoDeServicos = () => {
+export const TelaDeSelecaoDeServicos = ({ route }) => {
   return (
     <View
       style={{
@@ -13,6 +14,7 @@ export const TelaDeSelecaoDeServicos = () => {
         justifyContent: 'space-between'
       }}
     >
+      <BotaoDeVoltar />
       <Titulo
         titulo='App60+'
         style={{
@@ -39,7 +41,8 @@ export const TelaDeSelecaoDeServicos = () => {
           <FontAwesome5 name='hand-holding-heart' size={24} color='white' />
           <CardSelecao
             titulo='Serviços de Saúde'
-            chave='saude'
+            irPara={'Listagem'}
+            parametros={{ ...route.params, tipo: 'saude' }}
           />
 
         </View>
@@ -56,7 +59,8 @@ export const TelaDeSelecaoDeServicos = () => {
           <Ionicons name='ios-people' size={24} color='white' />
           <CardSelecao
             titulo='Serviços Sociais'
-            chave='sociais'
+            irPara={'Listagem'}
+            parametros={{ ...route.params, tipo: 'sociais' }}
           />
         </View>
       </View>
