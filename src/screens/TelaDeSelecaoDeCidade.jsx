@@ -13,7 +13,7 @@ export const TelaDeSelecaoDeCidade = () => {
       }}
     >
 
-      <Titulo titulo={'VOCÊ DESEJA VER OS SEVIÇOS DE QUAL CIDADE? '} />
+      <Titulo titulo={'VOCÊ DESEJA VER OS SERVIÇOS DE QUAL CIDADE? '} />
       <Divisor />
 
       <View

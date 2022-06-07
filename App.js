@@ -3,12 +3,12 @@ import AppLoading from 'expo-app-loading'
 import { StatusBar } from 'expo-status-bar'
 import { RotaPrincipal } from './src/routes/RotaPrincipal'
 import { NavigationContainer } from '@react-navigation/native'
-import { Quicksand_700Bold, Quicksand_400Regular, useFonts } from '@expo-google-fonts/quicksand'
+import { Roboto_700Bold, useFonts, Roboto_400Regular } from '@expo-google-fonts/roboto'
 
 export default function App() {
   const [fontsLoaded] = useFonts({
-    MediumFont: Quicksand_700Bold,
-    RegularFont: Quicksand_400Regular,
+    MediumFont: Roboto_700Bold,
+    RegularFont: Roboto_400Regular,
   })
 
   if (!fontsLoaded) {

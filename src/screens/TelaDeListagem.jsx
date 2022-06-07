@@ -63,7 +63,7 @@ export const TelaDeListagem = ({ route }) => {
                 <Text
                   style={{
                     textAlign: 'center',
-                    fontSize: 25,
+                    fontSize: 30,
                     fontFamily: 'RegularFont',
                     color: '#34A853'
                   }}

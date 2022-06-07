@@ -1,6 +1,5 @@
 import React from 'react'
 import { View } from 'react-native'
-import { Titulo } from '../components/Titulo'
 import { CardSelecao } from '../components/CardSelecao'
 import { BotaoDeVoltar } from '../components/BotaoDeVoltar'
 import { Ionicons } from '@expo/vector-icons'
@@ -15,12 +14,6 @@ export const TelaDeSelecaoDeServicos = ({ route }) => {
       }}
     >
       <BotaoDeVoltar />
-      <Titulo
-        titulo='App60+'
-        style={{
-          textAlign: 'center',
-        }}
-      />
 
       <View
         style={{
@@ -33,17 +26,30 @@ export const TelaDeSelecaoDeServicos = ({ route }) => {
           style={{
             flexDirection: 'row',
             alignItems: 'center',
-            justifyContent: 'space-around',
-            // borderColor: 'red',
-            // borderWidth: 1,
           }}
         >
-          <FontAwesome5 name='hand-holding-heart' size={24} color='white' />
-          <CardSelecao
-            titulo='Serviços de Saúde'
-            irPara={'Listagem'}
-            parametros={{ ...route.params, tipo: 'saude' }}
-          />
+
+          <View
+            style={{
+              flexBasis: '20%',
+              alignItems: 'flex-start',
+            }}
+          >
+            <FontAwesome5 name='hand-holding-heart' size={35} color='white' />
+          </View>
+
+          <View
+            style={{
+              flexBasis: '80%',
+              alignItems: 'flex-end'
+            }}
+          >
+            <CardSelecao
+              titulo='Serviços de Saúde'
+              irPara={'Listagem'}
+              parametros={{ ...route.params, tipo: 'saude' }}
+            />
+          </View>
 
         </View>
 
@@ -51,17 +57,28 @@ export const TelaDeSelecaoDeServicos = ({ route }) => {
           style={{
             flexDirection: 'row',
             alignItems: 'center',
-            justifyContent: 'space-around',
-            // borderColor: 'red',
-            // borderWidth: 1,
           }}
         >
-          <Ionicons name='ios-people' size={24} color='white' />
-          <CardSelecao
-            titulo='Serviços Sociais'
-            irPara={'Listagem'}
-            parametros={{ ...route.params, tipo: 'sociais' }}
-          />
+          <View
+            style={{
+              flexBasis: '20%',
+              alignItems: 'flex-start',
+            }}
+          >
+            <Ionicons name='ios-people' size={35} color='white' />
+          </View>
+          <View
+            style={{
+              flexBasis: '80%',
+              alignItems: 'flex-end'
+            }}
+          >
+            <CardSelecao
+              titulo='Serviços Sociais'
+              irPara={'Listagem'}
+              parametros={{ ...route.params, tipo: 'sociais' }}
+            />
+          </View>
         </View>
       </View>
 

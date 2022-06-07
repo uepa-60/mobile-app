@@ -1,7 +1,7 @@
 import React from 'react'
-import { Text } from 'react-native'
+import { Text, Linking } from 'react-native'
 
-export const Subtitulo = ({ subtitulo, conteudo, tipo = 'padrao' }) => {
+export const Subtitulo = ({ subtitulo, conteudo, tipo = 'padrao', icone }) => {
   const estilizacaoExtra = (tipo === 'link') ? {
     textDecorationLine: 'underline',
     color: '#00AEEF',
@@ -16,19 +16,24 @@ export const Subtitulo = ({ subtitulo, conteudo, tipo = 'padrao' }) => {
           color: '#34A853',
         }}
       >
+        {icone}
         {subtitulo}
       </Text>
 
       {conteudo &&
         <Text
+          onPress={() => {
+            if (tipo === 'link') {
+              Linking.openURL(conteudo)
+            }
+          }}
           style={[
             {
               fontFamily: 'RegularFont',
-              fontSize: 16,
+              fontSize: 20,
               marginTop: 8,
               textAlign: 'justify',
               marginBottom: 13,
-
             },
             estilizacaoExtra
           ]}

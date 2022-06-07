@@ -7,7 +7,7 @@ export const Titulo = ({ titulo, ...props }) => {
   return (
     <Text
       style={{
-        fontSize: 26,
+        fontSize: 30,
         marginTop: 25,
         fontFamily: 'MediumFont',
         color: '#fff',

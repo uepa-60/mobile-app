@@ -33,7 +33,7 @@ export const CardSelecao = ({ titulo, irPara, parametros }) => {
         style={{
           textAlign: 'center',
           fontFamily: 'RegularFont',
-          fontSize: 21,
+          fontSize: 30,
           color: '#34A853'
         }}
       >

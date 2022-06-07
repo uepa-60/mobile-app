@@ -2,7 +2,7 @@
   "belem": {
     "saude": [
       {
-        "nome": "UMS do Guamá - Unidade Municipal de Saúde do Guamá",
+        "nome": "UMS do Guamá",
         "descricao": "Oferece atendimento de urgência e emergência, de alta e média complexidade, 24 horas por dia, e também atende outras especialidades.",
         "servicos": [
           "Urgência e emergência",
@@ -28,7 +28,7 @@
         "horario": "24 horas (urgência e emergência)"
       },
       {
-        "nome": "HPSM 14 de Março - Hospital e Pronto Socorro Municipal Mario Pinotti",
+        "nome": "HPSM 14 de Março",
         "descricao": "Oferece atendimento de urgência e emergência, de alta e média complexidade, 24 horas por dia, e também atende outras especialidades.",
         "endereco": "Travessa 14 de Março, nº500 entre Bernal do Couto e Oliveira Belo - Bairro do Umarizal, Belém - PA",
         "telefones": [
