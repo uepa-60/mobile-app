@@ -1,0 +1,149 @@
+{
+  "localidades": [
+    {
+      "nome": "Estação Cidadania - Shopping Metrópole Ananindeua",
+      "descricao": "Unidades de integração de serviços prestados por órgãos públicos",
+      "departamentos": [
+        {
+          "nome": "Banpará",
+          "servicos": [
+            "Saque conta corrente/poupança",
+            "Pagamento de boletos",
+            "Abertura de conta",
+            "Créditos",
+            "Consultas de empréstimos"
+          ]
+        },
+        {
+          "nome": "Polícia Civil",
+          "servicos": [
+            "Emissão de Carteira de Identidade",
+            "Emissão de Carteira de Identidade de nome social"
+          ]
+        },
+        {
+          "nome": "SEASTER",
+          "servicos": [
+            "Solicitação do Seguro Desemprego",
+            "Cadastro de Emprego"
+          ]
+        },
+        {
+          "nome": "DETRAN/PA",
+          "servicos": [
+            "Exame biométrico para 1ª Habilitação",
+            "Exame biométrico para renovação de CNH",
+            "Mudança de Categoria",
+            "Adição de Categoria",
+            "2ª Via de CNH",
+            "Troca de Jurisdição",
+            "Alteração de Dados Cadastrais",
+            "Alteração de Endereço",
+            "Prova de Legislação",
+            "Emissão de boleto de renovação de CNH",
+            "Inclusão de Atividade Remunerada"
+          ]
+        },
+        {
+          "nome": "JUCEPA",
+          "servicos": [
+            "Registro mercantil",
+            "Alterações empresariais",
+            "Transformação de natureza jurídica",
+            "Extinção de empresas",
+            "Livro Diário",
+            "Balanço Patrimonial",
+            "Enquadramento de MEI",
+            "Desenquadramento de MEI"
+          ]
+        },
+        {
+          "nome": "IA SEP",
+          "servicos": [
+            "Adesão de segurados e dependentes",
+            "Liberação de Procedimentos de Saúde"
+          ]
+        },
+        {
+          "nome": "Fundação PRO PAZ",
+          "servicos": [
+            "Orientação Vocacional",
+            "Informações sobre o Programa de Saúde para a Juventude",
+            "Distribuição de preservativos e orientações sobre doenças sexualmente transmissíveis",
+            "Comissão Triparte da Meia Passagem Intermunicipal",
+            "Informações culturais",
+            "Informações sobre qualificação profissional e educação profissional",
+            "Orientação Jurídica",
+            "ID Jovem"
+          ]
+        },
+        {
+          "nome": "IGEPREV",
+          "servicos": [
+            "Emissão de contracheque",
+            "Comunicado de óbito",
+            "Cadastro de conta corrente",
+            "Pagamentos de valores retroativos",
+            "Liberação de crédito",
+            "Declaração de tempo utilizado para aposentadoria",
+            "Isenção de imposto de renda",
+            "Retificação de dirf/cédula C",
+            "Certidão de tempo de contribuição",
+            "Auxílio funerale/ Concessão de pensão por morte"
+          ]
+        },
+        {
+          "nome": "SRTE/SEAD",
+          "servicos": [
+            "Emissão de Carteira de trabalho e Previdência Social",
+            "2ª VIA. de Carteira de trabalho e Previdência Social"
+          ]
+        },
+        {
+          "nome": "Receita Federal",
+          "servicos": [
+            "Agendamento de serviços na RFB",
+            "Consulta de processo",
+            "Consulta de restituição/situação da DIRPF",
+            "Emissão de certidão pessoa física",
+            "Emissão de DARF",
+            "Extrato do processamento da DIRPF",
+            "Número de recibo do IRPF",
+            "Parcelamento simplificado não previdenciário",
+            "Parcelamento simplificado previdenciário",
+            "Situação fiscal",
+            "Alteração e Regularização de CPF",
+            "Emissão de comprovante de CPF",
+            "Conclusão de inscrição de CPF",
+            "Código de acesso ao portal E-CAC",
+            "Compensação da restituição x malha débito",
+            "Cópia declaração IRPF",
+            "Emissão de certidão do imóvel rural",
+            "Emissão de DAS (Documento de Arrecadação do Simples Nacional) para MEI (Microempreendedor Individual)",
+            "Orientação SITIO RFB/portal E-CAC",
+            "Preenchimento PER/DCOMP",
+            "Termo de atendimento à intimação"
+          ]
+        },
+        {
+          "nome": "Corpo de Bombeiros",
+          "servicos": [
+            "Emissão das taxas Habite-se",
+            "Vistoria Técnica Anual",
+            "Análise de Projeto",
+            "Modificação de Projeto",
+            "Ampliação de Projeto",
+            "2º via de Habite-se",
+            "Salas inseridas em condomínios aprovados",
+            "Recarimbamento de projeto aprovado",
+            "Declaração de Isenção de AVCB (Auto de Vistoria do Corpo de Bombeiros)",
+            "ACPS (Auto de Conformidade de Processo Simplificado)",
+            "Protocolo de documentos de Ofícios, Requerimentos, Projetos, Solicitação de Prazo, Cronograma de Execução"
+          ]
+        }
+      ],
+      "endereco": "BR 316, KM 04, nº4500, Ananindeua - PA",
+      "horario": "12h às 19h"
+    }
+  ]
+}

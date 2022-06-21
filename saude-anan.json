@@ -1,0 +1,60 @@
+{
+  "localidades": [
+    {
+      "nome": "UPA Cidade Nova",
+      "descricao": "Unidade de Pronto Atendimento da Cidade Nova",
+      "servicos": [
+        "Raio-X",
+        "Atendimentos de complexidade intermediária",
+        "Pediatria",
+        "Eletrocardiografia",
+        "Laboratório de exames",
+        "Leito de observação"
+      ],
+      "endereco": "Tv. WE 16 (Cidade Nova II), S/N - Cidade Nova, Ananindeua - PA",
+      "horario": "24 horas"
+    },
+    {
+      "nome": "UPA Distrito Industrial",
+      "descricao": "Unidade de Pronto Atendimento do Distrito Industrial",
+      "servicos": [
+        "Raio-X",
+        "Atendimentos de complexidade intermediária",
+        "Pediatria",
+        "Eletrocardiografia",
+        "Laboratório de exames",
+        "Leito de observação"
+      ],
+      "endereco": "Rua Primeira Rural, nº2 - Distrito Industrial, Ananindeua - PA",
+      "horario": "24 horas"
+    },
+    {
+      "nome": "UPA Mariguella",
+      "descricao": "Unidade de Pronto Atendimento do Aurá",
+      "servicos": [
+        "Raio-X",
+        "Atendimentos de complexidade intermediária",
+        "Pediatria",
+        "Eletrocardiografia",
+        "Laboratório de exames",
+        "Leito de observação"
+      ],
+      "endereco": "Passagem Chicó Mendes, nº193 - Aurá, Ananindeua - PA",
+      "horario": "24 horas"
+    },
+    {
+      "nome": "UPA Icuí",
+      "descricao": "Unidade de Pronto Atendimento do Icuí",
+      "servicos": [
+        "Raio-X",
+        "Atendimentos de complexidade intermediária",
+        "Pediatria",
+        "Eletrocardiografia",
+        "Laboratório de exames",
+        "Leito de observação"
+      ],
+      "endereco": "Estr. Icuí-Guajará, nº895 - Icuí-Guajará, Ananindeua - PA",
+      "horario": "24 horas"
+    }
+  ]
+}

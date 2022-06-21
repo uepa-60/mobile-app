@@ -4,10 +4,13 @@ import { useNavigation } from '@react-navigation/native'
 import { BotaoDeVoltar } from '../components/BotaoDeVoltar'
 import { Divisor } from '../components/Divisor'
 import { Titulo } from '../components/Titulo'
-import levantamento from '../../levantamento-servicos.json'
+import { mappedLocalData } from '../utils/localDataMapping'
 
 export const TelaDeListagem = ({ route }) => {
   const navigation = useNavigation()
+  const { tipo, cidade } = route.params
+
+  const { localidades } = mappedLocalData[cidade][tipo]
 
   return (
     <ScrollView
@@ -34,7 +37,7 @@ export const TelaDeListagem = ({ route }) => {
       >
 
         {
-          levantamento[route.params.cidade][route.params.tipo].map((localidade, index) => {
+          localidades.map((localidade, index) => {
             return (
               <Pressable
                 key={index}
