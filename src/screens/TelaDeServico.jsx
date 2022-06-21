@@ -1,5 +1,5 @@
 import React from 'react'
-// import MapView from 'react-native-maps';
+import MapView, { Marker } from 'react-native-maps';
 import {
   Entypo,
   Zocial,
@@ -9,16 +9,17 @@ import {
   MaterialCommunityIcons
 } from '@expo/vector-icons'
 import { Titulo } from '../components/Titulo'
-import { Divisor } from '../components/Divisor'
 import { View, ScrollView } from 'react-native'
+import { Divisor } from '../components/Divisor'
 import { Subtitulo } from '../components/Subtitulo'
 import { BotaoDeVoltar } from '../components/BotaoDeVoltar'
 
-export const TelaDeServico = ({ route }) => {
+export const TelaDeServico = ({ route }) => { 
   return (
     <ScrollView
       style={{
         flex: 1,
+        padding: 25
       }}
       showsVerticalScrollIndicator={false}
     >
@@ -151,7 +152,7 @@ export const TelaDeServico = ({ route }) => {
           />
         }
         {
-          route.params.item.enderco &&
+          route.params.item.endereco &&
           <>
             <Subtitulo
               subtitulo={'Endereco'}
@@ -166,17 +167,31 @@ export const TelaDeServico = ({ route }) => {
               }
               tipo='link'
             />
-            {/* O MAPA NÃO FUNCIONA NA VERSÃO WEB */}
-            {/* <MapView
+            <MapView
+              region={{
+                latitude: route.params.item.coordenadas.latitude ?? 0,
+                longitude: route.params.item.coordenadas.longitude ?? 0,
+                latitudeDelta: 0.0001,
+                longitudeDelta: 0.001,
+
+              }}
               style={{
                 width: '100%',
                 height: 200
               }}
-            /> */}
+            >
+              <Marker
+                coordinate={{
+                  latitude: route.params.item.coordenadas.latitude || 1,
+                  longitude: route.params.item.coordenadas.longitude || 0,
+                }}
+                title={route.params.item.nome}
+                description={route.params.item.endereco}
+              />
+            </MapView>
           </>
         }
       </View>
-
     </ScrollView>
   )
 }

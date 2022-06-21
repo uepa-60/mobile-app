@@ -19,7 +19,11 @@
           "Projeto Sorria",
           "Laboratório biomédico"
         ],
-        "endereco": "Rua São Miguel, nº100 - Bairro Guamá, Belém - PA",
+        "endereco": "R. Barão de Igarapé Miri, 479 - Guamá, Belém - PA, 66110-210",
+        "coordenadas": {
+          "latitude": -1.4673457,
+          "longitude": -48.4645869
+        },
         "telefones": [
           "(91) 3344-2450",
           "(91) 3344-2480"
@@ -31,6 +35,10 @@
         "nome": "HPSM 14 de Março",
         "descricao": "Oferece atendimento de urgência e emergência, de alta e média complexidade, 24 horas por dia, e também atende outras especialidades.",
         "endereco": "Travessa 14 de Março, nº500 entre Bernal do Couto e Oliveira Belo - Bairro do Umarizal, Belém - PA",
+        "coordenadas": {
+          "latitude": -1.4396508,
+          "longitude": -48.4811011
+        },
         "telefones": [
           "(91) 3184-6353",
           "(91) 3184-6302",
@@ -51,6 +59,10 @@
           "Leito de observação"
         ],
         "endereco": "Rua Maravalho Belo, S/N - Marambaia, Belém – PA",
+        "coordenadas": {
+          "latitude": -1.3982489,
+          "longitude": -48.4402641
+        },
         "horario": "24 horas"
       },
       {

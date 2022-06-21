@@ -19,6 +19,7 @@ export const TelaDeListagemDeDepartamentos = ({ route }) => {
     <ScrollView
       style={{
         flex: 1,
+        padding: 25
       }}
       showsVerticalScrollIndicator={false}
     >

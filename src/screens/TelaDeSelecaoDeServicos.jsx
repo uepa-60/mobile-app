@@ -18,7 +18,8 @@ export const TelaDeSelecaoDeServicos = ({ route }) => {
       <View
         style={{
           flex: 1,
-          justifyContent: 'space-evenly'
+          justifyContent: 'space-evenly',
+          padding: 25
         }}
       >
 

@@ -19,7 +19,6 @@ export default function App() {
     <View
       style={{
         flex: 1,
-        padding: 25,
         flexDirection: 'row',
         justifyContent: 'center',
         backgroundColor: '#34A853'

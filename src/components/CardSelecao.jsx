@@ -10,8 +10,6 @@ export const CardSelecao = ({ titulo, irPara, parametros }) => {
       style={{
         backgroundColor: 'white',
         borderRadius: 25,
-        // flex: 1,
-        // maxHeight: '60%',
         width: '100%',
         maxWidth: 250,
         padding: 25,
