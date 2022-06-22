@@ -34,11 +34,12 @@ export const TelaDeServico = ({ route }) => {
       <View
         style={{
           marginTop: 20,
+          marginBottom: 50,
           flex: 1,
           borderRadius: 4,
           backgroundColor: '#ecfff1',
-          paddingVertical: 27,
-          paddingHorizontal: 20,
+          // paddingVertical: 27,
+          padding: 15,
           shadowColor: '#000',
           shadowOffset: {
             width: 0,
