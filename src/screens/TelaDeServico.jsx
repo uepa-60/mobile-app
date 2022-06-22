@@ -9,17 +9,18 @@ import {
   MaterialCommunityIcons
 } from '@expo/vector-icons'
 import { Titulo } from '../components/Titulo'
-import { View, ScrollView } from 'react-native'
+import { View, ScrollView, Text } from 'react-native'
 import { Divisor } from '../components/Divisor'
 import { Subtitulo } from '../components/Subtitulo'
 import { BotaoDeVoltar } from '../components/BotaoDeVoltar'
+import { ListagemServicos } from '../components/ListagemServicos';
 
-export const TelaDeServico = ({ route }) => { 
+export const TelaDeServico = ({ route }) => {
   return (
     <ScrollView
       style={{
         flex: 1,
-        padding: 25
+        padding: 15
       }}
       showsVerticalScrollIndicator={false}
     >
@@ -34,7 +35,7 @@ export const TelaDeServico = ({ route }) => {
       <View
         style={{
           marginTop: 20,
-          marginBottom: 50,
+          marginBottom: 30,
           flex: 1,
           borderRadius: 4,
           backgroundColor: '#ecfff1',
@@ -56,7 +57,7 @@ export const TelaDeServico = ({ route }) => {
           icone={
             <Entypo
               name={'location'}
-              size={25}
+              size={17}
               color={'#34A853'} style={{
                 marginRight: 10,
               }}
@@ -70,7 +71,7 @@ export const TelaDeServico = ({ route }) => {
           icone={
             <MaterialIcons
               name={'description'}
-              size={25}
+              size={17}
               color={'#34A853'} style={{
                 marginRight: 10,
               }}
@@ -86,19 +87,26 @@ export const TelaDeServico = ({ route }) => {
             icone={
               <FontAwesome5
                 name={'wrench'}
-                size={25}
+                size={17}
                 color={'#34A853'} style={{
                   marginRight: 10,
                 }}
               />
             }
-            conteudo={
-              route.params.item.servicos.reduce(
-                (servicosAnteriores, servico) => {
-                  return servicosAnteriores + servico + '\n'
-                }, '')
-            }
+          // conteudo={
+          //   route.params.item.servicos.reduce(
+          //     (servicosAnteriores, servico) => {
+          //       return servicosAnteriores + servico + '\n'
+          //     }, '')
+          // }
           />
+        }
+
+        {
+          route.params.item.servicos && <ListagemServicos 
+            servicos={route.params.item.servicos}
+          />
+
         }
 
         {
@@ -108,7 +116,7 @@ export const TelaDeServico = ({ route }) => {
             icone={
               <Zocial
                 name={'call'}
-                size={25}
+                size={17}
                 color={'#34A853'} style={{
                   marginRight: 10,
                 }}
@@ -116,8 +124,8 @@ export const TelaDeServico = ({ route }) => {
             }
             conteudo={
               route.params.item.telefones.reduce(
-                (telefonesAnteriores, telefone) => {
-                  return telefonesAnteriores + telefone + ', '
+                (telefonesAnteriores, telefone, index) => {
+                  return telefonesAnteriores + telefone + (route.params.item.telefones.length - 1 === index ? '' : ', ')
                 }, '')
             }
           />
@@ -127,7 +135,7 @@ export const TelaDeServico = ({ route }) => {
           icone={
             <Ionicons
               name={'ios-time-outline'}
-              size={25}
+              size={17}
               color={'#34A853'} style={{
                 marginRight: 10,
               }}
@@ -143,7 +151,7 @@ export const TelaDeServico = ({ route }) => {
             icone={
               <MaterialCommunityIcons
                 name={'web'}
-                size={25}
+                size={17}
                 color={'#34A853'} style={{
                   marginRight: 10,
                 }}
@@ -160,7 +168,7 @@ export const TelaDeServico = ({ route }) => {
               icone={
                 <Entypo
                   name={'map'}
-                  size={25}
+                  size={17}
                   color={'#34A853'} style={{
                     marginRight: 10,
                   }}

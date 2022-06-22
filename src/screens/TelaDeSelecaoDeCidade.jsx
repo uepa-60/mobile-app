@@ -10,7 +10,7 @@ export const TelaDeSelecaoDeCidade = () => {
       style={{
         flex: 1,
         justifyContent: 'space-between',
-        padding: 25
+        padding: 15
       }}
     >
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Text, Linking } from 'react-native'
+import { Text, Linking, View } from 'react-native'
 
 export const Subtitulo = ({ subtitulo, conteudo, tipo = 'padrao', icone }) => {
   const estilizacaoExtra = (tipo === 'link') ? {
@@ -9,16 +9,28 @@ export const Subtitulo = ({ subtitulo, conteudo, tipo = 'padrao', icone }) => {
 
   return (
     <>
-      <Text
+      <View
         style={{
-          fontSize: 32,
-          fontFamily: 'MediumFont',
-          color: '#34A853',
+          flexDirection: 'row',
+          alignItems: 'center',
+          marginTop: 10,
+          
         }}
       >
-        {icone}
-        {subtitulo}
-      </Text>
+        {
+          icone
+        }
+        <Text
+          style={{
+            fontSize: 32,
+            fontFamily: 'MediumFont',
+            color: '#34A853',
+          }}
+        >
+          {subtitulo}
+        </Text>
+
+      </View>
 
       {conteudo &&
         <Text

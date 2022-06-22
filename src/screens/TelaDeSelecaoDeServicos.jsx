@@ -10,7 +10,8 @@ export const TelaDeSelecaoDeServicos = ({ route }) => {
     <View
       style={{
         flex: 1,
-        justifyContent: 'space-between'
+        justifyContent: 'space-between',
+        padding: 15
       }}
     >
       <BotaoDeVoltar />
@@ -19,7 +20,6 @@ export const TelaDeSelecaoDeServicos = ({ route }) => {
         style={{
           flex: 1,
           justifyContent: 'space-evenly',
-          padding: 25
         }}
       >
 
