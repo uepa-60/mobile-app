@@ -47,7 +47,7 @@ export const ServiceSelectionScreen = ({ route }) => {
           >
             <Card
               title='Serviços de Saúde'
-              goTo={'Listagem'}
+              goTo={'ListingScreen'}
               parameters={{ ...route.params, tipo: 'saude' }}
             />
           </View>

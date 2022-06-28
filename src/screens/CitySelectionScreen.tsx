@@ -27,13 +27,13 @@ export const CitySelectionScreen = (): JSX.Element => {
       >
         <Card
           title='Belém'
-          goTo={'Selecao'}
+          goTo={'ServiceSelectionScreen'}
           parameters={{ cidade: 'belem' }}
         />
 
         <Card
           title='Ananindeua'
-          goTo={'Selecao'}
+          goTo={'ServiceSelectionScreen'}
           parameters={{ cidade: 'ananindeua' }}
         />
       </View>

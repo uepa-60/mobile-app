@@ -5,13 +5,15 @@ import { BackButton } from '../components/BackButton'
 import { Divider } from '../components/Divider'
 import { Title } from '../components/Title'
 import { mappedLocalData } from '../utils/localDataMapping'
+import { NativeStackNavigationProp } from '@react-navigation/native-stack'
+import { RootStackParamList } from '../routes/MainRoute'
 
-type Type = 'saude' | 'social'
+type B = keyof RootStackParamList
 
-type City = 'belem' | 'ananindeua'
+type A = NativeStackNavigationProp<RootStackParamList, B>
 
 export const ListingScreen = ({ route }) => {
-  const navigation = useNavigation()
+  const navigation = useNavigation<A>()
   const { tipo, cidade } = route.params
 
   const { localidades } = mappedLocalData[cidade][tipo]
@@ -47,8 +49,8 @@ export const ListingScreen = ({ route }) => {
                 key={index}
                 onPress={() => {
                   route.params.tipo === 'saude'
-                    ? navigation.navigate('Servico', { item: localidade })
-                    : navigation.navigate('ListagemDepartamentos', { item: localidade })
+                    ? navigation.navigate('ServiceDetailsScreen', { item: localidade })
+                    : navigation.navigate('ListingScreen', { item: localidade })
                 }}
               >
                 <View

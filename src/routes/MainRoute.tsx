@@ -6,21 +6,29 @@ import { CitySelectionScreen } from '../screens/CitySelectionScreen'
 import { ServiceSelectionScreen } from '../screens/ServiceSelectionScreen'
 import { ListingScreen } from '../screens/ListingScreen'
 
-const Stack = createNativeStackNavigator()
+export type RootStackParamList = {
+  ServiceDetailsScreen: any
+  DepartmentsScreen: any
+  CitySelectionScreen: any
+  ListingScreen: any
+  ServiceSelectionScreen: any
+}
+
+const Stack = createNativeStackNavigator<RootStackParamList>()
 
 export const MainRoute = () => {
   return (
     <Stack.Navigator
-      initialRouteName='CitySelection'
+      initialRouteName='CitySelectionScreen'
       screenOptions={{
         headerShown: false
       }}
     >
-      <Stack.Screen name='Service' component={ServiceDetailsScreen} />
+      <Stack.Screen name='ServiceDetailsScreen' component={ServiceDetailsScreen} />
       <Stack.Screen name='DepartmentsScreen' component={DepartmentsScreen} />
-      <Stack.Screen name='CitySelection' component={CitySelectionScreen} />
+      <Stack.Screen name='CitySelectionScreen' component={CitySelectionScreen} />
       <Stack.Screen name='ListingScreen' component={ListingScreen} />
-      <Stack.Screen name='ServiceSelection' component={ServiceSelectionScreen} />
+      <Stack.Screen name='ServiceSelectionScreen' component={ServiceSelectionScreen} />
     </Stack.Navigator>
   )
 }

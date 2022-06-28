@@ -4,9 +4,15 @@ import { useNavigation } from '@react-navigation/native'
 import { BackButton } from '../components/BackButton'
 import { Divider } from '../components/Divider'
 import { Title } from '../components/Title'
+import { RootStackParamList } from '../routes/MainRoute'
+import { NativeStackNavigationProp } from '@react-navigation/native-stack'
+
+type B = keyof RootStackParamList
+
+type A = NativeStackNavigationProp<RootStackParamList, B>
 
 export const DepartmentsScreen = ({ route }) => {
-  const navigation = useNavigation()
+  const navigation = useNavigation<A>()
 
   const informacoesPai = {
     descricao: route.params.item.descricao,
@@ -41,7 +47,7 @@ export const DepartmentsScreen = ({ route }) => {
         renderItem={({ item }) => {
           return (
             <Pressable
-              onPress={() => navigation.navigate('Servico', {
+              onPress={() => navigation.navigate('ServiceDetailsScreen', {
                 item: {
                   ...informacoesPai, ...item,
                 }
