@@ -1,7 +1,7 @@
 import React from 'react'
 import { ScrollView, View, Text, Pressable } from 'react-native'
 import { useNavigation } from '@react-navigation/native'
-import { BotaoDeVoltar } from '../components/BotaoDeVoltar'
+import { BackButton } from '../components/BackButton'
 import { Divisor } from '../components/Divisor'
 import { Titulo } from '../components/Titulo'
 import { mappedLocalData } from '../utils/localDataMapping'
@@ -21,7 +21,7 @@ export const TelaDeListagem = ({ route }) => {
       showsVerticalScrollIndicator={false}
     >
 
-      <BotaoDeVoltar />
+      <BackButton />
 
       <Titulo
         titulo={'Serviços ' + (route.params.tipo === 'saude' ? 'de saúde' : 'sociais')}
@@ -33,7 +33,7 @@ export const TelaDeListagem = ({ route }) => {
         style={{
           marginTop: 20,
           marginBottom: 30
-        }}  
+        }}
       >
 
         {

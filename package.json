@@ -28,6 +28,9 @@
     "react-native-web": "0.17.1",
     "styled-components": "^5.3.5"
   },
+  "resolutions": {
+    "@types/react": "17.0.1"
+  },
   "devDependencies": {
     "@babel/core": "^7.12.9",
     "@types/react": "~17.0.21",

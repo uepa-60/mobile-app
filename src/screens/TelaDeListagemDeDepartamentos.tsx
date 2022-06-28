@@ -1,7 +1,7 @@
 import React from 'react'
 import { ScrollView, View, FlatList, Text, Pressable } from 'react-native'
 import { useNavigation } from '@react-navigation/native'
-import { BotaoDeVoltar } from '../components/BotaoDeVoltar'
+import { BackButton } from '../components/BackButton'
 import { Divisor } from '../components/Divisor'
 import { Titulo } from '../components/Titulo'
 
@@ -24,7 +24,7 @@ export const TelaDeListagemDeDepartamentos = ({ route }) => {
       showsVerticalScrollIndicator={false}
     >
 
-      <BotaoDeVoltar />
+      <BackButton />
 
       <Titulo
         titulo={route.params.item.nome}

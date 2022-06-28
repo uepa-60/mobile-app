@@ -12,9 +12,9 @@ import { Titulo } from '../components/Titulo'
 import { View, ScrollView } from 'react-native'
 import { Divisor } from '../components/Divisor'
 import { Subtitulo } from '../components/Subtitulo'
-import { BotaoDeVoltar } from '../components/BotaoDeVoltar'
+import { BackButton } from '../components/BackButton'
 
-export const TelaDeServico = ({ route }) => { 
+export const TelaDeServico = ({ route }) => {
   return (
     <ScrollView
       style={{
@@ -23,7 +23,7 @@ export const TelaDeServico = ({ route }) => {
       }}
       showsVerticalScrollIndicator={false}
     >
-      <BotaoDeVoltar />
+      <BackButton />
 
       <Titulo
         titulo={route.params.item.nome}

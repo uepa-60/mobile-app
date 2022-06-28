@@ -5,7 +5,7 @@ import { RotaPrincipal } from './src/routes/RotaPrincipal'
 import { NavigationContainer } from '@react-navigation/native'
 import { Roboto_700Bold, useFonts, Roboto_400Regular } from '@expo-google-fonts/roboto'
 
-export default function App() {
+export default function App(): JSX.Element {
   const [fontsLoaded] = useFonts({
     MediumFont: Roboto_700Bold,
     RegularFont: Roboto_400Regular,

@@ -1,7 +1,7 @@
 import React from 'react'
 import { View } from 'react-native'
 import { CardSelecao } from '../components/CardSelecao'
-import { BotaoDeVoltar } from '../components/BotaoDeVoltar'
+import { BackButton } from '../components/BackButton'
 import { Ionicons } from '@expo/vector-icons'
 import { FontAwesome5 } from '@expo/vector-icons'
 
@@ -13,7 +13,7 @@ export const TelaDeSelecaoDeServicos = ({ route }) => {
         justifyContent: 'space-between'
       }}
     >
-      <BotaoDeVoltar />
+      <BackButton />
 
       <View
         style={{

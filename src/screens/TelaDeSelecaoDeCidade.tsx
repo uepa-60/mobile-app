@@ -4,7 +4,7 @@ import { CardSelecao } from '../components/CardSelecao'
 import { Divisor } from '../components/Divisor'
 import { Titulo } from '../components/Titulo'
 
-export const TelaDeSelecaoDeCidade = () => {
+export const TelaDeSelecaoDeCidade = (): JSX.Element => {
   return (
     <View
       style={{
