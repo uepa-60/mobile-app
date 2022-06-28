@@ -2,7 +2,13 @@ import React from 'react'
 import { Text, Pressable } from 'react-native'
 import { useNavigation } from '@react-navigation/native'
 
-export const CardSelecao = ({ titulo, irPara, parametros }) => {
+type Props = {
+  title: string,
+  goTo: string,
+  parameters: any,
+}
+
+export const Card = ({ title, goTo, parameters }: Props) => {
   const navigation = useNavigation()
 
   return (
@@ -24,7 +30,7 @@ export const CardSelecao = ({ titulo, irPara, parametros }) => {
         elevation: 6,
       }}
       onPress={() => {
-        navigation.navigate(irPara, parametros)
+        navigation.navigate(goTo, parameters)
       }}
     >
       <Text
@@ -35,7 +41,7 @@ export const CardSelecao = ({ titulo, irPara, parametros }) => {
           color: '#34A853'
         }}
       >
-        {titulo}
+        {title}
       </Text>
     </Pressable>
   )

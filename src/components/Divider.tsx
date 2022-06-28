@@ -1,7 +1,7 @@
 import React from 'react'
 import { View } from 'react-native'
 
-export const Divisor = (): JSX.Element => {
+export const Divider = (): JSX.Element => {
   return (
     <View
       style={{

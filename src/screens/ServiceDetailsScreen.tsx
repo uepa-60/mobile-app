@@ -8,13 +8,13 @@ import {
   MaterialIcons,
   MaterialCommunityIcons
 } from '@expo/vector-icons'
-import { Titulo } from '../components/Titulo'
+import { Title } from '../components/Title'
 import { View, ScrollView } from 'react-native'
-import { Divisor } from '../components/Divisor'
-import { Subtitulo } from '../components/Subtitulo'
+import { Divider } from '../components/Divider'
+import { Subtitle } from '../components/Subtitle'
 import { BackButton } from '../components/BackButton'
 
-export const TelaDeServico = ({ route }) => {
+export const ServiceDetailsScreen = ({ route }) => {
   return (
     <ScrollView
       style={{
@@ -25,11 +25,11 @@ export const TelaDeServico = ({ route }) => {
     >
       <BackButton />
 
-      <Titulo
-        titulo={route.params.item.nome}
+      <Title
+        title={route.params.item.nome}
       />
 
-      <Divisor />
+      <Divider />
 
       <View
         style={{
@@ -51,9 +51,9 @@ export const TelaDeServico = ({ route }) => {
         }}
       >
 
-        <Subtitulo
-          subtitulo={'Endereço'}
-          icone={
+        <Subtitle
+          subtitle={'Endereço'}
+          icon={
             <Entypo
               name={'location'}
               size={25}
@@ -62,12 +62,12 @@ export const TelaDeServico = ({ route }) => {
               }}
             />
           }
-          conteudo={route.params.item.endereco}
+          content={route.params.item.endereco}
         />
 
-        <Subtitulo
-          subtitulo={'Descrição'}
-          icone={
+        <Subtitle
+          subtitle={'Descrição'}
+          icon={
             <MaterialIcons
               name={'description'}
               size={25}
@@ -76,14 +76,14 @@ export const TelaDeServico = ({ route }) => {
               }}
             />
           }
-          conteudo={route.params.item.descricao}
+          content={route.params.item.descricao}
         />
 
         {
           route.params.item.servicos &&
-          <Subtitulo
-            subtitulo={'Serviços disponíveis'}
-            icone={
+          <Subtitle
+            subtitle={'Serviços disponíveis'}
+            icon={
               <FontAwesome5
                 name={'wrench'}
                 size={25}
@@ -92,7 +92,7 @@ export const TelaDeServico = ({ route }) => {
                 }}
               />
             }
-            conteudo={
+            content={
               route.params.item.servicos.reduce(
                 (servicosAnteriores, servico) => {
                   return servicosAnteriores + servico + '\n'
@@ -103,9 +103,9 @@ export const TelaDeServico = ({ route }) => {
 
         {
           route.params.item.telefones &&
-          <Subtitulo
-            subtitulo={'Telefone'}
-            icone={
+          <Subtitle
+            subtitle={'Telefone'}
+            icon={
               <Zocial
                 name={'call'}
                 size={25}
@@ -114,7 +114,7 @@ export const TelaDeServico = ({ route }) => {
                 }}
               />
             }
-            conteudo={
+            content={
               route.params.item.telefones.reduce(
                 (telefonesAnteriores, telefone) => {
                   return telefonesAnteriores + telefone + ', '
@@ -122,9 +122,9 @@ export const TelaDeServico = ({ route }) => {
             }
           />
         }
-        <Subtitulo
-          subtitulo={'Horário'}
-          icone={
+        <Subtitle
+          subtitle={'Horário'}
+          icon={
             <Ionicons
               name={'ios-time-outline'}
               size={25}
@@ -133,14 +133,14 @@ export const TelaDeServico = ({ route }) => {
               }}
             />
           }
-          conteudo={route.params.item.horario}
+          content={route.params.item.horario}
         />
         {
           route.params.item.site &&
-          <Subtitulo
-            subtitulo={'Site'}
-            tipo='link'
-            icone={
+          <Subtitle
+            subtitle={'Site'}
+            type='link'
+            icon={
               <MaterialCommunityIcons
                 name={'web'}
                 size={25}
@@ -149,15 +149,15 @@ export const TelaDeServico = ({ route }) => {
                 }}
               />
             }
-            conteudo={route.params.item.site}
+            content={route.params.item.site}
           />
         }
         {
           route.params.item.endereco &&
           <>
-            <Subtitulo
-              subtitulo={'Endereco'}
-              icone={
+            <Subtitle
+              subtitle={'Endereco'}
+              icon={
                 <Entypo
                   name={'map'}
                   size={25}
@@ -166,7 +166,7 @@ export const TelaDeServico = ({ route }) => {
                   }}
                 />
               }
-              tipo='link'
+              type='link'
             />
             <MapView
               region={{

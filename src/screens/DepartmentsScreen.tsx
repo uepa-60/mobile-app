@@ -2,10 +2,10 @@ import React from 'react'
 import { ScrollView, View, FlatList, Text, Pressable } from 'react-native'
 import { useNavigation } from '@react-navigation/native'
 import { BackButton } from '../components/BackButton'
-import { Divisor } from '../components/Divisor'
-import { Titulo } from '../components/Titulo'
+import { Divider } from '../components/Divider'
+import { Title } from '../components/Title'
 
-export const TelaDeListagemDeDepartamentos = ({ route }) => {
+export const DepartmentsScreen = ({ route }) => {
   const navigation = useNavigation()
 
   const informacoesPai = {
@@ -26,18 +26,18 @@ export const TelaDeListagemDeDepartamentos = ({ route }) => {
 
       <BackButton />
 
-      <Titulo
-        titulo={route.params.item.nome}
+      <Title
+        title={route.params.item.nome}
       />
 
-      <Divisor />
+      <Divider />
 
       <FlatList
         data={route.params.item.departamentos}
         style={{
           marginTop: 20
         }}
-        keyExtractor={(_, index) => index}
+        keyExtractor={(_, index) => index + ''}
         renderItem={({ item }) => {
           return (
             <Pressable

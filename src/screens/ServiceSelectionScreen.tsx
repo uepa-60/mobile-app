@@ -1,11 +1,11 @@
 import React from 'react'
 import { View } from 'react-native'
-import { CardSelecao } from '../components/CardSelecao'
+import { Card } from '../components/Card'
 import { BackButton } from '../components/BackButton'
 import { Ionicons } from '@expo/vector-icons'
 import { FontAwesome5 } from '@expo/vector-icons'
 
-export const TelaDeSelecaoDeServicos = ({ route }) => {
+export const ServiceSelectionScreen = ({ route }) => {
   return (
     <View
       style={{
@@ -45,10 +45,10 @@ export const TelaDeSelecaoDeServicos = ({ route }) => {
               alignItems: 'flex-end'
             }}
           >
-            <CardSelecao
-              titulo='Serviços de Saúde'
-              irPara={'Listagem'}
-              parametros={{ ...route.params, tipo: 'saude' }}
+            <Card
+              title='Serviços de Saúde'
+              goTo={'Listagem'}
+              parameters={{ ...route.params, tipo: 'saude' }}
             />
           </View>
 
@@ -74,10 +74,10 @@ export const TelaDeSelecaoDeServicos = ({ route }) => {
               alignItems: 'flex-end'
             }}
           >
-            <CardSelecao
-              titulo='Serviços Sociais'
-              irPara={'Listagem'}
-              parametros={{ ...route.params, tipo: 'sociais' }}
+            <Card
+              title='Serviços Sociais'
+              goTo={'Listagem'}
+              parameters={{ ...route.params, tipo: 'sociais' }}
             />
           </View>
         </View>
