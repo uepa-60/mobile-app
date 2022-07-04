@@ -1,23 +1,12 @@
 import React from 'react'
 import { Text, Pressable } from 'react-native'
-import { useNavigation } from '@react-navigation/native'
-import { RootStackParamList } from '../routes/MainRoute'
-import { NativeStackNavigationProp } from '@react-navigation/native-stack'
 
 type Props = {
   title: string,
-  goTo: keyof RootStackParamList,
-  parameters: any,
+  onPress: () => void
 }
 
-// TODO: refactor these types
-type B = keyof RootStackParamList
-
-type A = NativeStackNavigationProp<RootStackParamList, B>
-
-export const Card = ({ title, goTo, parameters }: Props) => {
-  const navigation = useNavigation<A>()
-
+export const Card = ({ title, onPress }: Props) => {
   return (
     <Pressable
       style={{
@@ -36,9 +25,7 @@ export const Card = ({ title, goTo, parameters }: Props) => {
 
         elevation: 6,
       }}
-      onPress={() => {
-        navigation.navigate(goTo, parameters)
-      }}
+      onPress={onPress}
     >
       <Text
         style={{

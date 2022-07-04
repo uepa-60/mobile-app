@@ -1,24 +1,23 @@
 import React from 'react'
-import { ScrollView, View, FlatList, Text, Pressable } from 'react-native'
-import { useNavigation } from '@react-navigation/native'
-import { BackButton } from '../components/BackButton'
-import { Divider } from '../components/Divider'
 import { Title } from '../components/Title'
+import { Divider } from '../components/Divider'
+import { BackButton } from '../components/BackButton'
+import { useNavigation } from '@react-navigation/native'
 import { RootStackParamList } from '../routes/MainRoute'
-import { NativeStackNavigationProp } from '@react-navigation/native-stack'
+import { NativeStackScreenProps } from '@react-navigation/native-stack'
+import { ScrollView, View, FlatList, Text, Pressable } from 'react-native'
 
-type B = keyof RootStackParamList
-
-type A = NativeStackNavigationProp<RootStackParamList, B>
+type Props = NativeStackScreenProps<RootStackParamList, 'DepartmentsScreen'>
 
 export const DepartmentsScreen = ({ route }) => {
-  const navigation = useNavigation<A>()
+  const navigation = useNavigation<Props['navigation']>()
 
   const informacoesPai = {
-    descricao: route.params.item.descricao,
-    endereco: route.params.item.endereco,
-    telefones: route.params.item.telefones,
-    horario: route.params.item.horario,
+    descricao: route.params.descricao,
+    endereco: route.params.endereco,
+    telefones: route.params.telefones,
+    coordenadas: route.params.coordenadas,
+    horario: route.params.horario,
   }
 
   return (
@@ -33,13 +32,13 @@ export const DepartmentsScreen = ({ route }) => {
       <BackButton />
 
       <Title
-        title={route.params.item.nome}
+        title={route.params.nome}
       />
 
       <Divider />
 
       <FlatList
-        data={route.params.item.departamentos}
+        data={route.params.departamentos}
         style={{
           marginTop: 20
         }}
@@ -47,11 +46,7 @@ export const DepartmentsScreen = ({ route }) => {
         renderItem={({ item }) => {
           return (
             <Pressable
-              onPress={() => navigation.navigate('ServiceDetailsScreen', {
-                item: {
-                  ...informacoesPai, ...item,
-                }
-              })}
+              onPress={() => navigation.navigate('ServiceDetailsScreen', { ...informacoesPai, ...item })}
             >
               <View
                 style={{
@@ -86,6 +81,6 @@ export const DepartmentsScreen = ({ route }) => {
           )
         }}
       />
-    </ScrollView>
+    </ScrollView >
   )
 }

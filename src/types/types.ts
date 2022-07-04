@@ -1,24 +1,29 @@
-export type Response = {
-  cidade: string
-  nome: string
-  departamentos?: Departamento[]
-  descricao: string
-  endereco: string
-  telefones: string[]
-  site: string
-  horario: string
-  facebook: string
-  instagram: string
-  coordenadas: Coordenadas
-  servicos?: string[]
+export type Root = {
+  social: BaseObject[]
+  saude: BaseObject[]
 }
 
-export type Departamento = {
+type BaseObject = {
+  cidade: string
+  nome: string
+  descricao: string
+  endereco: string
+  site?: string
+  facebook?: string
+  instagram?: string
+  telefones?: string[]
+  departamentos?: Departamento[]
+  coordenadas: Coordenadas
+  servicos?: string[]
+  horario?: string
+}
+
+type Departamento = {
   nome: string
   servicos: string[]
 }
 
-export type Coordenadas = {
+type Coordenadas = {
   latitude: number
-  longitutde: number
+  longitude: number
 }

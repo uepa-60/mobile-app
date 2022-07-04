@@ -1,22 +1,30 @@
 import React from 'react'
-import { ScrollView, View, Text, Pressable } from 'react-native'
-import { useNavigation } from '@react-navigation/native'
-import { BackButton } from '../components/BackButton'
-import { Divider } from '../components/Divider'
 import { Title } from '../components/Title'
-import { mappedLocalData } from '../utils/localDataMapping'
-import { NativeStackNavigationProp } from '@react-navigation/native-stack'
+import { Divider } from '../components/Divider'
+import { BackButton } from '../components/BackButton'
+import { useNavigation } from '@react-navigation/native'
 import { RootStackParamList } from '../routes/MainRoute'
+import { mappedLocalData } from '../utils/localDataMapping'
+import { ScrollView, View, Text, Pressable } from 'react-native'
+import { NativeStackScreenProps } from '@react-navigation/native-stack'
 
-type B = keyof RootStackParamList
+type Props = NativeStackScreenProps<RootStackParamList, 'ListingScreen'>
 
-type A = NativeStackNavigationProp<RootStackParamList, B>
+export const ListingScreen = ({ route }: Props) => {
+  const navigation = useNavigation<Props['navigation']>()
 
-export const ListingScreen = ({ route }) => {
-  const navigation = useNavigation<A>()
-  const { tipo, cidade } = route.params
+  const cityData = "city" in route.params ? mappedLocalData[route.params.city] : null
+  const data = "type" in route.params
+    ? route.params.type === 'social'
+      ? cityData['social']
+      : cityData['saude']
+    : null
 
-  const { localidades } = mappedLocalData[cidade][tipo]
+  if (!data) {
+    navigation.navigate('DepartmentsScreen', route.params)
+    // console.log(route.params);
+
+  }
 
   return (
     <ScrollView
@@ -30,7 +38,7 @@ export const ListingScreen = ({ route }) => {
       <BackButton />
 
       <Title
-        title={'Serviços ' + (route.params.tipo === 'saude' ? 'de saúde' : 'sociais')}
+        title={'Serviços ' + ("type" in route.params && route.params.type === 'health' ? 'de saúde' : 'sociais')}
       />
 
       <Divider />
@@ -43,14 +51,23 @@ export const ListingScreen = ({ route }) => {
       >
 
         {
-          localidades.map((localidade, index) => {
+          data && data.map((localidade, index) => {
             return (
               <Pressable
                 key={index}
                 onPress={() => {
-                  route.params.tipo === 'saude'
-                    ? navigation.navigate('ServiceDetailsScreen', { item: localidade })
-                    : navigation.navigate('ListingScreen', { item: localidade })
+                  localidade.departamentos
+                    ? navigation.navigate('ListingScreen', localidade)
+                    : navigation.navigate('ServiceDetailsScreen', {
+                      descricao: localidade.descricao,
+                      endereco: localidade.endereco,
+                      horario: localidade.horario,
+                      nome: localidade.nome,
+                      servicos: localidade.servicos,
+                      site: localidade.site,
+                      coordenadas: localidade.coordenadas,
+                      telefones: localidade.telefones
+                    })
                 }}
               >
                 <View

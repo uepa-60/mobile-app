@@ -13,8 +13,13 @@ import { View, ScrollView } from 'react-native'
 import { Divider } from '../components/Divider'
 import { Subtitle } from '../components/Subtitle'
 import { BackButton } from '../components/BackButton'
+import { RootStackParamList } from '../routes/MainRoute';
+import { NativeStackScreenProps } from '@react-navigation/native-stack';
 
-export const ServiceDetailsScreen = ({ route }) => {
+type Props = NativeStackScreenProps<RootStackParamList, 'ServiceDetailsScreen'>
+
+export const ServiceDetailsScreen = ({ route: { params } }: Props) => {
+
   return (
     <ScrollView
       style={{
@@ -26,7 +31,7 @@ export const ServiceDetailsScreen = ({ route }) => {
       <BackButton />
 
       <Title
-        title={route.params.item.nome}
+        title={params.nome}
       />
 
       <Divider />
@@ -38,7 +43,6 @@ export const ServiceDetailsScreen = ({ route }) => {
           flex: 1,
           borderRadius: 4,
           backgroundColor: '#ecfff1',
-          // paddingVertical: 27,
           padding: 15,
           shadowColor: '#000',
           shadowOffset: {
@@ -62,7 +66,7 @@ export const ServiceDetailsScreen = ({ route }) => {
               }}
             />
           }
-          content={route.params.item.endereco}
+          content={params.endereco}
         />
 
         <Subtitle
@@ -76,11 +80,11 @@ export const ServiceDetailsScreen = ({ route }) => {
               }}
             />
           }
-          content={route.params.item.descricao}
+          content={params.descricao}
         />
 
         {
-          route.params.item.servicos &&
+          params.servicos &&
           <Subtitle
             subtitle={'Serviços disponíveis'}
             icon={
@@ -93,7 +97,7 @@ export const ServiceDetailsScreen = ({ route }) => {
               />
             }
             content={
-              route.params.item.servicos.reduce(
+              params.servicos.reduce(
                 (servicosAnteriores, servico) => {
                   return servicosAnteriores + servico + '\n'
                 }, '')
@@ -102,7 +106,7 @@ export const ServiceDetailsScreen = ({ route }) => {
         }
 
         {
-          route.params.item.telefones &&
+          params.telefones &&
           <Subtitle
             subtitle={'Telefone'}
             icon={
@@ -115,7 +119,7 @@ export const ServiceDetailsScreen = ({ route }) => {
               />
             }
             content={
-              route.params.item.telefones.reduce(
+              params.telefones.reduce(
                 (telefonesAnteriores, telefone) => {
                   return telefonesAnteriores + telefone + ', '
                 }, '')
@@ -133,10 +137,10 @@ export const ServiceDetailsScreen = ({ route }) => {
               }}
             />
           }
-          content={route.params.item.horario}
+          content={params.horario}
         />
         {
-          route.params.item.site &&
+          params.site &&
           <Subtitle
             subtitle={'Site'}
             type='link'
@@ -149,11 +153,11 @@ export const ServiceDetailsScreen = ({ route }) => {
                 }}
               />
             }
-            content={route.params.item.site}
+            content={params.site}
           />
         }
         {
-          route.params.item.endereco &&
+          params.endereco &&
           <>
             <Subtitle
               subtitle={'Endereco'}
@@ -170,8 +174,8 @@ export const ServiceDetailsScreen = ({ route }) => {
             />
             <MapView
               region={{
-                latitude: route.params.item.coordenadas.latitude ?? 0,
-                longitude: route.params.item.coordenadas.longitude ?? 0,
+                latitude: params.coordenadas.latitude ?? 0,
+                longitude: params.coordenadas.longitude ?? 0,
                 latitudeDelta: 0.0001,
                 longitudeDelta: 0.001,
 
@@ -183,11 +187,11 @@ export const ServiceDetailsScreen = ({ route }) => {
             >
               <Marker
                 coordinate={{
-                  latitude: route.params.item.coordenadas.latitude || 1,
-                  longitude: route.params.item.coordenadas.longitude || 0,
+                  latitude: params.coordenadas.latitude ?? 0,
+                  longitude: params.coordenadas.longitude ?? 0,
                 }}
-                title={route.params.item.nome}
-                description={route.params.item.endereco}
+                title={params.nome}
+                description={params.endereco}
               />
             </MapView>
           </>

@@ -1,5 +1,5 @@
 {
-  "belem": [
+  "social": [
     {
       "cidade": "Belém",
       "nome": "Estação Cidadania - Guamá",
@@ -118,8 +118,8 @@
       "facebook": null,
       "instagram": null,
       "coordenadas": {
-        "latitude": 1,
-        "longitude": 4
+        "latitude": -1.467589052297485,
+        "longitude": -48.46877972089806
       }
     },
     {
@@ -277,8 +277,8 @@
       "facebook": null,
       "instagram": null,
       "coordenadas": {
-        "latitude": 1,
-        "longitude": 4
+        "latitude": -1.4581228480787891,
+        "longitude": -48.49439384574422
       }
     },
     {
@@ -365,8 +365,8 @@
       "facebook": null,
       "instagram": null,
       "coordenadas": {
-        "latitude": 1,
-        "longitude": 4
+        "latitude": -1.298401804555958,
+        "longitude": -48.48781179878452
       }
     },
     {
@@ -391,8 +391,8 @@
       "facebook": null,
       "instagram": "https:/www.instagram.com/usinasdapaz/",
       "coordenadas": {
-        "latitude": 1,
-        "longitude": 4
+        "latitude": -1.3711165714999418,
+        "longitude": -48.45222608241561
       }
     },
     {
@@ -416,8 +416,8 @@
       "facebook": null,
       "instagram": null,
       "coordenadas": {
-        "latitude": 1,
-        "longitude": 4
+        "latitude": -1.417717321679475,
+        "longitude": -48.44602587474867
       }
     },
     {
@@ -434,8 +434,8 @@
       "facebook": null,
       "instagram": null,
       "coordenadas": {
-        "latitude": 1,
-        "longitude": 4
+        "latitude": -1.441592637999788,
+        "longitude": -48.458704316026235
       }
     },
     {
@@ -452,8 +452,8 @@
       "facebook": null,
       "instagram": null,
       "coordenadas": {
-        "latitude": 1,
-        "longitude": 4
+        "latitude": -1.4279263913794213,
+        "longitude": -48.47011982070022
       }
     },
     {
@@ -478,8 +478,8 @@
       "facebook": null,
       "instagram": "https://www.instagram.com/usinasdapaz/",
       "coordenadas": {
-        "latitude": 1,
-        "longitude": 4
+        "latitude": -1.367013,
+        "longitude": -48.431661
       }
     },
     {
@@ -504,8 +504,8 @@
       "facebook": null,
       "instagram": "https://www.instagram.com/usinasdapaz/",
       "coordenadas": {
-        "latitude": 1,
-        "longitude": 4
+        "latitude": -1.3711165714999418,
+        "longitude": -48.45222608241561
       }
     },
     {
@@ -529,8 +529,8 @@
       "facebook": "https://www.facebook.com/uniterciufpa/",
       "instagram": "https://www.instagram.com/uniterci.ufpa/",
       "coordenadas": {
-        "latitude": 1,
-        "longitude": 4
+        "latitude": -1.4743589278339722,
+        "longitude": -48.45473538672716
       }
     },
     {
@@ -550,8 +550,8 @@
       "facebook": null,
       "instagram": null,
       "coordenadas": {
-        "latitude": 1,
-        "longitude": 4
+        "latitude": -1.417717321679475,
+        "longitude": -48.44602587474867
       }
     },
     {
@@ -577,8 +577,8 @@
       "facebook": null,
       "instagram": "https://www.instagram.com/usinasdapaz/",
       "coordenadas": {
-        "latitude": 1,
-        "longitude": 4
+        "latitude": -1.3711165714999418,
+        "longitude": -48.45222608241561
       }
     },
     {
@@ -597,8 +597,8 @@
       "facebook": null,
       "instagram": "https://www.instagram.com/fundacaopara/",
       "coordenadas": {
-        "latitude": 1,
-        "longitude": 4
+        "latitude": -1.4302897519139632,
+        "longitude": -48.49150643708392
       }
     },
     {
@@ -617,40 +617,8 @@
       "facebook": null,
       "instagram": "https://www.instagram.com/fundacaopara/",
       "coordenadas": {
-        "latitude": 1,
-        "longitude": 4
-      }
-    },
-    {
-      "cidade": "Belém",
-      "nome": "UMS do Guamá",
-      "descricao": "Oferece atendimento de urgência e emergência, de alta e média complexidade, 24 horas por dia, e também atende outras especialidades.",
-      "servicos": [
-        "Urgência e emergência",
-        "Clínica Médica",
-        "Enfermagem",
-        "Pediatria",
-        "Traumatologia",
-        "Terapia Intensiva",
-        "Anestesiologia",
-        "Cirurgia Geral",
-        "Ultrasom",
-        "Eletrocardiograma",
-        "Projeto Sorria",
-        "Laboratório biomédico."
-      ],
-      "endereco": "Rua São Miguel, nº100, Guamá, Belém - PA",
-      "telefones": [
-        "(91) 3344-2450",
-        "(91) 3344-2480"
-      ],
-      "site": "http://www.belem.pa.gov.br/app/c2ms/v/?id=12&amp;conteudo=4672",
-      "horario": "24 horas (urgência e emergência)",
-      "facebook": null,
-      "instagram": null,
-      "coordenadas": {
-        "latitude": 1,
-        "longitude": 4
+        "latitude": -1.453837838323573,
+        "longitude": -48.492433573970835
       }
     },
     {
@@ -799,8 +767,42 @@
       "facebook": null,
       "instagram": null,
       "coordenadas": {
-        "latitude": 1,
-        "longitude": 4
+        "latitude": -1.391159570684591,
+        "longitude": -48.4659180558395
+      }
+    }
+  ],
+  "saude": [
+    {
+      "cidade": "Belém",
+      "nome": "UMS do Guamá",
+      "descricao": "Oferece atendimento de urgência e emergência, de alta e média complexidade, 24 horas por dia, e também atende outras especialidades.",
+      "servicos": [
+        "Urgência e emergência",
+        "Clínica Médica",
+        "Enfermagem",
+        "Pediatria",
+        "Traumatologia",
+        "Terapia Intensiva",
+        "Anestesiologia",
+        "Cirurgia Geral",
+        "Ultrasom",
+        "Eletrocardiograma",
+        "Projeto Sorria",
+        "Laboratório biomédico."
+      ],
+      "endereco": "Rua São Miguel, nº100, Guamá, Belém - PA",
+      "telefones": [
+        "(91) 3344-2450",
+        "(91) 3344-2480"
+      ],
+      "site": "http://www.belem.pa.gov.br/app/c2ms/v/?id=12&amp;conteudo=4672",
+      "horario": "24 horas (urgência e emergência)",
+      "facebook": null,
+      "instagram": null,
+      "coordenadas": {
+        "latitude": -1.470691897441079,
+        "longitude": -48.48855051333647
       }
     },
     {
@@ -817,8 +819,8 @@
       "facebook": null,
       "instagram": null,
       "coordenadas": {
-        "latitude": 1,
-        "longitude": 4
+        "latitude": -1.4213653063404967,
+        "longitude": -48.48550456777837
       }
     },
     {
@@ -836,8 +838,8 @@
       "facebook": null,
       "instagram": null,
       "coordenadas": {
-        "latitude": 1,
-        "longitude": 4
+        "latitude": -1.3489531441532085,
+        "longitude": -48.46686423321754
       }
     },
     {
@@ -854,8 +856,8 @@
       "facebook": null,
       "instagram": null,
       "coordenadas": {
-        "latitude": 1,
-        "longitude": 4
+        "latitude": -1.3990039995400103,
+        "longitude": -48.48345365747536
       }
     },
     {
@@ -872,8 +874,8 @@
       "facebook": null,
       "instagram": null,
       "coordenadas": {
-        "latitude": 1,
-        "longitude": 4
+        "latitude": -1.3020585988324216,
+        "longitude": -48.48774096872576
       }
     },
     {
@@ -913,8 +915,8 @@
       "facebook": null,
       "instagram": null,
       "coordenadas": {
-        "latitude": 1,
-        "longitude": 4
+        "latitude": -1.4396896973407907,
+        "longitude": -48.480865647983684
       }
     },
     {
@@ -935,8 +937,8 @@
       "facebook": null,
       "instagram": null,
       "coordenadas": {
-        "latitude": 1,
-        "longitude": 4
+        "latitude": -1.3993830838824022,
+        "longitude": -48.4402099605612
       }
     },
     {
@@ -957,8 +959,8 @@
       "facebook": null,
       "instagram": null,
       "coordenadas": {
-        "latitude": 1,
-        "longitude": 4
+        "latitude": -1.4151807878443357,
+        "longitude": -48.46609498997562
       }
     },
     {
@@ -979,8 +981,8 @@
       "facebook": null,
       "instagram": null,
       "coordenadas": {
-        "latitude": 1,
-        "longitude": 4
+        "latitude": -1.4712168378011519,
+        "longitude": -48.45034519261489
       }
     },
     {
@@ -1001,8 +1003,8 @@
       "facebook": null,
       "instagram": null,
       "coordenadas": {
-        "latitude": 1,
-        "longitude": 4
+        "latitude": -1.3158974960937002,
+        "longitude": -48.45630126093352
       }
     },
     {
@@ -1022,8 +1024,8 @@
       "facebook": null,
       "instagram": null,
       "coordenadas": {
-        "latitude": 1,
-        "longitude": 4
+        "latitude": -1.4222231448965164,
+        "longitude": -48.46220383057469
       }
     },
     {
@@ -1044,8 +1046,8 @@
       "facebook": null,
       "instagram": null,
       "coordenadas": {
-        "latitude": 1,
-        "longitude": 4
+        "latitude": -1.4519894243757254,
+        "longitude": -48.471672670678274
       }
     },
     {
@@ -1071,8 +1073,8 @@
       "facebook": null,
       "instagram": null,
       "coordenadas": {
-        "latitude": 1,
-        "longitude": 4
+        "latitude": -1.4398009418118425,
+        "longitude": -48.48159205040237
       }
     },
     {
@@ -1090,8 +1092,8 @@
       "facebook": null,
       "instagram": null,
       "coordenadas": {
-        "latitude": 1,
-        "longitude": 4
+        "latitude": -1.3004191004555916,
+        "longitude": -48.4689222908652
       }
     },
     {
@@ -1110,8 +1112,8 @@
       "facebook": null,
       "instagram": null,
       "coordenadas": {
-        "latitude": 1,
-        "longitude": 4
+        "latitude": -1.4400735236037716,
+        "longitude": -48.48725461001468
       }
     },
     {
@@ -1130,8 +1132,8 @@
       "facebook": null,
       "instagram": null,
       "coordenadas": {
-        "latitude": 1,
-        "longitude": 4
+        "latitude": -1.4225534541453029,
+        "longitude": -48.46260991699098
       }
     },
     {
@@ -1160,8 +1162,8 @@
       "facebook": null,
       "instagram": null,
       "coordenadas": {
-        "latitude": 1,
-        "longitude": 4
+        "latitude": -1.4024510744987164,
+        "longitude": -48.44615723857747
       }
     },
     {
@@ -1180,8 +1182,8 @@
       "facebook": null,
       "instagram": null,
       "coordenadas": {
-        "latitude": 1,
-        "longitude": 4
+        "latitude": -1.4024504977391314,
+        "longitude": -48.446157442606484
       }
     },
     {
@@ -1208,8 +1210,8 @@
       "facebook": null,
       "instagram": null,
       "coordenadas": {
-        "latitude": 1,
-        "longitude": 4
+        "latitude": -1.295532309712021,
+        "longitude": -48.475651116097474
       }
     },
     {
@@ -1236,8 +1238,8 @@
       "facebook": null,
       "instagram": null,
       "coordenadas": {
-        "latitude": 1,
-        "longitude": 4
+        "latitude": -1.4491835486125029,
+        "longitude": -48.480802895233595
       }
     },
     {
@@ -1271,8 +1273,8 @@
       "facebook": null,
       "instagram": null,
       "coordenadas": {
-        "latitude": 1,
-        "longitude": 4
+        "latitude": -1.4009405208420154,
+        "longitude": -48.43644618882995
       }
     },
     {
@@ -1300,8 +1302,8 @@
       "facebook": null,
       "instagram": null,
       "coordenadas": {
-        "latitude": 1,
-        "longitude": 4
+        "latitude": -1.4628867018763319,
+        "longitude": -48.49278578700741
       }
     },
     {
@@ -1329,8 +1331,8 @@
       "facebook": null,
       "instagram": null,
       "coordenadas": {
-        "latitude": 1,
-        "longitude": 4
+        "latitude": -1.4325645505919897,
+        "longitude": -48.465135922206386
       }
     },
     {
@@ -1357,8 +1359,8 @@
       "facebook": null,
       "instagram": null,
       "coordenadas": {
-        "latitude": 1,
-        "longitude": 4
+        "latitude": -1.4494813441039898,
+        "longitude": -48.48390282893392
       }
     },
     {
@@ -1385,472 +1387,8 @@
       "facebook": null,
       "instagram": null,
       "coordenadas": {
-        "latitude": 1,
-        "longitude": 4
-      }
-    }
-  ],
-  "ananindeua": [
-    {
-      "cidade": "Ananindeua",
-      "nome": "Estação Cidadania - Shopping Metrópole Ananindeua",
-      "descricao": "Unidades de integração de serviços prestados por órgãos públicos",
-      "departamentos": [
-        {
-          "nome": "BANPARÁ",
-          "servicos": [
-            "Saque conta Corrente/Poupança",
-            "Pagamentos de boletos",
-            "Abertura de contas Corrente/Poupança",
-            "Créditos",
-            "Consultas de empréstimos"
-          ]
-        },
-        {
-          "nome": "POLÍCIA CIVIL",
-          "servicos": [
-            "Emissão de carteira de Identidade",
-            "Emissão de Carteira de Identidade de nome social"
-          ]
-        },
-        {
-          "nome": "SEASTER",
-          "servicos": [
-            "Solicitação do Seguro Desemprego",
-            "Cadastro de Emprego"
-          ]
-        },
-        {
-          "nome": "DETRAN/PA",
-          "servicos": [
-            "Exame biométrico para 1ª Habilitação",
-            "Exame biométrico para renovação de CNH",
-            "Mudança de Categoria",
-            "Adição de Categoria",
-            "2ª Via de CNH",
-            "Troca de Jurisdição",
-            "Alteração de Dados Cadastrais",
-            "Alteração de Endereço",
-            "Prova de Legislação",
-            "Emissão de boleto de renovação de CNH",
-            "Inclusão de Atividade Remunerada"
-          ]
-        },
-        {
-          "nome": "JUCEPA",
-          "servicos": [
-            "Registro mercantil",
-            "Alterações empresariais",
-            "Transformação de natureza jurídica",
-            "Extinção de empresas",
-            "Livro Diário",
-            "Balanço Patrimonial",
-            "Enquadramento de MEI (Microempreendedor individual)",
-            "Desenquadramento de MEI (Microempreendedor individual)"
-          ]
-        },
-        {
-          "nome": "IASEP",
-          "servicos": [
-            "Adesão de segurados e dependentes",
-            "Liberação de Procedimentos de Saúde"
-          ]
-        },
-        {
-          "nome": "FUNDAÇÃO PRO PAZ",
-          "servicos": [
-            "Orientação Vocacional (Parceiros Privados)",
-            "Informações sobre o Programa de Saúde para a Juventude (SESPA)",
-            "Distribuição de preservativos e orientações sobre doenças sexualmente transmissíveis (Sespa)",
-            "Comissão Triparte da Meia Passagem Intermunicipal (Arcon)",
-            "Informações culturais (Fundação Cultural do Pará e Secult)",
-            "Informações sobre qualificação profissional e educação profissional (Sectet,Seduc,Seaster)",
-            "Orientação Jurídica",
-            "ID Jovem"
-          ]
-        },
-        {
-          "nome": "IGEPREV",
-          "servicos": [
-            "Emissão de contracheque",
-            "Comunicado de óbito",
-            "Cadastro de conta corrente",
-            "Pagamentos de valores retroativos",
-            "Liberação de crédito",
-            "Declaração de tempo utilizado para aposentadoria",
-            "Isenção de imposto de renda",
-            "Retificação de dirf/cédula C",
-            "Certidão de tempo de contribuição",
-            "Auxílio funerale/ Concessão de pensão por morte",
-            "SRTE/SEAD",
-            "Emissão de Carteira de trabalho e Previdência Social",
-            "2ª Via d Carteira de trabalho e Previdência Social"
-          ]
-        },
-        {
-          "nome": "RECEITA FEDERAL",
-          "servicos": [
-            "Agendamento de serviços na RFB",
-            "Consulta de processo",
-            "Consulta de restituição/situação da DIRPF",
-            "Emissão de certidão pessoa física",
-            "Emissão de DARF",
-            "Extrato do processamento da DIRPF",
-            "Número de recibo do IRPF",
-            "Parcelamento simplificado não previdenciário",
-            "Parcelamento simplificado previdenciário",
-            "Situação fiscal",
-            "Alteração e Regularização de CPF",
-            "Emissão de comprovante de CPF",
-            "Conclusão de inscrição de CPF",
-            "Código de acesso ao portal E-CAC",
-            "Compensação da restituição x malha débito",
-            "Cópia declaração IRPF",
-            "Emissão de certidão do imóvel rural",
-            "Emissão de DAS (Documento de Arrecadação do Simples Nacional) para MEI (Microempreendedor Individual)",
-            "Orientação SITIO RFB/portal E-CAC",
-            "Preenchimento PER/DCOMP",
-            "Termo de atendimento à intimação"
-          ]
-        },
-        {
-          "nome": "CORPO DE BOMBEIROS",
-          "servicos": [
-            "Emissão das taxas Habite-se",
-            "Vistoria Técnica Anual",
-            "Análise de Projeto",
-            "Modificação de Projeto",
-            "Ampliação de Projeto",
-            "2º via de Habite-se",
-            "Salas inseridas em condomínios aprovados",
-            "Recarimbamento de projeto aprovado",
-            "Declaração de Isenção de AVCB (Auto de Vistoria do Corpo de Bombeiros)",
-            "ACPS (Auto de Conformidade de Processo Simplificado)",
-            "Protocolo de documentos de Ofícios",
-            "Requerimentos",
-            "Projetos",
-            "Solicitação de Prazo",
-            "Cronograma de Execução."
-          ]
-        }
-      ],
-      "endereco": "BR 316, KM 04, nº4500, Ananindeua - PA",
-      "telefones": null,
-      "site": "ec-metropoleananindeua@sead.pa.gov.br",
-      "horario": "De segunda a sexta 12h às 19h",
-      "facebook": null,
-      "instagram": null,
-      "coordenadas": {
-        "latitude": 1,
-        "longitude": 4
-      }
-    },
-    {
-      "cidade": "Ananindeua",
-      "nome": "Usina da Paz - Cabanagem",
-      "descricao": "Complexo comunitário integrado ao programa TerPaz, do Governo do Estado do Pará, com mais de 80 serviços gratuitos disponibilizados pelos órgãos estaduais e entidades parceiras",
-      "servicos": [
-        "Espaços para atividades esportivas",
-        "Salas de audiovisual e inclusão digital",
-        "Atendimento médico e odontológico",
-        "Consultoria jurídica",
-        "Emissão de documentos",
-        "Ações de segurança",
-        "Capacitação técnica e prossionalizante",
-        "Espaço multiuso para feiras, eventos e encontros da comunidade",
-        "Espaços para cursos livres e de dança, teatro, robótica, artes marciais, musicalização e biblioteca Internet sem fio gratuita disponibilizada pela empresa de Tecnologia da Informação e Comunicação do Pará (Prodepa) para os frequentadores das Usinas da Paz"
-      ],
-      "endereco": "Av. Damasco, nº37, Cabanagem, Belém - PA",
-      "telefones": null,
-      "site": null,
-      "horario": "De segunda a sexta 8h às 18h",
-      "facebook": null,
-      "instagram": "https://www.instagram.com/usinasdapaz/",
-      "coordenadas": {
-        "latitude": 1,
-        "longitude": 4
-      }
-    },
-    {
-      "cidade": "Ananindeua",
-      "nome": "Associação dos Servidores da Assembleia Legislativa do Pará (ASALP)",
-      "descricao": "Em parceria com a Secretaria de Estado de Esporte e Lazer, a ASALP oferece atividades físicas/desportivas para pessoas a partir dos 50 anos de idade. Para se inscrever, basta apresentar 1 cópia da carteira de identidade, 1 cópia do comprovante de residência, 2 fotos 3x4, atestado do médico cardiologista e a carteira de vacinação de Covid-19.",
-      "servicos": [
-        "Hidroginástica",
-        "Natação",
-        "Yoga Confira os dias e horários disponíveis no local da inscrição."
-      ],
-      "endereco": "Rodovia Mário Covas, Alameda São Jorge, nº293, Ananindeua - PA",
-      "telefones": null,
-      "site": null,
-      "horario": null,
-      "facebook": null,
-      "instagram": "https://www.instagram.com/asalpoficial/",
-      "coordenadas": {
-        "latitude": 1,
-        "longitude": 4
-      }
-    },
-    {
-      "cidade": "Ananindeua",
-      "nome": "Usina da Paz - Icuí- Guajará",
-      "descricao": "Complexo comunitário integrado ao programa TerPaz, do Governo do Estado do Pará, com mais de 80 serviços gratuitos disponibilizados pelos órgãos estaduais e entidades parceiras",
-      "servicos": [
-        "Espaços para atividades esportivas",
-        "Salas de audiovisual e inclusão digital",
-        "Atendimento médico e odontológico",
-        "Consultoria jurídica",
-        "Emissão de documentos",
-        "Ações de segurança",
-        "Capacitação técnica e prossionalizante",
-        "Espaço multiuso para feiras",
-        "eventos e encontros da comunidade",
-        "Espaços para cursos livres e de dança, teatro, robótica, artes marciais, musicalização e biblioteca Internet sem fio gratuita disponibilizada pela empresa de Tecnologia da Informação e Comunicação do Pará (Prodepa) para os frequentadores das Usinas da Paz"
-      ],
-      "endereco": " Estr. Icuí-Guajará - Icuí-Guajará, Ananindeua - PA",
-      "telefones": null,
-      "site": null,
-      "horario": "De segunda a sexta 8h às 18h",
-      "facebook": null,
-      "instagram": null,
-      "coordenadas": {
-        "latitude": 1,
-        "longitude": 4
-      }
-    },
-    {
-      "cidade": "Ananindeua",
-      "nome": "Associação dos Servidores da Assembleia Legislativa do Pará (ASALP)",
-      "descricao": "Em parceria com a Secretaria de Estado de Esporte e Lazer, a ASALP oferece atividades físicas/desportivas para pessoas a partir dos 50 anos de idade. Para se inscrever, basta apresentar 1 cópia da carteira de identidade, 1 cópia do comprovante de residência, 2 fotos 3x4, atestado do médico cardiologista e a carteira de vacinação de Covid-19.",
-      "servicos": [
-        "Aula de memorização Confira os dias e horários disponíveis no local da inscrição."
-      ],
-      "endereco": "Rodovia Mário Covas, Alameda São Jorge, nº293, Ananindeua - PA",
-      "telefones": null,
-      "site": null,
-      "horario": null,
-      "facebook": null,
-      "instagram": "https://www.instagram.com/asalpoficial/",
-      "coordenadas": {
-        "latitude": 1,
-        "longitude": 4
-      }
-    },
-    {
-      "cidade": "Ananindeua",
-      "nome": "Usina da Paz - Cabanagem",
-      "descricao": "Complexo comunitário integrado ao programa TerPaz, do Governo do Estado do Pará, com mais de 80 serviços gratuitos disponibilizados pelos órgãos estaduais e entidades parceiras",
-      "servicos": [
-        "Espaços para atividades esportivas",
-        "Salas de audiovisual e inclusão digital",
-        "Atendimento médico e odontológico",
-        "Consultoria jurídica",
-        "Emissão de documentos",
-        "Ações de segurança",
-        "Capacitação técnica e prossionalizante",
-        "Espaço multiuso para feiras",
-        "eventos e encontros da comunidade",
-        "Espaços para cursos livres e de dança, teatro, robótica, artes marciais, musicalização e biblioteca Internet sem fio gratuita disponibilizada pela empresa de Tecnologia da Informação e Comunicação do Pará (Prodepa) para os frequentadores das Usinas da Paz"
-      ],
-      "endereco": "Av. Damasco, nº37, Cabanagem, Belém - PA",
-      "telefones": null,
-      "site": null,
-      "horario": "De segunda a sexta 8h às 18h",
-      "facebook": null,
-      "instagram": "https://www.instagram.com/usinasdapaz/",
-      "coordenadas": {
-        "latitude": 1,
-        "longitude": 4
-      }
-    },
-    {
-      "cidade": "Ananindeua",
-      "nome": "UMS Maguari",
-      "descricao": "Oferece atendimento ambulatorial.",
-      "servicos": null,
-      "endereco": "Conj. Maguari, Alameda 15, S/N, passando o centro comercial, Coqueiro, Ananindeua - PA",
-      "telefones": [
-        "(91) 3248-3233"
-      ],
-      "site": null,
-      "horario": "Ambulatorial: de segunda a sexta, 7h às 18h",
-      "facebook": null,
-      "instagram": null,
-      "coordenadas": {
-        "latitude": 1,
-        "longitude": 4
-      }
-    },
-    {
-      "cidade": "Ananindeua",
-      "nome": "UPA Cidade Nova",
-      "descricao": "Unidade de Pronto Atendimento da Cidade Nova",
-      "servicos": [
-        "Atendimentos de saúde de complexidade intermediária",
-        "raio-X",
-        "eletrocardiografia",
-        "pediatria",
-        "laboratório de exames e leitos de observação."
-      ],
-      "endereco": "Tv. WE 16 (Cidade Nova II), S/N, Cidade Nova, Ananindeua - PA",
-      "telefones": null,
-      "site": null,
-      "horario": "24 horas",
-      "facebook": null,
-      "instagram": null,
-      "coordenadas": {
-        "latitude": 1,
-        "longitude": 4
-      }
-    },
-    {
-      "cidade": "Ananindeua",
-      "nome": "UPA Distrito Industrial",
-      "descricao": "Unidade de Pronto Atendimento do Distrito Industrial",
-      "servicos": [
-        "Atendimentos de saúde de complexidade intermediária",
-        "raio-X",
-        "eletrocardiografia",
-        "pediatria",
-        "laboratório de exames e leitos de observação."
-      ],
-      "endereco": "Rua Primeira Rural, nº2, Distrito Industrial, Ananindeua - PA",
-      "telefones": null,
-      "site": null,
-      "horario": "24 horas",
-      "facebook": null,
-      "instagram": null,
-      "coordenadas": {
-        "latitude": 1,
-        "longitude": 4
-      }
-    },
-    {
-      "cidade": "Ananindeua",
-      "nome": "UPA Mariguella",
-      "descricao": "Unidade de Pronto Atendimento do Aurá",
-      "servicos": [
-        "Atendimentos de saúde de complexidade intermediária",
-        "raio-X",
-        "eletrocardiografia",
-        "pediatria",
-        "laboratório de exames e leitos de observação."
-      ],
-      "endereco": "Passagem Chicó Mendes, nº193, Aurá, Ananindeua - PA",
-      "telefones": null,
-      "site": null,
-      "horario": "24 horas",
-      "facebook": null,
-      "instagram": null,
-      "coordenadas": {
-        "latitude": 1,
-        "longitude": 4
-      }
-    },
-    {
-      "cidade": "Ananindeua",
-      "nome": "UPA Icuí",
-      "descricao": "Unidade de Pronto Atendimento do Icuí",
-      "servicos": [
-        "Atendimentos de saúde de complexidade intermediária",
-        "raio-X",
-        "eletrocardiografia",
-        "pediatria",
-        "laboratório de exames e leitos de observação."
-      ],
-      "endereco": "Estr. Icuí-Guajará, nº895, Icuí-Guajará, Ananindeua - PA",
-      "telefones": null,
-      "site": null,
-      "horario": "24 horas",
-      "facebook": null,
-      "instagram": null,
-      "coordenadas": {
-        "latitude": 1,
-        "longitude": 4
-      }
-    },
-    {
-      "cidade": "Ananindeua",
-      "nome": "Hospital Público Estadual Galileu",
-      "descricao": "Referência na Rede Estadual do Pará em atendimentos de traumas ortopédicos",
-      "servicos": [
-        "Atendimento Ambulatorial",
-        "Internação"
-      ],
-      "endereco": "Rodovia Mário Covas, nº2553, Una, Belém - PA",
-      "telefones": [
-        "(91) 3214-1050"
-      ],
-      "site": null,
-      "horario": null,
-      "facebook": null,
-      "instagram": null,
-      "coordenadas": {
-        "latitude": 1,
-        "longitude": 4
-      }
-    },
-    {
-      "cidade": "Ananindeua",
-      "nome": "Hospital Metropolitano",
-      "descricao": "Realiza atendimentos de urgência e emergência a vítimas de trauma e queimados de média e alta complexidades aos usuários do Sistema Único de Saúde (SUS)",
-      "servicos": [
-        "Atende as especialidades de Endoscopia",
-        "Radiologia Médica",
-        "Clínica Médica",
-        "Nefrologia",
-        "Pediatria Clínica;Cirurgia Geral e do Trauma",
-        "Medicina Intensiva",
-        "Buco-Maxilo-Facial",
-        "Cirurgia Vascular Cirurgia Plástica Reparadora",
-        "Traumato-Ortopedia",
-        "Urologia",
-        "Oftalmologia",
-        "Anestesiologia",
-        "Hemoterapia",
-        "Cirurgia Torácica Otorrinolaringologia",
-        "Neurocirurgia",
-        "Infectologia "
-      ],
-      "endereco": "Rodovia BR 316, Km 03, Ananindeua - PA",
-      "telefones": [
-        "(91) 3073-3700"
-      ],
-      "site": null,
-      "horario": null,
-      "facebook": null,
-      "instagram": null,
-      "coordenadas": {
-        "latitude": 1,
-        "longitude": 4
-      }
-    },
-    {
-      "cidade": "Ananindeua",
-      "nome": "CAPS II",
-      "descricao": "Atende pessoas em intenso sofrimento psíquico derivados de transtornos mentais graves e persistentes, incluindo aqueles relacionados ao uso de substâncias psicoativas e outras necessidades de cuidados clínicos contínuos",
-      "servicos": [
-        "Acolhimento",
-        "Consultas especializadas",
-        "Atendimentos individuais",
-        "Atendimentos em grupos",
-        "Atividades sócio-recreativas",
-        "Oficinas Terapêuticas",
-        "Apoio as Unidades Municipais de Saúde (UMS) de abrangência",
-        "Atividades extra muro",
-        "Assistência farmacêutica."
-      ],
-      "endereco": "Estrada do Maguari nº2000, Ananindeua - PA",
-      "telefones": [
-        "(91) 98265-7139"
-      ],
-      "site": null,
-      "horario": "Segunda a sexta das 8h às 18h",
-      "facebook": null,
-      "instagram": null,
-      "coordenadas": {
-        "latitude": 1,
-        "longitude": 4
+        "latitude": -1.1612812489774775,
+        "longitude": -48.46896204700374
       }
     }
   ]

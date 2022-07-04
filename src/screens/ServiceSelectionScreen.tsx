@@ -1,11 +1,17 @@
 import React from 'react'
 import { View } from 'react-native'
 import { Card } from '../components/Card'
-import { BackButton } from '../components/BackButton'
 import { Ionicons } from '@expo/vector-icons'
 import { FontAwesome5 } from '@expo/vector-icons'
+import { BackButton } from '../components/BackButton'
+import { RootStackParamList } from '../routes/MainRoute'
+import { useNavigation } from '@react-navigation/native'
+import { NativeStackScreenProps } from '@react-navigation/native-stack'
 
-export const ServiceSelectionScreen = ({ route }) => {
+type Props = NativeStackScreenProps<RootStackParamList, 'ServiceSelectionScreen'>
+
+export const ServiceSelectionScreen = ({ route: { params } }: Props) => {
+  const navigation = useNavigation<Props['navigation']>()
   return (
     <View
       style={{
@@ -47,8 +53,11 @@ export const ServiceSelectionScreen = ({ route }) => {
           >
             <Card
               title='Serviços de Saúde'
-              goTo={'ListingScreen'}
-              parameters={{ ...route.params, tipo: 'saude' }}
+              onPress={() => {
+                navigation.navigate('ListingScreen', {
+                  ...params, type: 'health'
+                })
+              }}
             />
           </View>
 
@@ -76,8 +85,11 @@ export const ServiceSelectionScreen = ({ route }) => {
           >
             <Card
               title='Serviços Sociais'
-              goTo={'Listagem'}
-              parameters={{ ...route.params, tipo: 'sociais' }}
+              onPress={() => {
+                navigation.navigate('ListingScreen', {
+                  ...params, type: 'social'
+                })
+              }}
             />
           </View>
         </View>
