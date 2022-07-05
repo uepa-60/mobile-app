@@ -8,14 +8,18 @@ import {
   MaterialIcons,
   MaterialCommunityIcons
 } from '@expo/vector-icons'
-import { Titulo } from '../components/Titulo'
-import { View, ScrollView, Text } from 'react-native'
-import { Divisor } from '../components/Divisor'
-import { Subtitulo } from '../components/Subtitulo'
-import { BotaoDeVoltar } from '../components/BotaoDeVoltar'
-import { ListagemServicos } from '../components/ListagemServicos';
+import { Title } from '../components/Title'
+import { View, ScrollView } from 'react-native'
+import { Divider } from '../components/Divider'
+import { Subtitle } from '../components/Subtitle'
+import { BackButton } from '../components/BackButton'
+import { RootStackParamList } from '../routes/MainRoute';
+import { NativeStackScreenProps } from '@react-navigation/native-stack';
 
-export const TelaDeServico = ({ route }) => {
+type Props = NativeStackScreenProps<RootStackParamList, 'ServiceDetailsScreen'>
+
+export const ServiceDetailsScreen = ({ route: { params } }: Props) => {
+
   return (
     <ScrollView
       style={{
@@ -24,13 +28,13 @@ export const TelaDeServico = ({ route }) => {
       }}
       showsVerticalScrollIndicator={false}
     >
-      <BotaoDeVoltar />
+      <BackButton />
 
-      <Titulo
-        titulo={route.params.item.nome}
+      <Title
+        title={params.nome}
       />
 
-      <Divisor />
+      <Divider />
 
       <View
         style={{
@@ -39,7 +43,6 @@ export const TelaDeServico = ({ route }) => {
           flex: 1,
           borderRadius: 4,
           backgroundColor: '#ecfff1',
-          // paddingVertical: 27,
           padding: 15,
           shadowColor: '#000',
           shadowOffset: {
@@ -52,9 +55,9 @@ export const TelaDeServico = ({ route }) => {
         }}
       >
 
-        <Subtitulo
-          subtitulo={'Endereço'}
-          icone={
+        <Subtitle
+          subtitle={'Endereço'}
+          icon={
             <Entypo
               name={'location'}
               size={17}
@@ -63,12 +66,12 @@ export const TelaDeServico = ({ route }) => {
               }}
             />
           }
-          conteudo={route.params.item.endereco}
+          content={params.endereco}
         />
 
-        <Subtitulo
-          subtitulo={'Descrição'}
-          icone={
+        <Subtitle
+          subtitle={'Descrição'}
+          icon={
             <MaterialIcons
               name={'description'}
               size={17}
@@ -77,14 +80,14 @@ export const TelaDeServico = ({ route }) => {
               }}
             />
           }
-          conteudo={route.params.item.descricao}
+          content={params.descricao}
         />
 
         {
-          route.params.item.servicos &&
-          <Subtitulo
-            subtitulo={'Serviços disponíveis'}
-            icone={
+          params.servicos &&
+          <Subtitle
+            subtitle={'Serviços disponíveis'}
+            icon={
               <FontAwesome5
                 name={'wrench'}
                 size={17}
@@ -93,27 +96,21 @@ export const TelaDeServico = ({ route }) => {
                 }}
               />
             }
-          // conteudo={
-          //   route.params.item.servicos.reduce(
-          //     (servicosAnteriores, servico) => {
-          //       return servicosAnteriores + servico + '\n'
-          //     }, '')
-          // }
-          />
-        }
-
-        {
-          route.params.item.servicos && <ListagemServicos 
-            servicos={route.params.item.servicos}
+            content={
+              params.servicos.reduce(
+                (servicosAnteriores, servico) => {
+                  return servicosAnteriores + servico + '\n'
+                }, '')
+            }
           />
 
         }
 
         {
-          route.params.item.telefones &&
-          <Subtitulo
-            subtitulo={'Telefone'}
-            icone={
+          params.telefones &&
+          <Subtitle
+            subtitle={'Telefone'}
+            icon={
               <Zocial
                 name={'call'}
                 size={17}
@@ -122,17 +119,17 @@ export const TelaDeServico = ({ route }) => {
                 }}
               />
             }
-            conteudo={
-              route.params.item.telefones.reduce(
-                (telefonesAnteriores, telefone, index) => {
-                  return telefonesAnteriores + telefone + (route.params.item.telefones.length - 1 === index ? '' : ', ')
+            content={
+              params.telefones.reduce(
+                (telefonesAnteriores, telefone) => {
+                  return telefonesAnteriores + telefone + ', '
                 }, '')
             }
           />
         }
-        <Subtitulo
-          subtitulo={'Horário'}
-          icone={
+        <Subtitle
+          subtitle={'Horário'}
+          icon={
             <Ionicons
               name={'ios-time-outline'}
               size={17}
@@ -141,14 +138,14 @@ export const TelaDeServico = ({ route }) => {
               }}
             />
           }
-          conteudo={route.params.item.horario}
+          content={params.horario}
         />
         {
-          route.params.item.site &&
-          <Subtitulo
-            subtitulo={'Site'}
-            tipo='link'
-            icone={
+          params.site &&
+          <Subtitle
+            subtitle={'Site'}
+            type='link'
+            icon={
               <MaterialCommunityIcons
                 name={'web'}
                 size={17}
@@ -157,15 +154,15 @@ export const TelaDeServico = ({ route }) => {
                 }}
               />
             }
-            conteudo={route.params.item.site}
+            content={params.site}
           />
         }
         {
-          route.params.item.endereco &&
+          params.endereco &&
           <>
-            <Subtitulo
-              subtitulo={'Endereco'}
-              icone={
+            <Subtitle
+              subtitle={'Endereco'}
+              icon={
                 <Entypo
                   name={'map'}
                   size={17}
@@ -174,12 +171,12 @@ export const TelaDeServico = ({ route }) => {
                   }}
                 />
               }
-              tipo='link'
+              type='link'
             />
             <MapView
               region={{
-                latitude: route.params.item.coordenadas.latitude ?? 0,
-                longitude: route.params.item.coordenadas.longitude ?? 0,
+                latitude: params.coordenadas.latitude ?? 0,
+                longitude: params.coordenadas.longitude ?? 0,
                 latitudeDelta: 0.0001,
                 longitudeDelta: 0.001,
 
@@ -191,11 +188,11 @@ export const TelaDeServico = ({ route }) => {
             >
               <Marker
                 coordinate={{
-                  latitude: route.params.item.coordenadas.latitude || 1,
-                  longitude: route.params.item.coordenadas.longitude || 0,
+                  latitude: params.coordenadas.latitude ?? 0,
+                  longitude: params.coordenadas.longitude ?? 0,
                 }}
-                title={route.params.item.nome}
-                description={route.params.item.endereco}
+                title={params.nome}
+                description={params.endereco}
               />
             </MapView>
           </>

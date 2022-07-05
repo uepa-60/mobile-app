@@ -1,11 +1,17 @@
 import React from 'react'
 import { View } from 'react-native'
-import { CardSelecao } from '../components/CardSelecao'
-import { BotaoDeVoltar } from '../components/BotaoDeVoltar'
+import { Card } from '../components/Card'
 import { Ionicons } from '@expo/vector-icons'
 import { FontAwesome5 } from '@expo/vector-icons'
+import { BackButton } from '../components/BackButton'
+import { RootStackParamList } from '../routes/MainRoute'
+import { useNavigation } from '@react-navigation/native'
+import { NativeStackScreenProps } from '@react-navigation/native-stack'
 
-export const TelaDeSelecaoDeServicos = ({ route }) => {
+type Props = NativeStackScreenProps<RootStackParamList, 'ServiceSelectionScreen'>
+
+export const ServiceSelectionScreen = ({ route: { params } }: Props) => {
+  const navigation = useNavigation<Props['navigation']>()
   return (
     <View
       style={{
@@ -14,7 +20,7 @@ export const TelaDeSelecaoDeServicos = ({ route }) => {
         padding: 15
       }}
     >
-      <BotaoDeVoltar />
+      <BackButton />
 
       <View
         style={{
@@ -45,10 +51,13 @@ export const TelaDeSelecaoDeServicos = ({ route }) => {
               alignItems: 'flex-end'
             }}
           >
-            <CardSelecao
-              titulo='Serviços de Saúde'
-              irPara={'Listagem'}
-              parametros={{ ...route.params, tipo: 'saude' }}
+            <Card
+              title='Serviços de Saúde'
+              onPress={() => {
+                navigation.navigate('ListingScreen', {
+                  ...params, type: 'health'
+                })
+              }}
             />
           </View>
 
@@ -74,10 +83,13 @@ export const TelaDeSelecaoDeServicos = ({ route }) => {
               alignItems: 'flex-end'
             }}
           >
-            <CardSelecao
-              titulo='Serviços Sociais'
-              irPara={'Listagem'}
-              parametros={{ ...route.params, tipo: 'sociais' }}
+            <Card
+              title='Serviços Sociais'
+              onPress={() => {
+                navigation.navigate('ListingScreen', {
+                  ...params, type: 'social'
+                })
+              }}
             />
           </View>
         </View>

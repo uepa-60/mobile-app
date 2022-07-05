@@ -1,18 +1,23 @@
 import React from 'react'
-import { ScrollView, View, FlatList, Text, Pressable } from 'react-native'
+import { Title } from '../components/Title'
+import { Divider } from '../components/Divider'
+import { BackButton } from '../components/BackButton'
 import { useNavigation } from '@react-navigation/native'
-import { BotaoDeVoltar } from '../components/BotaoDeVoltar'
-import { Divisor } from '../components/Divisor'
-import { Titulo } from '../components/Titulo'
+import { RootStackParamList } from '../routes/MainRoute'
+import { NativeStackScreenProps } from '@react-navigation/native-stack'
+import { ScrollView, View, FlatList, Text, Pressable } from 'react-native'
 
-export const TelaDeListagemDeDepartamentos = ({ route }) => {
-  const navigation = useNavigation()
+type Props = NativeStackScreenProps<RootStackParamList, 'DepartmentsScreen'>
+
+export const DepartmentsScreen = ({ route }) => {
+  const navigation = useNavigation<Props['navigation']>()
 
   const informacoesPai = {
-    descricao: route.params.item.descricao,
-    endereco: route.params.item.endereco,
-    telefones: route.params.item.telefones,
-    horario: route.params.item.horario,
+    descricao: route.params.descricao,
+    endereco: route.params.endereco,
+    telefones: route.params.telefones,
+    coordenadas: route.params.coordenadas,
+    horario: route.params.horario,
   }
 
   return (
@@ -24,28 +29,24 @@ export const TelaDeListagemDeDepartamentos = ({ route }) => {
       showsVerticalScrollIndicator={false}
     >
 
-      <BotaoDeVoltar />
+      <BackButton />
 
-      <Titulo
-        titulo={route.params.item.nome}
+      <Title
+        title={route.params.nome}
       />
 
-      <Divisor />
+      <Divider />
 
       <FlatList
-        data={route.params.item.departamentos}
+        data={route.params.departamentos}
         style={{
           marginTop: 20
         }}
-        keyExtractor={(_, index) => index}
+        keyExtractor={(_, index) => index + ''}
         renderItem={({ item }) => {
           return (
             <Pressable
-              onPress={() => navigation.navigate('Servico', {
-                item: {
-                  ...informacoesPai, ...item,
-                }
-              })}
+              onPress={() => navigation.navigate('ServiceDetailsScreen', { ...informacoesPai, ...item })}
             >
               <View
                 style={{
@@ -80,6 +81,6 @@ export const TelaDeListagemDeDepartamentos = ({ route }) => {
           )
         }}
       />
-    </ScrollView>
+    </ScrollView >
   )
 }

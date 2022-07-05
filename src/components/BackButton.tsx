@@ -3,7 +3,7 @@ import { Pressable, View } from 'react-native'
 import { Ionicons } from '@expo/vector-icons'
 import { useNavigation } from '@react-navigation/native'
 
-export const BotaoDeVoltar = () => {
+export const BackButton = (): JSX.Element => {
   const navigation = useNavigation()
 
   return (

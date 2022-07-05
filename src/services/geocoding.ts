@@ -1,4 +1,4 @@
-export async function obterGeocoding(endereco) {
+export async function obterGeocoding(endereco: string) {
   const url = `https://api.tomtom.com/search/2/structuredGeocode.json${endereco}?key=6v0EaulVAadbVtwBJZaGN6IDsYEAPsaQ&limit=1`
   const response = await fetch(url)
   const json = await response.json()

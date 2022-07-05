@@ -1,7 +1,12 @@
 import React from 'react'
-import { Text } from 'react-native'
+import { StyleProp, Text, TextStyle } from 'react-native'
 
-export const Titulo = ({ titulo, ...props }) => {
+type Props = {
+  title: string,
+  style?: Partial<StyleProp<TextStyle>>
+}
+
+export const Title = ({ title, ...props }: Props) => {
   const { style, ...rest } = props
 
   return (
@@ -15,7 +20,7 @@ export const Titulo = ({ titulo, ...props }) => {
       }}
       {...rest}
     >
-      {titulo}
+      {title}
     </Text>
   )
 }

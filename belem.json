@@ -1,0 +1,1395 @@
+{
+  "social": [
+    {
+      "cidade": "Belém",
+      "nome": "Estação Cidadania - Guamá",
+      "departamentos": [
+        {
+          "nome": "IGEPREV",
+          "servicos": [
+            "Emissão de contracheque",
+            "Comunicado de óbito",
+            "Cadastro de conta corrente",
+            "Pagamentos de valores retroativos",
+            "Liberação de crédito",
+            "Declaração de tempo utilizado para aposentadoria",
+            "Isenção de imposto de renda",
+            "Retificação de dirf/cédula C",
+            "Certidão de tempo de contribuição",
+            "Auxílio funeral",
+            "Concessão de pensão por morte"
+          ]
+        },
+        {
+          "nome": "SRTE/SEAD",
+          "servicos": [
+            "Emissão de Carteira de trabalho e Previdência Social",
+            "2ª Via d Carteira de trabalho e Previdência Social",
+            "Auditoria e recursos do Seguro Desemprego"
+          ]
+        },
+        {
+          "nome": "SEJUDH",
+          "servicos": [
+            "Serviços de Proteção e Orientação de Defesa ao Consumidor",
+            "Abertura de reclamação",
+            "Atendimento preliminar"
+          ]
+        },
+        {
+          "nome": "BANPARÁ",
+          "servicos": [
+            "Saque conta Corrente/Poupança",
+            "Pagamentos de boletos",
+            "Abertura de contas Corrente/Poupança",
+            "Créditos",
+            "Consultas de empréstimos"
+          ]
+        },
+        {
+          "nome": "SEASTER",
+          "servicos": [
+            "Solicitação do Seguro Desemprego",
+            "Cadastro de emprego."
+          ]
+        },
+        {
+          "nome": "SERVIÇOS DE ENERGIA ELÉTRICA",
+          "servicos": [
+            "Ligação nova",
+            "Reativação de troca de titularidade",
+            "Adesão à tarifa de Baixa Renda",
+            "Troca de padrão",
+            "Religação de energia elétrica",
+            "Ligação provisória",
+            "Afiação",
+            "Fornecimento de documentação",
+            "Serviço emergência elétrica",
+            "Reclamação",
+            "Parcelamento de dívidas",
+            "Desligamento",
+            "Alteração cod",
+            "Segunda via de fatura de energia",
+            "Serviço técnico de rede",
+            "Devolução",
+            "Denúncia de fraude",
+            "Quitação anual"
+          ]
+        },
+        {
+          "nome": "DETRAN/PA",
+          "servicos": [
+            "Exame biométrico para 1ª Habilitação",
+            "Exame biométrico para renovação de CNH",
+            "Mudança de Categoria",
+            "Adição de Categoria",
+            "2ª Via de CNH",
+            "Troca de Jurisdição",
+            "Alteração de Dados Cadastrais",
+            "Alteração de Endereço",
+            "Prova de Legislação",
+            "Emissão de boleto de renovação de CNH",
+            "Inclusão de Atividade Remunerada"
+          ]
+        },
+        {
+          "nome": "POLÍCIA CIVIL",
+          "servicos": [
+            "Emissão de carteira de Identidade",
+            "Emissão de Carteira de Identidade de nome social"
+          ]
+        },
+        {
+          "nome": "DEFENSORIA PÚBLICA DO ESTADO DO PARÁ",
+          "servicos": [
+            "Emissão de ofícios para isenção da taxa de 2ª via de certidão de nascimento",
+            "Ação de Alimentos",
+            "Ação de divórcio consensual"
+          ]
+        }
+      ],
+      "descricao": "Unidades de integração de serviços prestados por órgãos públicos",
+      "endereco": "Av. José Bonifácio, nº2308, Belém - PA",
+      "telefones": [
+        "(91) 3217-4107"
+      ],
+      "site": null,
+      "horario": "De segunda a sexta 8h às 14h",
+      "facebook": null,
+      "instagram": null,
+      "coordenadas": {
+        "latitude": -1.467589052297485,
+        "longitude": -48.46877972089806
+      }
+    },
+    {
+      "cidade": "Belém",
+      "nome": "Estação Cidadania - Shopping Pátio Belém",
+      "descricao": "Unidades de integração de serviços prestados por órgãos públicos",
+      "departamentos": [
+        {
+          "nome": "BANPARÁ",
+          "servicos": [
+            "Saque conta Corrente/Poupança",
+            "Pagamentos de boletos",
+            "Abertura de contas Corrente/Poupança",
+            "Créditos",
+            "Consultas de empréstimos"
+          ]
+        },
+        {
+          "nome": "DEFENSORIA PÚBLICA DO ESTADO DO PARÁ",
+          "servicos": [
+            "Emissão de ofícios para isenção da taxa de 2ª via de certidão de nascimento",
+            "Ação de Alimentos"
+          ]
+        },
+        {
+          "nome": "POLÍCIA CIVIL",
+          "servicos": [
+            "Emissão de carteira de Identidade",
+            "Emissão de Carteira de Identidade de nome social"
+          ]
+        },
+        {
+          "nome": "SEJUDH- PROCON",
+          "servicos": [
+            "Serviços de Proteção ao consumidor",
+            "Orientação de Defesa ao consumidor"
+          ]
+        },
+        {
+          "nome": "SEASTER",
+          "servicos": [
+            "Solicitação do Seguro Desemprego",
+            "Cadastro de Emprego"
+          ]
+        },
+        {
+          "nome": "CONSAPA",
+          "servicos": [
+            "Mudança de titularidade da fatura de água",
+            "Ligação Nova (Instalação de ramal)",
+            "Devolução de valores/Pagamento em duplicidade",
+            "Instalação, substituição ou remoção de hidrômetro",
+            "Consulta de Débitos"
+          ]
+        },
+        {
+          "nome": "DETRAN/PA",
+          "servicos": [
+            "Exame biométrico para 1ª Habilitação",
+            "Exame biométrico para renovação de CNH",
+            "Mudança de Categoria",
+            "Adição de Categoria",
+            "2ª Via de CNH",
+            "Troca de Jurisdição",
+            "Alteração de Dados Cadastrais",
+            "Alteração de Endereço",
+            "Prova de Legislação",
+            "Emissão de boleto de renovação de CNH",
+            "Inclusão de Atividade Remunerada"
+          ]
+        },
+        {
+          "nome": "SEFA",
+          "servicos": [
+            "Antecipação de IPVA",
+            "Cadastro portal de serviços",
+            "Agendamento para ativação de senha do cadastro ou alteração de senha",
+            "Consulta de dívida ativa",
+            "Consulta débitos de IPVA",
+            "Emissão DAE- somente para taxas",
+            "Consulta SINTEGRA",
+            "Emissão de certidão (empresas)",
+            "Emissão de FIC",
+            "Orientações sobre parcelamento",
+            "Consulta a protocolo"
+          ]
+        },
+        {
+          "nome": "JUCEPA",
+          "servicos": [
+            "Registro mercantil",
+            "Alterações empresariais",
+            "Transformação de natureza jurídica",
+            "Extinção de empresas",
+            "Livro Diário",
+            "Balanço Patrimonial",
+            "Enquadramento de MEI (Microempreendedor individual)",
+            "Desenquadramento de MEI (Microempreendedor individual)"
+          ]
+        },
+        {
+          "nome": "IGEPREV",
+          "servicos": [
+            "Emissão de contracheque",
+            "Comunicado de óbito",
+            "Cadastro de conta corrente",
+            "Pagamentos de valores retroativos",
+            "Liberação de crédito",
+            "Declaração de tempo utilizado para aposentadoria",
+            "Isenção de imposto de renda",
+            "Retificação de dirf/cédula C",
+            "Certidão de tempo de contribuição",
+            "Auxílio funerale/ Concessão de pensão por morte"
+          ]
+        },
+        {
+          "nome": "SRTE/SEAD",
+          "servicos": [
+            "Emissão de Carteira de trabalho e Previdência Social",
+            "2ª Via d Carteira de trabalho e Previdência Social",
+            "Auditoria e recursos do Seguro Desemprego"
+          ]
+        },
+        {
+          "nome": "FUNDAÇÃO HEMOPA",
+          "servicos": [
+            "Orientação e sensibilização dos usuários sobre a importância da Doação de Sangue",
+            "Cadastro para doação de medula óssea"
+          ]
+        },
+        {
+          "nome": "SEFIN",
+          "servicos": [
+            "Informações e consultas dos tributos municipais",
+            "Consulta cadastral",
+            "Consulta de débito",
+            "Consulta de processos",
+            "Parcelamentos",
+            "Abertura de processos administrativos",
+            "Informações sobre ITB (Imposto de Transmissão de Bens Imóveis)"
+          ]
+        },
+        {
+          "nome": "SEMOB",
+          "servicos": [
+            "Liberação de veículos apreendidos",
+            "Credenciamento de estacionamento especial (Pessoa idosa ou com deficiência)"
+          ]
+        }
+      ],
+      "endereco": "Shopping Pátio Belém, Travessa Padre Eutíquio nº1078, Belém - PA",
+      "telefones": null,
+      "site": "ec-patiobelemcentro@sead.pa.gov.br",
+      "horario": "De segunda a sexta 12h às 19h",
+      "facebook": null,
+      "instagram": null,
+      "coordenadas": {
+        "latitude": -1.4581228480787891,
+        "longitude": -48.49439384574422
+      }
+    },
+    {
+      "cidade": "Belém",
+      "nome": "Estação Cidadania - Icoaraci",
+      "descricao": "Unidades de integração de serviços prestados por órgãos públicos",
+      "departamentos": [
+        {
+          "nome": "BANPARÁ",
+          "servicos": [
+            "Saque conta Corrente/Poupança",
+            "Pagamentos de boletos",
+            "Abertura de contas Corrente/Poupança",
+            "Créditos",
+            "Consultas de empréstimos"
+          ]
+        },
+        {
+          "nome": "POLÍCIA CIVIL",
+          "servicos": [
+            "Emissão de carteira de Identidade",
+            "Emissão de Carteira de Identidade de nome social"
+          ]
+        },
+        {
+          "nome": "SEASTER",
+          "servicos": [
+            "Solicitação do Seguro Desemprego",
+            "Cadastro de Emprego"
+          ]
+        },
+        {
+          "nome": "DETRAN/PA",
+          "servicos": [
+            "Exame biométrico para 1ª Habilitação",
+            "Exame biométrico para renovação de CNH",
+            "Mudança de Categoria",
+            "Adição de Categoria",
+            "2ª Via de CNH",
+            "Troca de Jurisdição",
+            "Alteração de Dados Cadastrais",
+            "Alteração de Endereço",
+            "Prova de Legislação",
+            "Emissão de boleto de renovação de CNH",
+            "Inclusão de Atividade Remunerada"
+          ]
+        },
+        {
+          "nome": "SEFA",
+          "servicos": [
+            "Antecipação de IPVA",
+            "Cadastro portal de serviços",
+            "Agendamento para ativação de senha do cadastro ou alteração de senha",
+            "Consulta de dívida ativa",
+            "Consulta débitos de IPVA",
+            "Emissão DAE- somente para taxas",
+            "Consulta SINTEGRA",
+            "Emissão de certidão (empresas)",
+            "Emissão de FIC",
+            "Orientações sobre parcelamento",
+            "Consulta a protocolo"
+          ]
+        },
+        {
+          "nome": "SRTE/SEAD",
+          "servicos": [
+            "Emissão de Carteira de trabalho e Previdência Social",
+            "2ª Via d Carteira de trabalho e Previdência Social",
+            "Auditoria e recursos do Seguro Desemprego"
+          ]
+        },
+        {
+          "nome": "FUNDAÇÃO HEMOPA",
+          "servicos": [
+            "Orientação e sensibilização dos usuários sobre a importância da Doação de Sangue",
+            "Cadastro para doação de medula óssea."
+          ]
+        }
+      ],
+      "endereco": "Av. Dr. Lopo de Castro, nº78, Cruzeiro (Icoaraci), Belém - PA",
+      "telefones": null,
+      "site": "ec-icoaraci@sead.pa.gov.br",
+      "horario": "De segunda a sexta 8h às 14h",
+      "facebook": null,
+      "instagram": null,
+      "coordenadas": {
+        "latitude": -1.298401804555958,
+        "longitude": -48.48781179878452
+      }
+    },
+    {
+      "cidade": "Belém",
+      "nome": "Usina da Paz - Benguí",
+      "descricao": "Complexo comunitário integrado ao programa TerPaz, do Governo do Estado do Pará, com mais de 80 serviços gratuitos disponibilizados pelos órgãos estaduais e entidades parceiras",
+      "servicos": [
+        "Espaços para atividades esportivas",
+        "Salas de audiovisual e inclusão digital",
+        "Atendimento médico e odontológico",
+        "Consultoria jurídica",
+        "Emissão de documentos",
+        "Ações de segurança",
+        "Capacitação técnica e prossionalizante",
+        "Espaço multiuso para feiras, eventos e encontros da comunidade",
+        "Espaços para cursos livres e de dança, teatro, robótica, artes marciais, musicalização e biblioteca"
+      ],
+      "endereco": "Estrada do Benguí, S/N, próximo à Passagem Primeiro de Julho, Benguí, Belém - PA",
+      "telefones": null,
+      "site": null,
+      "horario": "De segunda a sexta 8h às 18h",
+      "facebook": null,
+      "instagram": "https:/www.instagram.com/usinasdapaz/",
+      "coordenadas": {
+        "latitude": -1.3711165714999418,
+        "longitude": -48.45222608241561
+      }
+    },
+    {
+      "cidade": "Belém",
+      "nome": "Tuna Luso Brasileira",
+      "descricao": "Em parceria com a Secretaria de Estado de Esporte e Lazer, a Tuna oferece atividades físicas/desportivas para pessoas a partir dos 50 anos de idade. Para se inscrever, vá até o Salão Vermelho dentro da Tuna e apresente 1 cópia da carteira de identidade, 1 cópia do comprovante de residência, 2 fotos 3x4, atestado do médico cardiologista e a carteira de vacinação de Covid-19.",
+      "servicos": [
+        "Alongamento",
+        "Aula de ritmos",
+        "Aula de memorização",
+        "Ginástica",
+        "Hidroginástica Confira os dias e horários disponíveis no local da inscrição."
+      ],
+      "endereco": "Av. Almirante Barroso, nº4110, Souza, Belém - PA",
+      "telefones": [
+        "(91) 3352-3371",
+        "(91) 98523-4925"
+      ],
+      "site": "https://www.tunalusobrasileira.com.br/",
+      "horario": null,
+      "facebook": null,
+      "instagram": null,
+      "coordenadas": {
+        "latitude": -1.417717321679475,
+        "longitude": -48.44602587474867
+      }
+    },
+    {
+      "cidade": "Belém",
+      "nome": "UEPA",
+      "descricao": "Em parceria com a Secretaria de Estado de Esporte e Lazer, a UEPA oferece atividades físicas/desportivas para pessoas a partir dos 50 anos de idade. Para se inscrever, basta apresentar 1 cópia da carteira de identidade, 1 cópia do comprovante de residência, 2 fotos 3x4, atestado do médico cardiologista e a carteira de vacinação de Covid-19.",
+      "servicos": [
+        "Hidroginástica Confira os dias e horários disponíveis no local da inscrição."
+      ],
+      "endereco": "Núcleo de Extensão do Curso de Educação Física (Nuex) da UEPA na Rua João Paulo II, nº817, entre Timbó e Vileta, Marco, Belém - PA",
+      "telefones": null,
+      "site": null,
+      "horario": null,
+      "facebook": null,
+      "instagram": null,
+      "coordenadas": {
+        "latitude": -1.441592637999788,
+        "longitude": -48.458704316026235
+      }
+    },
+    {
+      "cidade": "Belém",
+      "nome": "Núcleo: Escola Barão do Triunfo",
+      "descricao": "Em parceria com a Secretaria de Estado de Esporte e Lazer, a Escola oferece atividades físicas/desportivas para pessoas a partir dos 50 anos de idade. Para se inscrever, basta apresentar 1 cópia da carteira de identidade, 1 cópia do comprovante de residência, 2 fotos 3x4, atestado do médico cardiologista e a carteira de vacinação de Covid-19.",
+      "servicos": [
+        "Hidroginástica Confira os dias e horários disponíveis no local da inscrição."
+      ],
+      "endereco": "Tv. Barão do Triunfo, nº1820, Pedreira, Belém - PA",
+      "telefones": null,
+      "site": null,
+      "horario": null,
+      "facebook": null,
+      "instagram": null,
+      "coordenadas": {
+        "latitude": -1.4279263913794213,
+        "longitude": -48.47011982070022
+      }
+    },
+    {
+      "cidade": "Belém",
+      "nome": "Usina da Paz - Cabanagem",
+      "descricao": "Complexo comunitário integrado ao programa TerPaz, do Governo do Estado do Pará, com mais de 80 serviços gratuitos disponibilizados pelos órgãos estaduais e entidades parceiras",
+      "servicos": [
+        "Espaços para atividades esportivas",
+        "Salas de audiovisual e inclusão digital",
+        "Atendimento médico e odontológico",
+        "Consultoria jurídica",
+        "Emissão de documentos",
+        "Ações de segurança",
+        "Capacitação técnica e prossionalizante",
+        "Espaço multiuso para feiras, eventos e encontros da comunidade",
+        "Espaços para cursos livres e de dança, teatro, robótica, artes marciais, musicalização e biblioteca Internet sem fio gratuita disponibilizada pela empresa de Tecnologia da Informação e Comunicação do Pará (Prodepa) para os frequentadores das Usinas da Paz."
+      ],
+      "endereco": "Av. Damasco, nº37, Cabanagem, Belém - PA",
+      "telefones": null,
+      "site": null,
+      "horario": "De segunda a sexta 8h às 18h",
+      "facebook": null,
+      "instagram": "https://www.instagram.com/usinasdapaz/",
+      "coordenadas": {
+        "latitude": -1.367013,
+        "longitude": -48.431661
+      }
+    },
+    {
+      "cidade": "Belém",
+      "nome": "Usina da Paz - Benguí",
+      "descricao": "Complexo comunitário integrado ao programa TerPaz, do Governo do Estado do Pará, com mais de 80 serviços gratuitos disponibilizados pelos órgãos estaduais e entidades parceiras",
+      "servicos": [
+        "Espaços para atividades esportivas",
+        "Salas de audiovisual e inclusão digital",
+        "Atendimento médico e odontológico",
+        "Consultoria jurídica",
+        "Emissão de documentos",
+        "Ações de segurança",
+        "Capacitação técnica e prossionalizante",
+        "Espaço multiuso para feiras, eventos e encontros da comunidade",
+        "Espaços para cursos livres e de dança, teatro, robótica, artes marciais, musicalização e biblioteca Internet sem fio gratuita disponibilizada pela empresa de Tecnologia da Informação e Comunicação do Pará (Prodepa) para os frequentadores das Usinas da Paz."
+      ],
+      "endereco": "Estrada do Benguí, S/N, próximo à Passagem Primeiro de Julho, Benguí, Belém - PA",
+      "telefones": null,
+      "site": null,
+      "horario": "De segunda a sexta 8h às 18h",
+      "facebook": null,
+      "instagram": "https://www.instagram.com/usinasdapaz/",
+      "coordenadas": {
+        "latitude": -1.3711165714999418,
+        "longitude": -48.45222608241561
+      }
+    },
+    {
+      "cidade": "Belém",
+      "nome": "UNITERCI - Universidade da Terceira Idade",
+      "descricao": "Programa de extensão que trabalha:",
+      "servicos": [
+        "Atividades de atualização social",
+        "dança",
+        "artesanato e inclusão digital",
+        "Atualização Cultural para Pessoa Idosa",
+        "Educação Permanente em Áreas de Graduação na UFPA",
+        "Corpo, Movimento e Qualidade de Vida da Pessoa Idosa Para se inscrever basta entrar em contato pelo telefone e saber mais sobre as datas de cadastro e seleção de novos alunos"
+      ],
+      "endereco": "Rua Augusto Corrêa, nº1, Guamá, Belém - PA",
+      "telefones": [
+        "(91) 3201-8626"
+      ],
+      "site": null,
+      "horario": null,
+      "facebook": "https://www.facebook.com/uniterciufpa/",
+      "instagram": "https://www.instagram.com/uniterci.ufpa/",
+      "coordenadas": {
+        "latitude": -1.4743589278339722,
+        "longitude": -48.45473538672716
+      }
+    },
+    {
+      "cidade": "Belém",
+      "nome": "Tuna Luso Brasileira",
+      "descricao": "Em parceria com a Secretaria de Estado de Esporte e Lazer, a Tuna oferece atividades físicas/desportivas para pessoas a partir dos 50 anos de idade. Para se inscrever, vá até o Salão Vermelho dentro da Tuna e apresente 1 cópia da carteira de identidade, 1 cópia do comprovante de residência, 2 fotos 3x4, atestado do médico cardiologista e a carteira de vacinação de Covid-19.",
+      "servicos": [
+        "Aula de memorização"
+      ],
+      "endereco": "Av. Almirante Barroso, nº4110, Souza, Belém - PA",
+      "telefones": [
+        "(91) 3352-3371",
+        "(91) 98523-4925"
+      ],
+      "site": "https://www.tunalusobrasileira.com.br/",
+      "horario": null,
+      "facebook": null,
+      "instagram": null,
+      "coordenadas": {
+        "latitude": -1.417717321679475,
+        "longitude": -48.44602587474867
+      }
+    },
+    {
+      "cidade": "Belém",
+      "nome": "Usina da Paz - Benguí",
+      "descricao": "Complexo comunitário integrado ao programa TerPaz, do Governo do Estado do Pará, com mais de 80 serviços gratuitos disponibilizados pelos órgãos estaduais e entidades parceiras",
+      "servicos": [
+        "Confira os dias e horários disponíveis no local da inscrição.",
+        "Espaços para atividades esportivas",
+        "Salas de audiovisual e inclusão digital",
+        "Atendimento médico e odontológico",
+        "Consultoria jurídica",
+        "Emissão de documentos",
+        "Ações de segurança",
+        "Capacitação técnica e prosssionalizante",
+        "Espaço multiuso para feiras, eventos e encontros da comunidade",
+        "Espaços para cursos livres e de dança, teatro, robótica, artes marciais, musicalização e biblioteca Internet sem fio gratuita disponibilizada pela empresa de Tecnologia da Informação e Comunicação do Pará (Prodepa) para os frequentadores das Usinas da Paz."
+      ],
+      "endereco": "Estrada do Benguí, S/N, próximo à Passagem Primeiro de Julho, Benguí, Belém - PA",
+      "telefones": null,
+      "site": null,
+      "horario": "De segunda a sexta 8h às 18h",
+      "facebook": null,
+      "instagram": "https://www.instagram.com/usinasdapaz/",
+      "coordenadas": {
+        "latitude": -1.3711165714999418,
+        "longitude": -48.45222608241561
+      }
+    },
+    {
+      "cidade": "Belém",
+      "nome": " Núcleo de Oficinas Curro Velho",
+      "descricao": "A Fundação Cultural do Pará desenvolve cursos e oficinas de iniciação e aprofundamento em arte e ofício; leitura e informação; e de incentivo à cultura, divididos em módulos que são ministrados todos os meses.",
+      "servicos": [
+        "Confira os módulos oferecidos para o mês."
+      ],
+      "endereco": "Rua Prof. Nelson Ribeiro, nº287, Telégrafo, Belém - PA",
+      "telefones": [
+        "(91) 3323-0049"
+      ],
+      "site": null,
+      "horario": "De segunda a sexta 9h às 17h",
+      "facebook": null,
+      "instagram": "https://www.instagram.com/fundacaopara/",
+      "coordenadas": {
+        "latitude": -1.4302897519139632,
+        "longitude": -48.49150643708392
+      }
+    },
+    {
+      "cidade": "Belém",
+      "nome": "Casa da Linguagem",
+      "descricao": "O espaço é voltado para cursos, oficinas e programações centradas em ações de linguagem verbal. A programação é de responsabilidade da Fundação Cultural do Pará.",
+      "servicos": [
+        "Confira os módulos oferecidos para o mês."
+      ],
+      "endereco": "Av. Nazaré, nº31, Nazaré, Belém - PA",
+      "telefones": [
+        "(91) 3323-0300"
+      ],
+      "site": null,
+      "horario": "De segunda a sexta 9h às 17h",
+      "facebook": null,
+      "instagram": "https://www.instagram.com/fundacaopara/",
+      "coordenadas": {
+        "latitude": -1.453837838323573,
+        "longitude": -48.492433573970835
+      }
+    },
+    {
+      "cidade": "Belém",
+      "nome": "Estação Cidadania - Shopping Grão Pará",
+      "descricao": "Unidades de integração de serviços prestados por órgãos públicos",
+      "servicos": [
+        "POLÍCIA CIVIL",
+        "Emissão de carteira de Identidade",
+        "Emissão de Carteira de Identidade de nome social",
+        "SEJUDH",
+        "Serviços de Proteção ao consumidor",
+        "Orientação de Defesa ao consumidor",
+        "Atendimento preliminar",
+        "SEASTER",
+        "Solicitação do Seguro Desemprego",
+        "Cadastro de Emprego",
+        "DEFENSORIA PÚBLICA DO ESTADO DO PARÁ",
+        "Emissão de ofícios para isenção da taxa de 2ª via de certidão de nascimento",
+        "Ação de Alimentos",
+        "Ação de divórcio consensual",
+        "JUCEPA",
+        "Registro mercantil",
+        "Alterações empresariais",
+        "Transformação de natureza jurídica",
+        "Extinção de empresas",
+        "Livro Diário",
+        "Balanço Patrimonial",
+        "Enquadramento de MEI (Microempreendedor individual)",
+        "Desenquadramento de MEI (Microempreendedor individual)",
+        "SEFA",
+        "Antecipação de IPVA",
+        "Cadastro portal de serviços",
+        "Agendamento para ativação de senha do cadastro ou alteração de senha",
+        "Consulta de dívida ativa",
+        "Consulta débitos de IPVA",
+        "Emissão DAE- somente para taxas",
+        "Consulta SINTEGRA",
+        "Emissão de certidão (empresas)",
+        "Emissão de FIC",
+        "Orientações sobre parcelamento",
+        "Consulta a protocolo",
+        "COSANPA",
+        "Mudança de titularidade da fatura de água",
+        "Ligação Nova (Instalação de ramal)",
+        "Devolução de valores/Pagamento em duplicidade",
+        "Instalação, substituição ou remoção de hidrômetro",
+        "Consulta de Débitos.",
+        "Religação de água",
+        "Emissão de 2ª via",
+        "Emissão de extrato de débito",
+        "Emissão de Certidão Negativa de Débito/e de Quitação Anual",
+        "Negociação de débito",
+        "Revisão de atualização cadastral (Taxa)",
+        "Alteração de vencimento da conta",
+        "Verificação de não recebimento da conta",
+        "Reforma de Ramal",
+        "Instalação de Ramal de esgoto",
+        "Desobstrução de rede de esgoto",
+        "Verificação de falta de água",
+        "Revisão de consumo",
+        "Aferição de hidrômetro",
+        "Retirada de vazamento",
+        "Supressão de Ramal",
+        "Confirmação de Ramal cortado/suprimido",
+        "ARCON",
+        "Credenciamento e descredenciamento de motorista auxiliar alternativo",
+        "Vistoria Anual – veículo alternativo",
+        "Re-vistoria – veículo alternativo",
+        "Licenciamento anual Alternativo",
+        "Baixa com Inclusão de Veículo",
+        "Atualização cadastral de Transporte Alternativo",
+        "Atualização cadastral de empresas ou cooperativas",
+        "Guia de Frente A/C",
+        "Guia de Frente sob contrato",
+        "Cadastro inicial e concessão de linha (transporte hidroviário)",
+        "Documentos referentes às embarcações",
+        "FUNDAÇÃO PRO PAZ - CONFIRMAR",
+        "Orientação Vocacional (Parceiros Privados)",
+        "Informações sobre o Programa de Saúde para a Juventude (SESPA)",
+        "Distribuição de preservativos e orientações sobre doenças sexualmente transmissíveis (Sespa)",
+        "Comissão Triparte da Meia Passagem Intermunicipal (Arcon)",
+        "Informações culturais (Fundação Cultural do Pará e Secult)",
+        "Informações sobre qualificação profissional e educação profissional (Sectet,Seduc,Seaster)",
+        "Orientação Jurídica",
+        "ID Jovem",
+        "IGEPREV",
+        "Emissão de contracheque",
+        "Comunicado de óbito",
+        "Cadastro de conta corrente",
+        "Pagamentos de valores retroativos",
+        "Liberação de crédito",
+        "Declaração de tempo utilizado para aposentadoria",
+        "Isenção de imposto de renda",
+        "Retificação de dirf/cédula C",
+        "Certidão de tempo de contribuição",
+        "Auxílio funerale/ Concessão de pensão por morte",
+        "DETRAN/PA",
+        "Exame biométrico para 1ª Habilitação",
+        "Exame biométrico para renovação de CNH",
+        "Mudança de Categoria",
+        "Adição de Categoria",
+        "2ª Via de CNH",
+        "Troca de Jurisdição",
+        "Alteração de Dados Cadastrais",
+        "Alteração de Endereço",
+        "Prova de Legislação",
+        "Emissão de boleto de renovação de CNH",
+        "Inclusão de Atividade Remunerada",
+        "BANPARÁ",
+        "Saque conta Corrente/Poupança",
+        "Pagamentos de boletos",
+        "Abertura de contas Corrente/Poupança",
+        "Créditos",
+        "Consultas de empréstimos",
+        "SRTE/SEAD",
+        "Emissão de Carteira de trabalho e Previdência Social -2ª Via d Carteira de trabalho e Previdência Social",
+        "Auditoria e recursos do Seguro Desemprego",
+        "RECEITA FEDERAL",
+        "Agendamento de serviços na RFB",
+        "Consulta de processo",
+        "Consulta de restituição/situação da DIRPF",
+        "Emissão de certidão pessoa física",
+        "Emissão de DARF",
+        "Extrato do processamento da DIRPF",
+        "Número de recibo do IRPF",
+        "Parcelamento simplificado não previdenciário",
+        "Parcelamento simplificado previdenciário",
+        "Situação fiscal",
+        "Alteração e Regularização de CPF",
+        "Emissão de comprovante de CPF",
+        "Conclusão de inscrição de CPF",
+        "Código de acesso ao portal E-CAC",
+        "Compensação da restituição x malha débito",
+        "Cópia declaração IRPF",
+        "Emissão de certidão do imóvel rural",
+        "Emissão de DAS (Documento de Arrecadação do Simples Nacional) para MEI (Microempreendedor Individual)",
+        "Orientação SITIO RFB/portal E-CAC",
+        "Preenchimento PER/DCOMP",
+        "Termo de atendimento à intimação. "
+      ],
+      "endereco": "Av. Centenário, nº1052 - Térreo - Val de Cães, Belém - PA",
+      "telefones": null,
+      "site": "ec-bosquegraopara@sead.pa.gov.br",
+      "horario": "De segunda a sexta 12h às 19h",
+      "facebook": null,
+      "instagram": null,
+      "coordenadas": {
+        "latitude": -1.391159570684591,
+        "longitude": -48.4659180558395
+      }
+    }
+  ],
+  "saude": [
+    {
+      "cidade": "Belém",
+      "nome": "UMS do Guamá",
+      "descricao": "Oferece atendimento de urgência e emergência, de alta e média complexidade, 24 horas por dia, e também atende outras especialidades.",
+      "servicos": [
+        "Urgência e emergência",
+        "Clínica Médica",
+        "Enfermagem",
+        "Pediatria",
+        "Traumatologia",
+        "Terapia Intensiva",
+        "Anestesiologia",
+        "Cirurgia Geral",
+        "Ultrasom",
+        "Eletrocardiograma",
+        "Projeto Sorria",
+        "Laboratório biomédico."
+      ],
+      "endereco": "Rua São Miguel, nº100, Guamá, Belém - PA",
+      "telefones": [
+        "(91) 3344-2450",
+        "(91) 3344-2480"
+      ],
+      "site": "http://www.belem.pa.gov.br/app/c2ms/v/?id=12&amp;conteudo=4672",
+      "horario": "24 horas (urgência e emergência)",
+      "facebook": null,
+      "instagram": null,
+      "coordenadas": {
+        "latitude": -1.470691897441079,
+        "longitude": -48.48855051333647
+      }
+    },
+    {
+      "cidade": "Belém",
+      "nome": "UMS Telégrafo",
+      "descricao": "Oferece atendimento ambulatorial e de urgência e emergência.",
+      "servicos": null,
+      "endereco": "Rua do Fio S/N, entre Passagem São João e São Pedro, Telégrafo, Belém - PA",
+      "telefones": [
+        "(91) 3244-0471"
+      ],
+      "site": null,
+      "horario": "24 horas (urgência e emergência) Ambulatorial: de segunda a sexta das 7h às 19h",
+      "facebook": null,
+      "instagram": null,
+      "coordenadas": {
+        "latitude": -1.4213653063404967,
+        "longitude": -48.48550456777837
+      }
+    },
+    {
+      "cidade": "Belém",
+      "nome": "UMS Tapanã",
+      "descricao": "Oferece atendimento ambulatorial e de urgência e emergência.",
+      "servicos": null,
+      "endereco": "Rua São Clemente, S/N, ao lado do Conj. Cordeiro de Farias, Tapanã, Belém - PA",
+      "telefones": [
+        "(91) 3278-3331",
+        "(91) 3278-1002"
+      ],
+      "site": null,
+      "horario": "24 horas (urgência e emergência) Ambulatorial: de segunda a sexta das 8h às 18h",
+      "facebook": null,
+      "instagram": null,
+      "coordenadas": {
+        "latitude": -1.3489531441532085,
+        "longitude": -48.46686423321754
+      }
+    },
+    {
+      "cidade": "Belém",
+      "nome": "UMS Providência",
+      "descricao": "Oferece atendimento ambulatorial.",
+      "servicos": null,
+      "endereco": "Avenida Norte S/N, na rua da Estação do Marex, Val de Cães, Belém - PA",
+      "telefones": [
+        "(91) 3257-6588"
+      ],
+      "site": null,
+      "horario": "Ambulatorial: de segunda a sexta, 7h às 18h",
+      "facebook": null,
+      "instagram": null,
+      "coordenadas": {
+        "latitude": -1.3990039995400103,
+        "longitude": -48.48345365747536
+      }
+    },
+    {
+      "cidade": "Belém",
+      "nome": "UMS Icoaraci",
+      "descricao": "Oferece atendimento ambulatorial.",
+      "servicos": null,
+      "endereco": "Rua Manoel Barata, nº840, entre Itaboraí e São Roque, próximo ao Colégio Madre Celeste, Centro, Icoaraci, Belém - PA",
+      "telefones": [
+        "(91) 3227-1550"
+      ],
+      "site": null,
+      "horario": "Ambulatorial: de segunda a sexta, 8h às 18h",
+      "facebook": null,
+      "instagram": null,
+      "coordenadas": {
+        "latitude": -1.3020585988324216,
+        "longitude": -48.48774096872576
+      }
+    },
+    {
+      "cidade": "Belém",
+      "nome": "HPSM 14 de Março - Hospital e Pronto Socorro Municipal Mario Pinotti",
+      "descricao": "Oferece atendimento de urgência e emergência, de alta e média complexidade, 24 horas por dia, e também atende outras especialidades.",
+      "servicos": [
+        "Urgência e emergência",
+        "Clínica Médica",
+        "Enfermagem",
+        "Pediatria",
+        "Traumato - ortopedia",
+        "Otorrinolaringologia",
+        "Oftalmologia",
+        "Neurologia",
+        "Anestesiologia",
+        "Cirurgia Geral",
+        "Cirurgia Vascular",
+        "Cirurgia Toráxica",
+        "Cirurgia Pediátrica",
+        "Cirurgia Reparadora",
+        "Neurocirurgia",
+        "Cardiologia",
+        "Urologia",
+        "Ultra-som",
+        "Tomografia Computadorizada",
+        "Eletrocardiograma",
+        "Raio - X",
+        "Laboratório biomédico"
+      ],
+      "endereco": "Travessa 14 de Março, nº500, entre Bernal do Couto e Oliveira Belo,Umarizal, Belém - PA",
+      "telefones": [
+        "(91) 3184-6353 (Direção) (91) 3184-6302 (Administração) (91) 3184-6349 (Direção Clínica)"
+      ],
+      "site": "http://www.belem.pa.gov.br/app/c2ms/v/?id=12&amp;conteudo=4672",
+      "horario": "24 horas (urgência e emergência)",
+      "facebook": null,
+      "instagram": null,
+      "coordenadas": {
+        "latitude": -1.4396896973407907,
+        "longitude": -48.480865647983684
+      }
+    },
+    {
+      "cidade": "Belém",
+      "nome": "UPA Marambaia",
+      "descricao": "Unidades de Pronto Atendimento da Marambaia",
+      "servicos": [
+        "Atendimentos de saúde de complexidade intermediária",
+        "raio-X",
+        "eletrocardiografia",
+        "pediatria",
+        "laboratório de exames e leitos de observação."
+      ],
+      "endereco": "Rua Maravalho Belo, S/N, Marambaia, Belém – PA",
+      "telefones": null,
+      "site": null,
+      "horario": "24 horas",
+      "facebook": null,
+      "instagram": null,
+      "coordenadas": {
+        "latitude": -1.3993830838824022,
+        "longitude": -48.4402099605612
+      }
+    },
+    {
+      "cidade": "Belém",
+      "nome": "UPA Dasac",
+      "descricao": "Unidade de Pronto Atendimento da Sacramenta",
+      "servicos": [
+        "Atendimentos de saúde de complexidade intermediária",
+        "raio-X",
+        "eletrocardiografia",
+        "pediatria",
+        "laboratório de exames e leitos de observação."
+      ],
+      "endereco": "Av. Doutor Freitas, nº860, Sacramenta, Belém - PA",
+      "telefones": null,
+      "site": null,
+      "horario": "24 horas",
+      "facebook": null,
+      "instagram": null,
+      "coordenadas": {
+        "latitude": -1.4151807878443357,
+        "longitude": -48.46609498997562
+      }
+    },
+    {
+      "cidade": "Belém",
+      "nome": "UPA D'água",
+      "descricao": "Unidade de Pronto Atendimento da Terra Firme",
+      "servicos": [
+        "Atendimentos de saúde de complexidade intermediária",
+        "raio-X",
+        "eletrocardiografia",
+        "pediatria",
+        "laboratório de exames e leitos de observação."
+      ],
+      "endereco": "Av. Perimetral, Terra Firme, Belém - PA",
+      "telefones": null,
+      "site": null,
+      "horario": "24 horas",
+      "facebook": null,
+      "instagram": null,
+      "coordenadas": {
+        "latitude": -1.4712168378011519,
+        "longitude": -48.45034519261489
+      }
+    },
+    {
+      "cidade": "Belém",
+      "nome": "UPA Daico",
+      "descricao": "Unidade de Pronto Atendimento de Icoaraci",
+      "servicos": [
+        "Atendimentos de saúde de complexidade intermediária",
+        "raio-X",
+        "eletrocardiografia",
+        "pediatria",
+        "laboratório de exames e leitos de observação."
+      ],
+      "endereco": "Rua Paraíso, Parque Guajará, Belém - PA",
+      "telefones": null,
+      "site": null,
+      "horario": "24 horas",
+      "facebook": null,
+      "instagram": null,
+      "coordenadas": {
+        "latitude": -1.3158974960937002,
+        "longitude": -48.45630126093352
+      }
+    },
+    {
+      "cidade": "Belém",
+      "nome": "Hospital das Clínicas Gaspar Viana",
+      "descricao": "Atendimento ambulatorial e hospitalar de média e alta complexidade",
+      "servicos": [
+        "Hospital de referência em Psiquiatria",
+        "Cardiologia e Nefrologia"
+      ],
+      "endereco": "Trav. Alferes Costa, S/N, Pedreira, Belém - PA",
+      "telefones": [
+        "(91) 4005-2500"
+      ],
+      "site": null,
+      "horario": null,
+      "facebook": null,
+      "instagram": null,
+      "coordenadas": {
+        "latitude": -1.4222231448965164,
+        "longitude": -48.46220383057469
+      }
+    },
+    {
+      "cidade": "Belém",
+      "nome": "Hospital Ophir Loyola",
+      "descricao": "Atendimento médico-hospitalar de média e alta complexidade",
+      "servicos": [
+        "Hospital de referência em oncologia",
+        "nefrologia",
+        "transplantes e neurocirurgia"
+      ],
+      "endereco": "Av. Magalhães Barata, nº992, São Braz, Belém - PA",
+      "telefones": [
+        "(91) 3342-1100"
+      ],
+      "site": null,
+      "horario": null,
+      "facebook": null,
+      "instagram": null,
+      "coordenadas": {
+        "latitude": -1.4519894243757254,
+        "longitude": -48.471672670678274
+      }
+    },
+    {
+      "cidade": "Belém",
+      "nome": "Hospital Santa Casa de Misericórida",
+      "descricao": "Serviços Ambulatoriais e de Internação",
+      "servicos": [
+        "Hospital referência nas áreas médicas de Pediatria",
+        "Neonatologia",
+        "Nefrologia Pediátrica",
+        "Ginecologia e Obstetrícia",
+        "Clínica Médica",
+        "Dermatologia",
+        "Cirurgia Geral",
+        "Cirurgia Pediátrica e Radiologia."
+      ],
+      "endereco": "Rua Oliveira Belo, nº395, Umarizal, Belém - PA",
+      "telefones": [
+        "(91) 4009-2200"
+      ],
+      "site": null,
+      "horario": null,
+      "facebook": null,
+      "instagram": null,
+      "coordenadas": {
+        "latitude": -1.4398009418118425,
+        "longitude": -48.48159205040237
+      }
+    },
+    {
+      "cidade": "Belém",
+      "nome": "Hospital Abelardo Santos",
+      "descricao": "Serviços de Urgência e Laboratorial",
+      "servicos": [
+        "Atende as áreas de Obstétrica",
+        "Ginecológica e Pediátrica"
+      ],
+      "endereco": "Avenida Augusto Montenegro KM13, S/N, Campina de Icoaraci, Belém - PA",
+      "telefones": null,
+      "site": null,
+      "horario": null,
+      "facebook": null,
+      "instagram": null,
+      "coordenadas": {
+        "latitude": -1.3004191004555916,
+        "longitude": -48.4689222908652
+      }
+    },
+    {
+      "cidade": "Belém",
+      "nome": "Hospital Jean Bittar",
+      "descricao": "Atendimento Ambulatorial; Laboratorial; e Internação",
+      "servicos": [
+        "Oferece atendimento para clinica médica e clinica cirúrgica"
+      ],
+      "endereco": "Rua Cônego Jerônimo Pimentel, nº543, Belém - PA",
+      "telefones": [
+        "(91) 3241-1811"
+      ],
+      "site": null,
+      "horario": null,
+      "facebook": null,
+      "instagram": null,
+      "coordenadas": {
+        "latitude": -1.4400735236037716,
+        "longitude": -48.48725461001468
+      }
+    },
+    {
+      "cidade": "Belém",
+      "nome": "Emergência Psiquiatra",
+      "descricao": "Realiza atendimentos em casos de emergência psiquiátrica.",
+      "servicos": [
+        "Realiza atendimentos em casos de emergência psiquiátrica. "
+      ],
+      "endereco": "Tv. Alferes Costa, S/N - Pedreira, Belém - PA",
+      "telefones": [
+        "(91) 4005-2595"
+      ],
+      "site": null,
+      "horario": "24 horas",
+      "facebook": null,
+      "instagram": null,
+      "coordenadas": {
+        "latitude": -1.4225534541453029,
+        "longitude": -48.46260991699098
+      }
+    },
+    {
+      "cidade": "Belém",
+      "nome": "CAPS Amazônia",
+      "descricao": "Oferece atendimento para casos graves, que necessitem de cuidados mais intensivos, e/ou de reinserção psicossocial.",
+      "servicos": [
+        "Oferece serviços de:",
+        "Acolhimento",
+        "Consultas especializadas",
+        "Atendimentos individualizados",
+        "Atendimentos em grupos",
+        "Atividades sócio-recreativas",
+        "Oficinas terapêuticas",
+        "Apoio as Unidades Municipais de Saúde (UMS) de abrangência",
+        "Atividades extra muro",
+        "Assistência farmacêutica",
+        "Prestação de serviços de apoio da residência terapêutica."
+      ],
+      "endereco": "Pass. Dalva, nº377, próximo a Av. Tavares Bastos, Belém - PA",
+      "telefones": [
+        "(91) 3231-2599"
+      ],
+      "site": null,
+      "horario": "Segunda a sexta das 8h às 18h",
+      "facebook": null,
+      "instagram": null,
+      "coordenadas": {
+        "latitude": -1.4024510744987164,
+        "longitude": -48.44615723857747
+      }
+    },
+    {
+      "cidade": "Belém",
+      "nome": "Residência terapêutica do CAPS Amazônia",
+      "descricao": "funciona como casa que respondem a necessidade de moradia de pessoas com transtornos mentais graves.",
+      "servicos": [
+        "Acolhe pacientes do Centro Integrado de Assistência Psiquiátrica do Pará (Ciaspa)"
+      ],
+      "endereco": "Conj. Cohab Gleba I, Passagem P-2, nº50, Próximo a Rua da Marinha, Belém - PA",
+      "telefones": [
+        "(91) 3223-1624"
+      ],
+      "site": null,
+      "horario": "Segunda a sexta das 8h às 18h",
+      "facebook": null,
+      "instagram": null,
+      "coordenadas": {
+        "latitude": -1.4024504977391314,
+        "longitude": -48.446157442606484
+      }
+    },
+    {
+      "cidade": "Belém",
+      "nome": "CAPS I Icoaraci",
+      "descricao": "Atende adultos com transtornos mentais graves e persistentes e transtornos derivados do uso de álcool e outras drogas.",
+      "servicos": [
+        "Acolhimento",
+        "Consultas especializadas",
+        "Atendimentos individuais",
+        "Atendimentos em grupos",
+        "Atividades sócio-recreativas",
+        "Oficinas Terapêuticas",
+        "Apoio as Unidades Municipais de Saúde (UMS) de abrangência",
+        "Atividades extra muro",
+        "Assistência farmacêutica."
+      ],
+      "endereco": "Rua Monsenhor Azevedo, nº 237, Belém - PA",
+      "telefones": [
+        "(91) 3227-9137"
+      ],
+      "site": null,
+      "horario": "Segunda a sexta das 8h às 18h",
+      "facebook": null,
+      "instagram": null,
+      "coordenadas": {
+        "latitude": -1.295532309712021,
+        "longitude": -48.475651116097474
+      }
+    },
+    {
+      "cidade": "Belém",
+      "nome": "CAPS AD",
+      "descricao": "Atende pessoas com sofrimento psíquico intenso, decorrentes do uso de crack, álcool e outras drogas e outras necessidades de cuidados clínicos contínuos.",
+      "servicos": [
+        "Acolhimento",
+        "Consultas especializadas",
+        "Atendimentos individuais",
+        "Atendimentos em grupos",
+        "Atividades sócio-recreativas",
+        "Oficinas Terapêuticas",
+        "Apoio as Unidades Municipais de Saúde (UMS) de abrangência",
+        "Atividades extra muro",
+        "Assistência farmacêutica."
+      ],
+      "endereco": "Av. Gov. José Malcher, nº1457, Nazaré, Belém - PA",
+      "telefones": [
+        " (91) 3276-0890"
+      ],
+      "site": null,
+      "horario": "Segunda a sexta das 8h às 18h",
+      "facebook": null,
+      "instagram": null,
+      "coordenadas": {
+        "latitude": -1.4491835486125029,
+        "longitude": -48.480802895233595
+      }
+    },
+    {
+      "cidade": "Belém",
+      "nome": "CAPS III Marajoara",
+      "descricao": "Atende pessoas em intenso sofrimento psíquico derivados de transtornos mentais graves e persistentes",
+      "servicos": [
+        "Acolhimento",
+        "Atendimento clínico, assistencial e medicamentoso",
+        "Atendimentos individuais, em grupo e familiar",
+        "Oficina terapêutica",
+        "Atividades físicas",
+        "Terapia ocupacional",
+        "Atividades psicoterapêuticas",
+        "Palestras educativas e profissionais",
+        "Assistente Social",
+        "Enfermeiros",
+        "Farmacêuticos",
+        "Médicos",
+        "Educadores físicos",
+        "Psicólogos",
+        "Técnica de enfermagem",
+        "Nutricionistas."
+      ],
+      "endereco": "Conj. Cohab Gleba 1, WE 2, nº451, ao lado da Seccional da Marambaia, Belém - PA",
+      "telefones": [
+        "(91) 3231-4443"
+      ],
+      "site": null,
+      "horario": "24 horas",
+      "facebook": null,
+      "instagram": null,
+      "coordenadas": {
+        "latitude": -1.4009405208420154,
+        "longitude": -48.43644618882995
+      }
+    },
+    {
+      "cidade": "Belém",
+      "nome": "CAPS III Grão Pará",
+      "descricao": "Atende pessoas em intenso sofrimento psíquico derivados de transtornos mentais graves e persistentes",
+      "servicos": [
+        "Acolhimento",
+        "Consultas especializadas",
+        "Atendimentos individuais",
+        "Atendimentos em grupos",
+        "Atividades sócio-recreativas",
+        "Oficinas Terapêuticas",
+        "Apoio as Unidades Municipais de Saúde (UMS) de abrangência",
+        "Atividades extra muro",
+        "Assistência farmacêutica."
+      ],
+      "endereco": "Rua dos Tamoios, nº1840, Belém - PA",
+      "telefones": [
+        "(91) 3269-6732",
+        "(91) 3249-0504"
+      ],
+      "site": null,
+      "horario": "24 horas",
+      "facebook": null,
+      "instagram": null,
+      "coordenadas": {
+        "latitude": -1.4628867018763319,
+        "longitude": -48.49278578700741
+      }
+    },
+    {
+      "cidade": "Belém",
+      "nome": "CAPS III Renascer",
+      "descricao": "Atende pessoas em intenso sofrimento psíquico derivados de transtornos mentais graves e persistentes",
+      "servicos": [
+        "Acolhimento",
+        "Consultas especializadas",
+        "Atendimentos individuais",
+        "Atendimentos em grupos",
+        "Atividades sócio-recreativas",
+        "Oficinas Terapêuticas",
+        "Apoio as Unidades Municipais de Saúde (UMS) de abrangência",
+        "Atividades extra muro",
+        "Assistência farmacêutica."
+      ],
+      "endereco": "Trav. Mauriti, nº2179, entre Av. Duque de Caxias e Trav. Visconde de Inhaúma, Belém - PA",
+      "telefones": [
+        "(91) 3276-3448",
+        "(91) 3261-9010"
+      ],
+      "site": null,
+      "horario": "24 horas",
+      "facebook": null,
+      "instagram": null,
+      "coordenadas": {
+        "latitude": -1.4325645505919897,
+        "longitude": -48.465135922206386
+      }
+    },
+    {
+      "cidade": "Belém",
+      "nome": "CAPS III Mental Adulto",
+      "descricao": "Atende pessoas em intenso sofrimento psíquico derivados de transtornos mentais graves e persistentes",
+      "servicos": [
+        "Acolhimento",
+        "Consultas especializadas",
+        "Atendimentos individuais",
+        "Atendimentos em grupos",
+        "Atividades sócio-recreativas",
+        "Oficinas Terapêuticas",
+        "Apoio as Unidades Municipais de Saúde (UMS) de abrangência",
+        "Atividades extra muro",
+        "Assistência farmacêutica."
+      ],
+      "endereco": "Rua Dom Romualdo de Seixas, nº1854, Belém - PA",
+      "telefones": [
+        "(91) 3229-9678"
+      ],
+      "site": null,
+      "horario": "24 horas",
+      "facebook": null,
+      "instagram": null,
+      "coordenadas": {
+        "latitude": -1.4494813441039898,
+        "longitude": -48.48390282893392
+      }
+    },
+    {
+      "cidade": "Belém",
+      "nome": "CAPS I Mental Mosqueiro",
+      "descricao": "Atende pessoas em intenso sofrimento psíquico derivados de transtornos mentais graves e persistentes",
+      "servicos": [
+        "Acolhimento",
+        "Consultas especializadas",
+        "Atendimentos individuais",
+        "Atendimentos em grupos",
+        "Atividades sócio-recreativas",
+        "Oficinas Terapêuticas",
+        "Apoio as Unidades Municipais de Saúde (UMS) de abrangência",
+        "Atividades extra muro",
+        "Assistência farmacêutica."
+      ],
+      "endereco": "Avenida 15 de Novembro, nº551, Belém - PA",
+      "telefones": [
+        "(91) 3771-1362"
+      ],
+      "site": null,
+      "horario": "Segunda a sexta das 8h às 18h",
+      "facebook": null,
+      "instagram": null,
+      "coordenadas": {
+        "latitude": -1.1612812489774775,
+        "longitude": -48.46896204700374
+      }
+    }
+  ]
+}
