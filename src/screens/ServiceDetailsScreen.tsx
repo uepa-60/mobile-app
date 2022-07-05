@@ -24,7 +24,7 @@ export const ServiceDetailsScreen = ({ route: { params } }: Props) => {
     <ScrollView
       style={{
         flex: 1,
-        padding: 25
+        padding: 15
       }}
       showsVerticalScrollIndicator={false}
     >
@@ -39,7 +39,7 @@ export const ServiceDetailsScreen = ({ route: { params } }: Props) => {
       <View
         style={{
           marginTop: 20,
-          marginBottom: 50,
+          marginBottom: 30,
           flex: 1,
           borderRadius: 4,
           backgroundColor: '#ecfff1',
@@ -60,7 +60,7 @@ export const ServiceDetailsScreen = ({ route: { params } }: Props) => {
           icon={
             <Entypo
               name={'location'}
-              size={25}
+              size={17}
               color={'#34A853'} style={{
                 marginRight: 10,
               }}
@@ -74,7 +74,7 @@ export const ServiceDetailsScreen = ({ route: { params } }: Props) => {
           icon={
             <MaterialIcons
               name={'description'}
-              size={25}
+              size={17}
               color={'#34A853'} style={{
                 marginRight: 10,
               }}
@@ -90,7 +90,7 @@ export const ServiceDetailsScreen = ({ route: { params } }: Props) => {
             icon={
               <FontAwesome5
                 name={'wrench'}
-                size={25}
+                size={17}
                 color={'#34A853'} style={{
                   marginRight: 10,
                 }}
@@ -103,6 +103,7 @@ export const ServiceDetailsScreen = ({ route: { params } }: Props) => {
                 }, '')
             }
           />
+
         }
 
         {
@@ -112,7 +113,7 @@ export const ServiceDetailsScreen = ({ route: { params } }: Props) => {
             icon={
               <Zocial
                 name={'call'}
-                size={25}
+                size={17}
                 color={'#34A853'} style={{
                   marginRight: 10,
                 }}
@@ -131,7 +132,7 @@ export const ServiceDetailsScreen = ({ route: { params } }: Props) => {
           icon={
             <Ionicons
               name={'ios-time-outline'}
-              size={25}
+              size={17}
               color={'#34A853'} style={{
                 marginRight: 10,
               }}
@@ -147,7 +148,7 @@ export const ServiceDetailsScreen = ({ route: { params } }: Props) => {
             icon={
               <MaterialCommunityIcons
                 name={'web'}
-                size={25}
+                size={17}
                 color={'#34A853'} style={{
                   marginRight: 10,
                 }}
@@ -164,7 +165,7 @@ export const ServiceDetailsScreen = ({ route: { params } }: Props) => {
               icon={
                 <Entypo
                   name={'map'}
-                  size={25}
+                  size={17}
                   color={'#34A853'} style={{
                     marginRight: 10,
                   }}

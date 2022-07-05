@@ -16,7 +16,8 @@ export const ServiceSelectionScreen = ({ route: { params } }: Props) => {
     <View
       style={{
         flex: 1,
-        justifyContent: 'space-between'
+        justifyContent: 'space-between',
+        padding: 15
       }}
     >
       <BackButton />
@@ -25,7 +26,6 @@ export const ServiceSelectionScreen = ({ route: { params } }: Props) => {
         style={{
           flex: 1,
           justifyContent: 'space-evenly',
-          padding: 25
         }}
       >
 

@@ -24,7 +24,7 @@ export const DepartmentsScreen = ({ route }) => {
     <ScrollView
       style={{
         flex: 1,
-        padding: 25
+        padding: 15
       }}
       showsVerticalScrollIndicator={false}
     >
