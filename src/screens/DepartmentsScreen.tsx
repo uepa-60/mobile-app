@@ -5,7 +5,7 @@ import { BackButton } from '../components/BackButton'
 import { useNavigation } from '@react-navigation/native'
 import { RootStackParamList } from '../routes/MainRoute'
 import { NativeStackScreenProps } from '@react-navigation/native-stack'
-import { ScrollView, View, FlatList, Text, Pressable } from 'react-native'
+import { View, FlatList, Text, Pressable } from 'react-native'
 
 type Props = NativeStackScreenProps<RootStackParamList, 'DepartmentsScreen'>
 
@@ -21,12 +21,12 @@ export const DepartmentsScreen = ({ route }) => {
   }
 
   return (
-    <ScrollView
+    <View
       style={{
         flex: 1,
         padding: 15
       }}
-      showsVerticalScrollIndicator={false}
+    // showsVerticalScrollIndicator={false}
     >
 
       <BackButton />
@@ -42,6 +42,7 @@ export const DepartmentsScreen = ({ route }) => {
         style={{
           marginTop: 20
         }}
+        showsVerticalScrollIndicator={false}
         keyExtractor={(_, index) => index + ''}
         renderItem={({ item }) => {
           return (
@@ -81,6 +82,6 @@ export const DepartmentsScreen = ({ route }) => {
           )
         }}
       />
-    </ScrollView >
+    </View >
   )
 }

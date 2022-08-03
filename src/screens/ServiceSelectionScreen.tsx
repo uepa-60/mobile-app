@@ -12,6 +12,7 @@ type Props = NativeStackScreenProps<RootStackParamList, 'ServiceSelectionScreen'
 
 export const ServiceSelectionScreen = ({ route: { params } }: Props) => {
   const navigation = useNavigation<Props['navigation']>()
+
   return (
     <View
       style={{

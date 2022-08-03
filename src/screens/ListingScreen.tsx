@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Title } from '../components/Title'
 import { Divider } from '../components/Divider'
 import { BackButton } from '../components/BackButton'
@@ -20,11 +20,11 @@ export const ListingScreen = ({ route }: Props) => {
       : cityData['saude']
     : null
 
-  if (!data) {
-    navigation.navigate('DepartmentsScreen', route.params)
-    // console.log(route.params);
-
-  }
+  useEffect(() => {
+    if (!data) {
+      navigation.navigate('DepartmentsScreen', route.params)
+    }
+  }, [data])
 
   return (
     <ScrollView

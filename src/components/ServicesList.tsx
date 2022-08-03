@@ -1,7 +1,7 @@
 import React, { Fragment, useState } from 'react'
 import { View, Text, Pressable } from 'react-native'
 
-export const ListagemServicos = ({ servicos }) => {
+export const ServicesList = ({ servicos }) => {
   const [show, setShow] = useState(false)
 
   return (

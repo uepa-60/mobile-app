@@ -1,19 +1,12 @@
 import React from 'react'
-import MapView, { Marker } from 'react-native-maps';
-import {
-  Entypo,
-  Zocial,
-  Ionicons,
-  FontAwesome5,
-  MaterialIcons,
-  MaterialCommunityIcons
-} from '@expo/vector-icons'
 import { Title } from '../components/Title'
 import { View, ScrollView } from 'react-native'
 import { Divider } from '../components/Divider'
 import { Subtitle } from '../components/Subtitle'
+import MapView, { Marker } from 'react-native-maps';
 import { BackButton } from '../components/BackButton'
 import { RootStackParamList } from '../routes/MainRoute';
+import { ServicesList } from '../components/ServicesList';
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
 
 type Props = NativeStackScreenProps<RootStackParamList, 'ServiceDetailsScreen'>
@@ -57,87 +50,40 @@ export const ServiceDetailsScreen = ({ route: { params } }: Props) => {
 
         <Subtitle
           subtitle={'Endereço'}
-          icon={
-            <Entypo
-              name={'location'}
-              size={17}
-              color={'#34A853'} style={{
-                marginRight: 10,
-              }}
-            />
-          }
           content={params.endereco}
         />
 
         <Subtitle
           subtitle={'Descrição'}
-          icon={
-            <MaterialIcons
-              name={'description'}
-              size={17}
-              color={'#34A853'} style={{
-                marginRight: 10,
-              }}
-            />
-          }
           content={params.descricao}
         />
 
         {
           params.servicos &&
-          <Subtitle
-            subtitle={'Serviços disponíveis'}
-            icon={
-              <FontAwesome5
-                name={'wrench'}
-                size={17}
-                color={'#34A853'} style={{
-                  marginRight: 10,
-                }}
-              />
-            }
-            content={
-              params.servicos.reduce(
-                (servicosAnteriores, servico) => {
-                  return servicosAnteriores + servico + '\n'
-                }, '')
-            }
-          />
-
+          <>
+            <Subtitle
+              subtitle={'Serviços disponíveis'} />
+            <ServicesList servicos={params.servicos} />
+          </>
         }
 
         {
           params.telefones &&
           <Subtitle
             subtitle={'Telefone'}
-            icon={
-              <Zocial
-                name={'call'}
-                size={17}
-                color={'#34A853'} style={{
-                  marginRight: 10,
-                }}
-              />
-            }
+            style={{
+              marginTop: 10
+            }}
             content={
               params.telefones.reduce(
-                (telefonesAnteriores, telefone) => {
-                  return telefonesAnteriores + telefone + ', '
+                (telefonesAnteriores, telefone, i) => {
+                  return telefonesAnteriores + telefone + (i === params.telefones.length - 1 ? '' : ', ')
                 }, '')
             }
           />
         }
         <Subtitle
           subtitle={'Horário'}
-          icon={
-            <Ionicons
-              name={'ios-time-outline'}
-              size={17}
-              color={'#34A853'} style={{
-                marginRight: 10,
-              }}
-            />
-          }
           content={params.horario}
         />
         {
@@ -145,15 +91,6 @@ export const ServiceDetailsScreen = ({ route: { params } }: Props) => {
           <Subtitle
             subtitle={'Site'}
             type='link'
-            icon={
-              <MaterialCommunityIcons
-                name={'web'}
-                size={17}
-                color={'#34A853'} style={{
-                  marginRight: 10,
-                }}
-              />
-            }
             content={params.site}
           />
         }
@@ -161,16 +98,7 @@ export const ServiceDetailsScreen = ({ route: { params } }: Props) => {
           params.endereco &&
           <>
             <Subtitle
-              subtitle={'Endereco'}
-              icon={
-                <Entypo
-                  name={'map'}
-                  size={17}
-                  color={'#34A853'} style={{
-                    marginRight: 10,
-                  }}
-                />
-              }
+              subtitle={'Mapa'}
               type='link'
             />
             <MapView

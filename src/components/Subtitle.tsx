@@ -1,16 +1,18 @@
 import React from 'react'
-import { Text, Linking } from 'react-native'
+import { Text, Linking, View, ViewStyle } from 'react-native'
 
 type Props = {
   type?: 'standard' | 'link',
   content?: string,
+  style?: ViewStyle,
   subtitle: string,
-  icon: JSX.Element,
 }
 
-export const Subtitle = ({ subtitle, content, type = 'standard', icon }: Props) => {
+export const Subtitle = ({ subtitle, content, type = 'standard', style }: Props) => {
   return (
-    <>
+    <View
+      style={[style]}
+    >
       <Text
         style={{
           fontSize: 32,
@@ -18,7 +20,6 @@ export const Subtitle = ({ subtitle, content, type = 'standard', icon }: Props) 
           color: '#34A853',
         }}
       >
-        {icon}
         {subtitle}
       </Text>
 
@@ -48,6 +49,6 @@ export const Subtitle = ({ subtitle, content, type = 'standard', icon }: Props) 
           {content}
         </Text>
       }
-    </>
+    </View>
   )
 }

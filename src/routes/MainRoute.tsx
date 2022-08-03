@@ -25,7 +25,7 @@ export type RootStackParamList = {
   ListingScreen: {
     city: string
     type: 'health' | 'social'
-  } | {}
+  }
   ServiceSelectionScreen: {
     city: string
   }

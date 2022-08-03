@@ -3,7 +3,7 @@ export type Root = {
   saude: BaseObject[]
 }
 
-type BaseObject = {
+export type BaseObject = {
   cidade: string
   nome: string
   descricao: string
