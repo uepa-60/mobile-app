@@ -3,7 +3,7 @@ import { Title } from '../components/Title'
 import { View, ScrollView } from 'react-native'
 import { Divider } from '../components/Divider'
 import { Subtitle } from '../components/Subtitle'
-import MapView, { Marker } from 'react-native-maps';
+// import MapView, { Marker } from 'react-native-maps';
 import { BackButton } from '../components/BackButton'
 import { RootStackParamList } from '../routes/MainRoute';
 import { ServicesList } from '../components/ServicesList';
@@ -101,28 +101,7 @@ export const ServiceDetailsScreen = ({ route: { params } }: Props) => {
               subtitle={'Mapa'}
               type='link'
             />
-            <MapView
-              region={{
-                latitude: params.coordenadas.latitude ?? 0,
-                longitude: params.coordenadas.longitude ?? 0,
-                latitudeDelta: 0.0001,
-                longitudeDelta: 0.001,
 
-              }}
-              style={{
-                width: '100%',
-                height: 200
-              }}
-            >
-              <Marker
-                coordinate={{
-                  latitude: params.coordenadas.latitude ?? 0,
-                  longitude: params.coordenadas.longitude ?? 0,
-                }}
-                title={params.nome}
-                description={params.endereco}
-              />
-            </MapView>
           </>
         }
       </View>
