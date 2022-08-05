@@ -94,16 +94,6 @@ export const ServiceDetailsScreen = ({ route: { params } }: Props) => {
             content={params.site}
           />
         }
-        {
-          params.endereco &&
-          <>
-            <Subtitle
-              subtitle={'Mapa'}
-              type='link'
-            />
-
-          </>
-        }
       </View>
     </ScrollView>
   )
