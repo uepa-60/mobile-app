@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "my-app",
-    "slug": "my-app",
+    "name": "dica60+",
+    "slug": "dica60",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -20,11 +20,12 @@
       "supportsTablet": true
     },
     "android": {
+      "versionCode": "2",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "com.ddanielsantos.app60"
+      "package": "com.inovacom.dica60"
     },
     "web": {
       "favicon": "./assets/favicon.png"
