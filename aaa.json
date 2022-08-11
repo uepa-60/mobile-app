@@ -110,9 +110,7 @@
       ],
       "descricao": "Unidades de integração de serviços prestados por órgãos públicos",
       "endereco": "Av. José Bonifácio, nº2308, Belém - PA",
-      "telefones": [
-        "(91) 3217-4107"
-      ],
+      "telefones": ["(91) 3217-4107"],
       "site": null,
       "horario": "De segunda a sexta 8h às 14h",
       "facebook": null,
@@ -407,10 +405,7 @@
         "Hidroginástica Confira os dias e horários disponíveis no local da inscrição."
       ],
       "endereco": "Av. Almirante Barroso, nº4110, Souza, Belém - PA",
-      "telefones": [
-        "(91) 3352-3371",
-        "(91) 98523-4925"
-      ],
+      "telefones": ["(91) 3352-3371", "(91) 98523-4925"],
       "site": "https://www.tunalusobrasileira.com.br/",
       "horario": null,
       "facebook": null,
@@ -521,9 +516,7 @@
         "Corpo, Movimento e Qualidade de Vida da Pessoa Idosa Para se inscrever basta entrar em contato pelo telefone e saber mais sobre as datas de cadastro e seleção de novos alunos"
       ],
       "endereco": "Rua Augusto Corrêa, nº1, Guamá, Belém - PA",
-      "telefones": [
-        "(91) 3201-8626"
-      ],
+      "telefones": ["(91) 3201-8626"],
       "site": null,
       "horario": null,
       "facebook": "https://www.facebook.com/uniterciufpa/",
@@ -537,14 +530,9 @@
       "cidade": "Belém",
       "nome": "Tuna Luso Brasileira",
       "descricao": "Em parceria com a Secretaria de Estado de Esporte e Lazer, a Tuna oferece atividades físicas/desportivas para pessoas a partir dos 50 anos de idade. Para se inscrever, vá até o Salão Vermelho dentro da Tuna e apresente 1 cópia da carteira de identidade, 1 cópia do comprovante de residência, 2 fotos 3x4, atestado do médico cardiologista e a carteira de vacinação de Covid-19.",
-      "servicos": [
-        "Aula de memorização"
-      ],
+      "servicos": ["Aula de memorização"],
       "endereco": "Av. Almirante Barroso, nº4110, Souza, Belém - PA",
-      "telefones": [
-        "(91) 3352-3371",
-        "(91) 98523-4925"
-      ],
+      "telefones": ["(91) 3352-3371", "(91) 98523-4925"],
       "site": "https://www.tunalusobrasileira.com.br/",
       "horario": null,
       "facebook": null,
@@ -585,13 +573,9 @@
       "cidade": "Belém",
       "nome": " Núcleo de Oficinas Curro Velho",
       "descricao": "A Fundação Cultural do Pará desenvolve cursos e oficinas de iniciação e aprofundamento em arte e ofício; leitura e informação; e de incentivo à cultura, divididos em módulos que são ministrados todos os meses.",
-      "servicos": [
-        "Confira os módulos oferecidos para o mês."
-      ],
+      "servicos": ["Confira os módulos oferecidos para o mês."],
       "endereco": "Rua Prof. Nelson Ribeiro, nº287, Telégrafo, Belém - PA",
-      "telefones": [
-        "(91) 3323-0049"
-      ],
+      "telefones": ["(91) 3323-0049"],
       "site": null,
       "horario": "De segunda a sexta 9h às 17h",
       "facebook": null,
@@ -605,13 +589,9 @@
       "cidade": "Belém",
       "nome": "Casa da Linguagem",
       "descricao": "O espaço é voltado para cursos, oficinas e programações centradas em ações de linguagem verbal. A programação é de responsabilidade da Fundação Cultural do Pará.",
-      "servicos": [
-        "Confira os módulos oferecidos para o mês."
-      ],
+      "servicos": ["Confira os módulos oferecidos para o mês."],
       "endereco": "Av. Nazaré, nº31, Nazaré, Belém - PA",
-      "telefones": [
-        "(91) 3323-0300"
-      ],
+      "telefones": ["(91) 3323-0300"],
       "site": null,
       "horario": "De segunda a sexta 9h às 17h",
       "facebook": null,
@@ -640,10 +620,7 @@
         "Laboratório biomédico."
       ],
       "endereco": "Rua São Miguel, nº100, Guamá, Belém - PA",
-      "telefones": [
-        "(91) 3344-2450",
-        "(91) 3344-2480"
-      ],
+      "telefones": ["(91) 3344-2450", "(91) 3344-2480"],
       "site": "http://www.belem.pa.gov.br/app/c2ms/v/?id=12&amp;conteudo=4672",
       "horario": "24 horas (urgência e emergência)",
       "facebook": null,
@@ -809,9 +786,7 @@
       "descricao": "Oferece atendimento ambulatorial e de urgência e emergência.",
       "servicos": null,
       "endereco": "Rua do Fio S/N, entre Passagem São João e São Pedro, Telégrafo, Belém - PA",
-      "telefones": [
-        "(91) 3244-0471"
-      ],
+      "telefones": ["(91) 3244-0471"],
       "site": null,
       "horario": "24 horas (urgência e emergência) Ambulatorial: de segunda a sexta das 7h às 19h",
       "facebook": null,
@@ -827,10 +802,7 @@
       "descricao": "Oferece atendimento ambulatorial e de urgência e emergência.",
       "servicos": null,
       "endereco": "Rua São Clemente, S/N, ao lado do Conj. Cordeiro de Farias, Tapanã, Belém - PA",
-      "telefones": [
-        "(91) 3278-3331",
-        "(91) 3278-1002"
-      ],
+      "telefones": ["(91) 3278-3331", "(91) 3278-1002"],
       "site": null,
       "horario": "24 horas (urgência e emergência) Ambulatorial: de segunda a sexta das 8h às 18h",
       "facebook": null,
@@ -846,9 +818,7 @@
       "descricao": "Oferece atendimento ambulatorial.",
       "servicos": null,
       "endereco": "Avenida Norte S/N, na rua da Estação do Marex, Val de Cães, Belém - PA",
-      "telefones": [
-        "(91) 3257-6588"
-      ],
+      "telefones": ["(91) 3257-6588"],
       "site": null,
       "horario": "Ambulatorial: de segunda a sexta, 7h às 18h",
       "facebook": null,
@@ -864,9 +834,7 @@
       "descricao": "Oferece atendimento ambulatorial.",
       "servicos": null,
       "endereco": "Rua Manoel Barata, nº840, entre Itaboraí e São Roque, próximo ao Colégio Madre Celeste, Centro, Icoaraci, Belém - PA",
-      "telefones": [
-        "(91) 3227-1550"
-      ],
+      "telefones": ["(91) 3227-1550"],
       "site": null,
       "horario": "Ambulatorial: de segunda a sexta, 8h às 18h",
       "facebook": null,
@@ -1014,9 +982,7 @@
         "Cardiologia e Nefrologia"
       ],
       "endereco": "Trav. Alferes Costa, S/N, Pedreira, Belém - PA",
-      "telefones": [
-        "(91) 4005-2500"
-      ],
+      "telefones": ["(91) 4005-2500"],
       "site": null,
       "horario": null,
       "facebook": null,
@@ -1036,9 +1002,7 @@
         "transplantes e neurocirurgia"
       ],
       "endereco": "Av. Magalhães Barata, nº992, São Braz, Belém - PA",
-      "telefones": [
-        "(91) 3342-1100"
-      ],
+      "telefones": ["(91) 3342-1100"],
       "site": null,
       "horario": null,
       "facebook": null,
@@ -1063,9 +1027,7 @@
         "Cirurgia Pediátrica e Radiologia."
       ],
       "endereco": "Rua Oliveira Belo, nº395, Umarizal, Belém - PA",
-      "telefones": [
-        "(91) 4009-2200"
-      ],
+      "telefones": ["(91) 4009-2200"],
       "site": null,
       "horario": null,
       "facebook": null,
@@ -1102,9 +1064,7 @@
         "Oferece atendimento para clinica médica e clinica cirúrgica"
       ],
       "endereco": "Rua Cônego Jerônimo Pimentel, nº543, Belém - PA",
-      "telefones": [
-        "(91) 3241-1811"
-      ],
+      "telefones": ["(91) 3241-1811"],
       "site": null,
       "horario": null,
       "facebook": null,
@@ -1122,9 +1082,7 @@
         "Realiza atendimentos em casos de emergência psiquiátrica. "
       ],
       "endereco": "Tv. Alferes Costa, S/N - Pedreira, Belém - PA",
-      "telefones": [
-        "(91) 4005-2595"
-      ],
+      "telefones": ["(91) 4005-2595"],
       "site": null,
       "horario": "24 horas",
       "facebook": null,
@@ -1152,9 +1110,7 @@
         "Prestação de serviços de apoio da residência terapêutica."
       ],
       "endereco": "Pass. Dalva, nº377, próximo a Av. Tavares Bastos, Belém - PA",
-      "telefones": [
-        "(91) 3231-2599"
-      ],
+      "telefones": ["(91) 3231-2599"],
       "site": null,
       "horario": "Segunda a sexta das 8h às 18h",
       "facebook": null,
@@ -1172,9 +1128,7 @@
         "Acolhe pacientes do Centro Integrado de Assistência Psiquiátrica do Pará (Ciaspa)"
       ],
       "endereco": "Conj. Cohab Gleba I, Passagem P-2, nº50, Próximo a Rua da Marinha, Belém - PA",
-      "telefones": [
-        "(91) 3223-1624"
-      ],
+      "telefones": ["(91) 3223-1624"],
       "site": null,
       "horario": "Segunda a sexta das 8h às 18h",
       "facebook": null,
@@ -1200,9 +1154,7 @@
         "Assistência farmacêutica."
       ],
       "endereco": "Rua Monsenhor Azevedo, nº 237, Belém - PA",
-      "telefones": [
-        "(91) 3227-9137"
-      ],
+      "telefones": ["(91) 3227-9137"],
       "site": null,
       "horario": "Segunda a sexta das 8h às 18h",
       "facebook": null,
@@ -1228,9 +1180,7 @@
         "Assistência farmacêutica."
       ],
       "endereco": "Av. Gov. José Malcher, nº1457, Nazaré, Belém - PA",
-      "telefones": [
-        " (91) 3276-0890"
-      ],
+      "telefones": [" (91) 3276-0890"],
       "site": null,
       "horario": "Segunda a sexta das 8h às 18h",
       "facebook": null,
@@ -1263,9 +1213,7 @@
         "Nutricionistas."
       ],
       "endereco": "Conj. Cohab Gleba 1, WE 2, nº451, ao lado da Seccional da Marambaia, Belém - PA",
-      "telefones": [
-        "(91) 3231-4443"
-      ],
+      "telefones": ["(91) 3231-4443"],
       "site": null,
       "horario": "24 horas",
       "facebook": null,
@@ -1291,10 +1239,7 @@
         "Assistência farmacêutica."
       ],
       "endereco": "Rua dos Tamoios, nº1840, Belém - PA",
-      "telefones": [
-        "(91) 3269-6732",
-        "(91) 3249-0504"
-      ],
+      "telefones": ["(91) 3269-6732", "(91) 3249-0504"],
       "site": null,
       "horario": "24 horas",
       "facebook": null,
@@ -1320,10 +1265,7 @@
         "Assistência farmacêutica."
       ],
       "endereco": "Trav. Mauriti, nº2179, entre Av. Duque de Caxias e Trav. Visconde de Inhaúma, Belém - PA",
-      "telefones": [
-        "(91) 3276-3448",
-        "(91) 3261-9010"
-      ],
+      "telefones": ["(91) 3276-3448", "(91) 3261-9010"],
       "site": null,
       "horario": "24 horas",
       "facebook": null,
@@ -1349,9 +1291,7 @@
         "Assistência farmacêutica."
       ],
       "endereco": "Rua Dom Romualdo de Seixas, nº1854, Belém - PA",
-      "telefones": [
-        "(91) 3229-9678"
-      ],
+      "telefones": ["(91) 3229-9678"],
       "site": null,
       "horario": "24 horas",
       "facebook": null,
@@ -1377,9 +1317,7 @@
         "Assistência farmacêutica."
       ],
       "endereco": "Avenida 15 de Novembro, nº551, Belém - PA",
-      "telefones": [
-        "(91) 3771-1362"
-      ],
+      "telefones": ["(91) 3771-1362"],
       "site": null,
       "horario": "Segunda a sexta das 8h às 18h",
       "facebook": null,
@@ -1669,9 +1607,7 @@
       "descricao": "Oferece atendimento ambulatorial.",
       "servicos": null,
       "endereco": "Conj. Maguari, Alameda 15, S/N, passando o centro comercial, Coqueiro, Ananindeua - PA",
-      "telefones": [
-        "(91) 3248-3233"
-      ],
+      "telefones": ["(91) 3248-3233"],
       "site": null,
       "horario": "Ambulatorial: de segunda a sexta, 7h às 18h",
       "facebook": null,
@@ -1773,14 +1709,9 @@
       "cidade": "Ananindeua",
       "nome": "Hospital Público Estadual Galileu",
       "descricao": "Referência na Rede Estadual do Pará em atendimentos de traumas ortopédicos",
-      "servicos": [
-        "Atendimento Ambulatorial",
-        "Internação"
-      ],
+      "servicos": ["Atendimento Ambulatorial", "Internação"],
       "endereco": "Rodovia Mário Covas, nº2553, Una, Belém - PA",
-      "telefones": [
-        "(91) 3214-1050"
-      ],
+      "telefones": ["(91) 3214-1050"],
       "site": null,
       "horario": null,
       "facebook": null,
@@ -1813,9 +1744,7 @@
         "Infectologia "
       ],
       "endereco": "Rodovia BR 316, Km 03, Ananindeua - PA",
-      "telefones": [
-        "(91) 3073-3700"
-      ],
+      "telefones": ["(91) 3073-3700"],
       "site": null,
       "horario": null,
       "facebook": null,
@@ -1841,9 +1770,7 @@
         "Assistência farmacêutica."
       ],
       "endereco": "Estrada do Maguari nº2000, Ananindeua - PA",
-      "telefones": [
-        "(91) 98265-7139"
-      ],
+      "telefones": ["(91) 98265-7139"],
       "site": null,
       "horario": "Segunda a sexta das 8h às 18h",
       "facebook": null,

@@ -280,9 +280,7 @@
       "descricao": "Oferece atendimento ambulatorial.",
       "servicos": null,
       "endereco": "Conj. Maguari, Alameda 15, S/N, passando o centro comercial, Coqueiro, Ananindeua - PA",
-      "telefones": [
-        "(91) 3248-3233"
-      ],
+      "telefones": ["(91) 3248-3233"],
       "site": null,
       "horario": "Ambulatorial: de segunda a sexta, 7h às 18h",
       "facebook": null,
@@ -384,14 +382,9 @@
       "cidade": "Ananindeua",
       "nome": "Hospital Público Estadual Galileu",
       "descricao": "Referência na Rede Estadual do Pará em atendimentos de traumas ortopédicos",
-      "servicos": [
-        "Atendimento Ambulatorial",
-        "Internação"
-      ],
+      "servicos": ["Atendimento Ambulatorial", "Internação"],
       "endereco": "Rodovia Mário Covas, nº2553, Una, Belém - PA",
-      "telefones": [
-        "(91) 3214-1050"
-      ],
+      "telefones": ["(91) 3214-1050"],
       "site": null,
       "horario": null,
       "facebook": null,
@@ -424,9 +417,7 @@
         "Infectologia "
       ],
       "endereco": "Rodovia BR 316, Km 03, Ananindeua - PA",
-      "telefones": [
-        "(91) 3073-3700"
-      ],
+      "telefones": ["(91) 3073-3700"],
       "site": null,
       "horario": null,
       "facebook": null,
@@ -452,9 +443,7 @@
         "Assistência farmacêutica."
       ],
       "endereco": "Estrada do Maguari nº2000, Ananindeua - PA",
-      "telefones": [
-        "(91) 98265-7139"
-      ],
+      "telefones": ["(91) 98265-7139"],
       "site": null,
       "horario": "Segunda a sexta das 8h às 18h",
       "facebook": null,
