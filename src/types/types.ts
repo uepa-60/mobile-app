@@ -1,29 +1,31 @@
-type Departamento = {
-  nome: string
-  servicos: string[]
+type Department = {
+  name: string
+  services: string[]
 }
 
-type Coordenadas = {
+type Coordinates = {
   latitude: number
   longitude: number
 }
 
-export type BaseObject = {
-  cidade: string
-  nome: string
-  descricao: string
-  endereco: string
+export type WithDepartments = {
+  city: string
+  name: string
+  description: string
+  address: string
   site?: string
   facebook?: string
   instagram?: string
-  telefones?: string[]
-  departamentos?: Departamento[]
-  coordenadas: Coordenadas
-  servicos?: string[]
-  horario?: string
+  telephones?: string[]
+  departments?: Department[]
+  coordinates: Coordinates
+  services?: string[]
+  time?: string
 }
 
+export type ServiceDetails = Omit<WithDepartments, 'departments'>
+
 export type Root = {
-  social: BaseObject[]
-  saude: BaseObject[]
+  social: WithDepartments[]
+  health: WithDepartments[]
 }

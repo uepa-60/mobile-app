@@ -5,33 +5,22 @@ import { DepartmentsScreen } from '../screens/DepartmentsScreen'
 import { CitySelectionScreen } from '../screens/CitySelectionScreen'
 import { ServiceSelectionScreen } from '../screens/ServiceSelectionScreen'
 import { ListingScreen } from '../screens/ListingScreen'
-
-type A = {
-  nome: string
-  endereco: string
-  descricao: string
-  horario: string
-  site: string
-  servicos: string[]
-  telefones: string[]
-  coordenadas: {
-    latitude: number
-    longitude: number
-  }
-}
+import { WithDepartments, ServiceDetails } from '../types/types'
 
 export type RootStackParamList = {
   CitySelectionScreen: undefined
-  ListingScreen: {
-    city: string
-    type: 'health' | 'social'
-  }
+  ListingScreen:
+    | {
+        city: string
+        type: 'health' | 'social'
+      }
+    | WithDepartments
   ServiceSelectionScreen: {
     city: string
   }
 
-  ServiceDetailsScreen: A
-  DepartmentsScreen: any
+  ServiceDetailsScreen: ServiceDetails
+  DepartmentsScreen: WithDepartments
 }
 
 const Stack = createNativeStackNavigator<RootStackParamList>()
@@ -39,26 +28,26 @@ const Stack = createNativeStackNavigator<RootStackParamList>()
 export const MainRoute = () => {
   return (
     <Stack.Navigator
-      initialRouteName="CitySelectionScreen"
+      initialRouteName='CitySelectionScreen'
       screenOptions={{
         headerShown: false
       }}
     >
       <Stack.Screen
-        name="CitySelectionScreen"
+        name='CitySelectionScreen'
         component={CitySelectionScreen}
       />
-      <Stack.Screen name="ListingScreen" component={ListingScreen} />
+      <Stack.Screen name='ListingScreen' component={ListingScreen} />
       <Stack.Screen
-        name="ServiceSelectionScreen"
+        name='ServiceSelectionScreen'
         component={ServiceSelectionScreen}
       />
 
       <Stack.Screen
-        name="ServiceDetailsScreen"
+        name='ServiceDetailsScreen'
         component={ServiceDetailsScreen}
       />
-      <Stack.Screen name="DepartmentsScreen" component={DepartmentsScreen} />
+      <Stack.Screen name='DepartmentsScreen' component={DepartmentsScreen} />
     </Stack.Navigator>
   )
 }
