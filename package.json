@@ -8,7 +8,8 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "eject": "expo eject",
-    "lint": "eslint --ignore-path .eslintignore --ext .js,.ts,.jsx,.tsx ."
+    "lint": "eslint --ignore-path .eslintignore --ext .js,.ts,.jsx,.tsx .",
+    "fortmat": "prettier --write ."
   },
   "dependencies": {
     "@expo-google-fonts/josefin-sans": "^0.2.2",
