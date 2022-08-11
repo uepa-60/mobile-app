@@ -8,7 +8,7 @@ export const Divider = (): JSX.Element => {
         backgroundColor: '#fff',
         height: 1,
         marginTop: 10,
-        width: '100%',
+        width: '100%'
       }}
     />
   )

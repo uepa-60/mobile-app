@@ -6,34 +6,15 @@ export const ServicesList = ({ servicos }) => {
 
   return (
     <View>
-      {
-        servicos.slice(0, show ? servicos.length : 3).map((servico, index) => {
-          return (
-            <Fragment
-              key={index}
-            >
-              {
-                index === 3 && show &&
-                <Pressable
-                  onPress={() => setShow(!show)}
-                  style={{
-                    borderRadius: 4,
-                    backgroundColor: '#58d379',
-                    padding: 15,
-                    marginTop: 5,
-                    fontSize: 15,
-                    fontWeight: 'bold',
-                    color: 'white'
-                  }}
-                >
-                  <Text style={{ textAlign: 'right', color: 'white' }}>Minimizar serviços</Text>
-                </Pressable>
-              }
-
-              <Text
+      {servicos.slice(0, show ? servicos.length : 3).map((servico, index) => {
+        return (
+          <Fragment key={index}>
+            {index === 3 && show && (
+              <Pressable
+                onPress={() => setShow(!show)}
                 style={{
                   borderRadius: 4,
-                  backgroundColor: '#34A853',
+                  backgroundColor: '#58d379',
                   padding: 15,
                   marginTop: 5,
                   fontSize: 15,
@@ -41,15 +22,29 @@ export const ServicesList = ({ servicos }) => {
                   color: 'white'
                 }}
               >
-                {servico}
-              </Text>
+                <Text style={{ textAlign: 'right', color: 'white' }}>
+                  Minimizar serviços
+                </Text>
+              </Pressable>
+            )}
 
-            </Fragment>
-          )
-        })
-      }
-      {
-        servicos.length - 1 > 3 && show === false &&
+            <Text
+              style={{
+                borderRadius: 4,
+                backgroundColor: '#34A853',
+                padding: 15,
+                marginTop: 5,
+                fontSize: 15,
+                fontWeight: 'bold',
+                color: 'white'
+              }}
+            >
+              {servico}
+            </Text>
+          </Fragment>
+        )
+      })}
+      {servicos.length - 1 > 3 && show === false && (
         <Pressable
           onPress={() => setShow(!show)}
           style={{
@@ -62,10 +57,11 @@ export const ServicesList = ({ servicos }) => {
             color: 'white'
           }}
         >
-          <Text style={{ textAlign: 'right', color: 'white' }}>Mostrar todos os serviços</Text>
+          <Text style={{ textAlign: 'right', color: 'white' }}>
+            Mostrar todos os serviços
+          </Text>
         </Pressable>
-      }
-
+      )}
     </View>
   )
 }

@@ -2,7 +2,7 @@ import React from 'react'
 import { Text, Pressable } from 'react-native'
 
 type Props = {
-  title: string,
+  title: string
   onPress: () => void
 }
 
@@ -18,12 +18,12 @@ export const Card = ({ title, onPress }: Props) => {
         shadowColor: '#000',
         shadowOffset: {
           width: 0,
-          height: 3,
+          height: 3
         },
         shadowOpacity: 0.27,
         shadowRadius: 4.65,
 
-        elevation: 6,
+        elevation: 6
       }}
       onPress={onPress}
     >

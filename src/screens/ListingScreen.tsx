@@ -13,12 +13,14 @@ type Props = NativeStackScreenProps<RootStackParamList, 'ListingScreen'>
 export const ListingScreen = ({ route }: Props) => {
   const navigation = useNavigation<Props['navigation']>()
 
-  const cityData = "city" in route.params ? mappedLocalData[route.params.city] : null
-  const data = "type" in route.params
-    ? route.params.type === 'social'
-      ? cityData['social']
-      : cityData['saude']
-    : null
+  const cityData =
+    'city' in route.params ? mappedLocalData[route.params.city] : null
+  const data =
+    'type' in route.params
+      ? route.params.type === 'social'
+        ? cityData.social
+        : cityData.saude
+      : null
 
   useEffect(() => {
     if (!data) {
@@ -34,11 +36,15 @@ export const ListingScreen = ({ route }: Props) => {
       }}
       showsVerticalScrollIndicator={false}
     >
-
       <BackButton />
 
       <Title
-        title={'Serviços ' + ("type" in route.params && route.params.type === 'health' ? 'de saúde' : 'sociais')}
+        title={
+          'Serviços ' +
+          ('type' in route.params && route.params.type === 'health'
+            ? 'de saúde'
+            : 'sociais')
+        }
       />
 
       <Divider />
@@ -49,9 +55,8 @@ export const ListingScreen = ({ route }: Props) => {
           marginBottom: 30
         }}
       >
-
-        {
-          data && data.map((localidade, index) => {
+        {data &&
+          data.map((localidade, index) => {
             return (
               <Pressable
                 key={index}
@@ -59,15 +64,15 @@ export const ListingScreen = ({ route }: Props) => {
                   localidade.departamentos
                     ? navigation.navigate('ListingScreen', localidade)
                     : navigation.navigate('ServiceDetailsScreen', {
-                      descricao: localidade.descricao,
-                      endereco: localidade.endereco,
-                      horario: localidade.horario,
-                      nome: localidade.nome,
-                      servicos: localidade.servicos,
-                      site: localidade.site,
-                      coordenadas: localidade.coordenadas,
-                      telefones: localidade.telefones
-                    })
+                        descricao: localidade.descricao,
+                        endereco: localidade.endereco,
+                        horario: localidade.horario,
+                        nome: localidade.nome,
+                        servicos: localidade.servicos,
+                        site: localidade.site,
+                        coordenadas: localidade.coordenadas,
+                        telefones: localidade.telefones
+                      })
                 }}
               >
                 <View
@@ -80,12 +85,12 @@ export const ListingScreen = ({ route }: Props) => {
                     shadowColor: '#000',
                     shadowOffset: {
                       width: 0,
-                      height: 3,
+                      height: 3
                     },
                     shadowOpacity: 0.27,
                     shadowRadius: 4.65,
 
-                    elevation: 6,
+                    elevation: 6
                   }}
                 >
                   <Text
@@ -95,15 +100,14 @@ export const ListingScreen = ({ route }: Props) => {
                       fontFamily: 'RegularFont',
                       color: '#34A853'
                     }}
-                  >{localidade.nome}</Text>
+                  >
+                    {localidade.nome}
+                  </Text>
                 </View>
               </Pressable>
             )
-          })
-        }
-
+          })}
       </View>
-
     </ScrollView>
   )
 }

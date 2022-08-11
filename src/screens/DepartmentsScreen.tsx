@@ -9,7 +9,7 @@ import { View, FlatList, Text, Pressable } from 'react-native'
 
 type Props = NativeStackScreenProps<RootStackParamList, 'DepartmentsScreen'>
 
-export const DepartmentsScreen = ({ route }) => {
+export const DepartmentsScreen = ({ route }: Props) => {
   const navigation = useNavigation<Props['navigation']>()
 
   const informacoesPai = {
@@ -17,7 +17,7 @@ export const DepartmentsScreen = ({ route }) => {
     endereco: route.params.endereco,
     telefones: route.params.telefones,
     coordenadas: route.params.coordenadas,
-    horario: route.params.horario,
+    horario: route.params.horario
   }
 
   return (
@@ -26,14 +26,11 @@ export const DepartmentsScreen = ({ route }) => {
         flex: 1,
         padding: 15
       }}
-    // showsVerticalScrollIndicator={false}
+      // showsVerticalScrollIndicator={false}
     >
-
       <BackButton />
 
-      <Title
-        title={route.params.nome}
-      />
+      <Title title={route.params.nome} />
 
       <Divider />
 
@@ -47,7 +44,12 @@ export const DepartmentsScreen = ({ route }) => {
         renderItem={({ item }) => {
           return (
             <Pressable
-              onPress={() => navigation.navigate('ServiceDetailsScreen', { ...informacoesPai, ...item })}
+              onPress={() =>
+                navigation.navigate('ServiceDetailsScreen', {
+                  ...informacoesPai,
+                  ...item
+                })
+              }
             >
               <View
                 style={{
@@ -59,12 +61,12 @@ export const DepartmentsScreen = ({ route }) => {
                   shadowColor: '#000',
                   shadowOffset: {
                     width: 0,
-                    height: 3,
+                    height: 3
                   },
                   shadowOpacity: 0.27,
                   shadowRadius: 4.65,
 
-                  elevation: 6,
+                  elevation: 6
                 }}
               >
                 <Text
@@ -82,6 +84,6 @@ export const DepartmentsScreen = ({ route }) => {
           )
         }}
       />
-    </View >
+    </View>
   )
 }

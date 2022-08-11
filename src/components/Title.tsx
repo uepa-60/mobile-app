@@ -2,7 +2,7 @@ import React from 'react'
 import { StyleProp, Text, TextStyle } from 'react-native'
 
 type Props = {
-  title: string,
+  title: string
   style?: Partial<StyleProp<TextStyle>>
 }
 
