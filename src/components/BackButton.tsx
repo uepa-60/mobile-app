@@ -23,15 +23,15 @@ export const BackButton = (): JSX.Element => {
           shadowColor: '#000',
           shadowOffset: {
             width: 0,
-            height: 3,
+            height: 3
           },
           shadowOpacity: 0.27,
           shadowRadius: 4.65,
 
-          elevation: 6,
+          elevation: 6
         }}
       >
-        <Ionicons name='arrow-back' size={24} color='#34A853' />
+        <Ionicons name="arrow-back" size={24} color="#34A853" />
       </View>
     </Pressable>
   )

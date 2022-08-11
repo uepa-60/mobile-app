@@ -1,10 +1,10 @@
-import { Root } from "../types/types";
+import { Root } from '../types/types'
 
 type LocalData = {
-  [key: string]: Root;
+  [key: string]: Root
 }
 
 export const mappedLocalData: LocalData = {
   belem: require('../../belem.json'),
-  ananindeua: require('../../ananindeua.json'),
+  ananindeua: require('../../ananindeua.json')
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import { View, } from 'react-native'
+import { View } from 'react-native'
 import { Card } from '../components/Card'
 import { Title } from '../components/Title'
 import { Divider } from '../components/Divider'
@@ -7,7 +7,10 @@ import { RootStackParamList } from '../routes/MainRoute'
 import { useNavigation } from '@react-navigation/native'
 import { NativeStackNavigationProp } from '@react-navigation/native-stack'
 
-type Props = NativeStackNavigationProp<RootStackParamList, 'CitySelectionScreen'>
+type Props = NativeStackNavigationProp<
+  RootStackParamList,
+  'CitySelectionScreen'
+>
 
 export const CitySelectionScreen = (): JSX.Element => {
   const navigation = useNavigation<Props>()
@@ -20,7 +23,6 @@ export const CitySelectionScreen = (): JSX.Element => {
         padding: 25
       }}
     >
-
       <Title title={'VOCÊ DESEJA VER OS SERVIÇOS DE QUAL CIDADE? '} />
       <Divider />
 
@@ -29,20 +31,22 @@ export const CitySelectionScreen = (): JSX.Element => {
           flex: 1,
           justifyContent: 'space-evenly',
           alignItems: 'center',
-          flexDirection: 'column',
+          flexDirection: 'column'
         }}
       >
         <Card
-          title='Belém'
+          title="Belém"
           onPress={() => {
             navigation.navigate('ServiceSelectionScreen', { city: 'belem' })
           }}
         />
 
         <Card
-          title='Ananindeua'
+          title="Ananindeua"
           onPress={() => {
-            navigation.navigate('ServiceSelectionScreen', { city: 'ananindeua' })
+            navigation.navigate('ServiceSelectionScreen', {
+              city: 'ananindeua'
+            })
           }}
         />
       </View>

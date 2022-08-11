@@ -15,7 +15,7 @@ type A = {
   servicos: string[]
   telefones: string[]
   coordenadas: {
-    latitude: number,
+    latitude: number
     longitude: number
   }
 }
@@ -39,17 +39,26 @@ const Stack = createNativeStackNavigator<RootStackParamList>()
 export const MainRoute = () => {
   return (
     <Stack.Navigator
-      initialRouteName='CitySelectionScreen'
+      initialRouteName="CitySelectionScreen"
       screenOptions={{
         headerShown: false
       }}
     >
-      <Stack.Screen name='CitySelectionScreen' component={CitySelectionScreen} />
-      <Stack.Screen name='ListingScreen' component={ListingScreen} />
-      <Stack.Screen name='ServiceSelectionScreen' component={ServiceSelectionScreen} />
+      <Stack.Screen
+        name="CitySelectionScreen"
+        component={CitySelectionScreen}
+      />
+      <Stack.Screen name="ListingScreen" component={ListingScreen} />
+      <Stack.Screen
+        name="ServiceSelectionScreen"
+        component={ServiceSelectionScreen}
+      />
 
-      <Stack.Screen name='ServiceDetailsScreen' component={ServiceDetailsScreen} />
-      <Stack.Screen name='DepartmentsScreen' component={DepartmentsScreen} />
+      <Stack.Screen
+        name="ServiceDetailsScreen"
+        component={ServiceDetailsScreen}
+      />
+      <Stack.Screen name="DepartmentsScreen" component={DepartmentsScreen} />
     </Stack.Navigator>
   )
 }

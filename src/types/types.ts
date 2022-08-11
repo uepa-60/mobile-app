@@ -1,6 +1,11 @@
-export type Root = {
-  social: BaseObject[]
-  saude: BaseObject[]
+type Departamento = {
+  nome: string
+  servicos: string[]
+}
+
+type Coordenadas = {
+  latitude: number
+  longitude: number
 }
 
 export type BaseObject = {
@@ -18,12 +23,7 @@ export type BaseObject = {
   horario?: string
 }
 
-type Departamento = {
-  nome: string
-  servicos: string[]
-}
-
-type Coordenadas = {
-  latitude: number
-  longitude: number
+export type Root = {
+  social: BaseObject[]
+  saude: BaseObject[]
 }
