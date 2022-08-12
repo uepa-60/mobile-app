@@ -12,30 +12,21 @@ type Props = NativeStackScreenProps<RootStackParamList, 'DepartmentsScreen'>
 export const DepartmentsScreen = ({ route }: Props) => {
   const navigation = useNavigation<Props['navigation']>()
 
-  const informacoesPai = {
-    descricao: route.params.descricao,
-    endereco: route.params.endereco,
-    telefones: route.params.telefones,
-    coordenadas: route.params.coordenadas,
-    horario: route.params.horario
-  }
-
   return (
     <View
       style={{
         flex: 1,
         padding: 15
       }}
-      // showsVerticalScrollIndicator={false}
     >
       <BackButton />
 
-      <Title title={route.params.nome} />
+      <Title title={route?.params?.name || 'zap'} />
 
       <Divider />
 
       <FlatList
-        data={route.params.departamentos}
+        data={route?.params?.departments}
         style={{
           marginTop: 20
         }}
@@ -46,13 +37,14 @@ export const DepartmentsScreen = ({ route }: Props) => {
             <Pressable
               onPress={() =>
                 navigation.navigate('ServiceDetailsScreen', {
-                  ...informacoesPai,
+                  ...route.params,
                   ...item
                 })
               }
             >
               <View
                 style={{
+                  padding: 10,
                   paddingVertical: 44,
                   width: '100%',
                   marginBottom: 12,
@@ -77,7 +69,7 @@ export const DepartmentsScreen = ({ route }: Props) => {
                     color: '#34A853'
                   }}
                 >
-                  {item.nome}
+                  {item.name}
                 </Text>
               </View>
             </Pressable>

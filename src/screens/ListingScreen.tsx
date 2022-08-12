@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { Title } from '../components/Title'
 import { Divider } from '../components/Divider'
 import { BackButton } from '../components/BackButton'
@@ -15,24 +15,13 @@ export const ListingScreen = ({ route }: Props) => {
 
   const cityData =
     'city' in route.params ? mappedLocalData[route.params.city] : null
-  const data =
-    'type' in route.params
-      ? route.params.type === 'social'
-        ? cityData.social
-        : cityData.saude
-      : null
-
-  useEffect(() => {
-    if (!data) {
-      navigation.navigate('DepartmentsScreen', route.params)
-    }
-  }, [data])
+  const data = 'type' in route.params ? cityData[route.params.type] : null
 
   return (
     <ScrollView
       style={{
         flex: 1,
-        padding: 25
+        padding: 15
       }}
       showsVerticalScrollIndicator={false}
     >
@@ -61,22 +50,14 @@ export const ListingScreen = ({ route }: Props) => {
               <Pressable
                 key={index}
                 onPress={() => {
-                  localidade.departamentos
-                    ? navigation.navigate('ListingScreen', localidade)
-                    : navigation.navigate('ServiceDetailsScreen', {
-                        descricao: localidade.descricao,
-                        endereco: localidade.endereco,
-                        horario: localidade.horario,
-                        nome: localidade.nome,
-                        servicos: localidade.servicos,
-                        site: localidade.site,
-                        coordenadas: localidade.coordenadas,
-                        telefones: localidade.telefones
-                      })
+                  localidade.departments
+                    ? navigation.push('DepartmentsScreen', localidade)
+                    : navigation.navigate('ServiceDetailsScreen', localidade)
                 }}
               >
                 <View
                   style={{
+                    padding: 10,
                     paddingVertical: 44,
                     width: '100%',
                     marginBottom: 12,
@@ -101,7 +82,7 @@ export const ListingScreen = ({ route }: Props) => {
                       color: '#34A853'
                     }}
                   >
-                    {localidade.nome}
+                    {localidade.name}
                   </Text>
                 </View>
               </Pressable>
