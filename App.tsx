@@ -1,3 +1,4 @@
+/* eslint-disable camelcase */
 import React from 'react'
 import { View } from 'react-native'
 import AppLoading from 'expo-app-loading'
@@ -36,7 +37,7 @@ export default function App(): JSX.Element {
         }}
       >
         <StatusBar
-          style="light"
+          style='light'
           translucent={false}
           backgroundColor={'#34A853'}
         />

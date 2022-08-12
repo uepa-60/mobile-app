@@ -1,7 +1,11 @@
 import React, { Fragment, useState } from 'react'
 import { View, Text, Pressable } from 'react-native'
 
-export const ServicesList = ({ servicos }) => {
+type Props = {
+  servicos: string[]
+}
+
+export const ServicesList = ({ servicos }: Props) => {
   const [show, setShow] = useState(false)
 
   return (
@@ -16,10 +20,7 @@ export const ServicesList = ({ servicos }) => {
                   borderRadius: 4,
                   backgroundColor: '#58d379',
                   padding: 15,
-                  marginTop: 5,
-                  fontSize: 15,
-                  fontWeight: 'bold',
-                  color: 'white'
+                  marginTop: 5
                 }}
               >
                 <Text style={{ textAlign: 'right', color: 'white' }}>
@@ -51,10 +52,7 @@ export const ServicesList = ({ servicos }) => {
             borderRadius: 4,
             backgroundColor: '#58d379',
             padding: 15,
-            marginTop: 5,
-            fontSize: 15,
-            fontWeight: 'bold',
-            color: 'white'
+            marginTop: 5
           }}
         >
           <Text style={{ textAlign: 'right', color: 'white' }}>

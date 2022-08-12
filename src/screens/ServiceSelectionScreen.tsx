@@ -44,7 +44,7 @@ export const ServiceSelectionScreen = ({ route: { params } }: Props) => {
               alignItems: 'flex-start'
             }}
           >
-            <FontAwesome5 name="hand-holding-heart" size={35} color="white" />
+            <FontAwesome5 name='hand-holding-heart' size={35} color='white' />
           </View>
 
           <View
@@ -54,7 +54,7 @@ export const ServiceSelectionScreen = ({ route: { params } }: Props) => {
             }}
           >
             <Card
-              title="Serviços de Saúde"
+              title='Serviços de Saúde'
               onPress={() => {
                 navigation.navigate('ListingScreen', {
                   ...params,
@@ -77,7 +77,7 @@ export const ServiceSelectionScreen = ({ route: { params } }: Props) => {
               alignItems: 'flex-start'
             }}
           >
-            <Ionicons name="ios-people" size={35} color="white" />
+            <Ionicons name='ios-people' size={35} color='white' />
           </View>
           <View
             style={{
@@ -86,7 +86,7 @@ export const ServiceSelectionScreen = ({ route: { params } }: Props) => {
             }}
           >
             <Card
-              title="Serviços Sociais"
+              title='Serviços Sociais'
               onPress={() => {
                 navigation.navigate('ListingScreen', {
                   ...params,

@@ -3,7 +3,6 @@ import { Title } from '../components/Title'
 import { View, ScrollView } from 'react-native'
 import { Divider } from '../components/Divider'
 import { Subtitle } from '../components/Subtitle'
-// import MapView, { Marker } from 'react-native-maps';
 import { BackButton } from '../components/BackButton'
 import { RootStackParamList } from '../routes/MainRoute'
 import { ServicesList } from '../components/ServicesList'
@@ -22,7 +21,7 @@ export const ServiceDetailsScreen = ({ route: { params } }: Props) => {
     >
       <BackButton />
 
-      <Title title={params.nome} />
+      <Title title={params.name} />
 
       <Divider />
 
@@ -44,38 +43,41 @@ export const ServiceDetailsScreen = ({ route: { params } }: Props) => {
           elevation: 6
         }}
       >
-        <Subtitle subtitle={'Endereço'} content={params.endereco} />
+        <Subtitle subtitle={'Endereço'} content={params.address} />
 
-        <Subtitle subtitle={'Descrição'} content={params.descricao} />
+        <Subtitle subtitle={'Descrição'} content={params.description} />
 
-        {params.servicos && (
+        {params.services && (
           <>
             <Subtitle subtitle={'Serviços disponíveis'} />
-            <ServicesList servicos={params.servicos} />
+            <ServicesList servicos={params.services} />
           </>
         )}
 
-        {params.telefones && (
+        {params.telephones && (
           <Subtitle
             subtitle={'Telefone'}
             style={{
               marginTop: 10
             }}
-            content={params.telefones.reduce(
-              (telefonesAnteriores, telefone, i) => {
-                return (
-                  telefonesAnteriores +
-                  telefone +
-                  (i === params.telefones.length - 1 ? '' : ', ')
-                )
-              },
-              ''
-            )}
+            content={params.telephones.reduce((telefonesAnteriores, tel, i) => {
+              return (
+                telefonesAnteriores +
+                tel +
+                (i === params.telephones.length - 1 ? '' : ', ')
+              )
+            }, '')}
           />
         )}
-        <Subtitle subtitle={'Horário'} content={params.horario} />
+        <Subtitle
+          subtitle={'Horário'}
+          content={params.time}
+          style={{
+            marginTop: 10
+          }}
+        />
         {params.site && (
-          <Subtitle subtitle={'Site'} type="link" content={params.site} />
+          <Subtitle subtitle={'Site'} type='link' content={params.site} />
         )}
       </View>
     </ScrollView>

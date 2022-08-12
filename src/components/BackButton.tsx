@@ -31,7 +31,7 @@ export const BackButton = (): JSX.Element => {
           elevation: 6
         }}
       >
-        <Ionicons name="arrow-back" size={24} color="#34A853" />
+        <Ionicons name='arrow-back' size={24} color='#34A853' />
       </View>
     </Pressable>
   )

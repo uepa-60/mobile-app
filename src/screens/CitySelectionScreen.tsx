@@ -20,7 +20,7 @@ export const CitySelectionScreen = (): JSX.Element => {
       style={{
         flex: 1,
         justifyContent: 'space-between',
-        padding: 25
+        padding: 15
       }}
     >
       <Title title={'VOCÊ DESEJA VER OS SERVIÇOS DE QUAL CIDADE? '} />
@@ -35,14 +35,14 @@ export const CitySelectionScreen = (): JSX.Element => {
         }}
       >
         <Card
-          title="Belém"
+          title='Belém'
           onPress={() => {
             navigation.navigate('ServiceSelectionScreen', { city: 'belem' })
           }}
         />
 
         <Card
-          title="Ananindeua"
+          title='Ananindeua'
           onPress={() => {
             navigation.navigate('ServiceSelectionScreen', {
               city: 'ananindeua'
