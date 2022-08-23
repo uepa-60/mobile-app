@@ -1,5 +1,6 @@
 import React, { Fragment, useState } from 'react'
 import { View, Text, Pressable } from 'react-native'
+import { COLORS } from '../styles/theme'
 
 type Props = {
   servicos: string[]
@@ -18,12 +19,12 @@ export const ServicesList = ({ servicos }: Props) => {
                 onPress={() => setShow(!show)}
                 style={{
                   borderRadius: 4,
-                  backgroundColor: '#58d379',
+                  backgroundColor: COLORS.white,
                   padding: 15,
                   marginTop: 5
                 }}
               >
-                <Text style={{ textAlign: 'right', color: 'white' }}>
+                <Text style={{ textAlign: 'right', color: COLORS.primary }}>
                   Minimizar serviços
                 </Text>
               </Pressable>
@@ -32,12 +33,12 @@ export const ServicesList = ({ servicos }: Props) => {
             <Text
               style={{
                 borderRadius: 4,
-                backgroundColor: '#34A853',
+                backgroundColor: COLORS.primary,
                 padding: 15,
                 marginTop: 5,
                 fontSize: 15,
                 fontWeight: 'bold',
-                color: 'white'
+                color: COLORS.white
               }}
             >
               {servico}
@@ -50,12 +51,12 @@ export const ServicesList = ({ servicos }: Props) => {
           onPress={() => setShow(!show)}
           style={{
             borderRadius: 4,
-            backgroundColor: '#58d379',
+            backgroundColor: COLORS.white,
             padding: 15,
             marginTop: 5
           }}
         >
-          <Text style={{ textAlign: 'right', color: 'white' }}>
+          <Text style={{ textAlign: 'right', color: COLORS.primary }}>
             Mostrar todos os serviços
           </Text>
         </Pressable>

@@ -2,6 +2,7 @@ import React from 'react'
 import { Pressable, View } from 'react-native'
 import { Ionicons } from '@expo/vector-icons'
 import { useNavigation } from '@react-navigation/native'
+import { COLORS } from '../styles/theme'
 
 export const BackButton = (): JSX.Element => {
   const navigation = useNavigation()
@@ -14,7 +15,7 @@ export const BackButton = (): JSX.Element => {
     >
       <View
         style={{
-          backgroundColor: '#A0F6B5',
+          backgroundColor: COLORS.white,
           width: 35,
           height: 35,
           borderRadius: 20,
@@ -31,7 +32,7 @@ export const BackButton = (): JSX.Element => {
           elevation: 6
         }}
       >
-        <Ionicons name='arrow-back' size={24} color='#34A853' />
+        <Ionicons name='arrow-back' size={24} color={COLORS.primary2} />
       </View>
     </Pressable>
   )

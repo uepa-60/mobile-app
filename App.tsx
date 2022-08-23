@@ -10,6 +10,7 @@ import {
   useFonts,
   Roboto_400Regular
 } from '@expo-google-fonts/roboto'
+import { COLORS } from './src/styles/theme'
 
 export default function App(): JSX.Element {
   const [fontsLoaded] = useFonts({
@@ -27,7 +28,7 @@ export default function App(): JSX.Element {
         flex: 1,
         flexDirection: 'row',
         justifyContent: 'center',
-        backgroundColor: '#34A853'
+        backgroundColor: COLORS.primary
       }}
     >
       <View
@@ -39,7 +40,7 @@ export default function App(): JSX.Element {
         <StatusBar
           style='light'
           translucent={false}
-          backgroundColor={'#34A853'}
+          backgroundColor={COLORS.primary}
         />
         <NavigationContainer
           theme={{

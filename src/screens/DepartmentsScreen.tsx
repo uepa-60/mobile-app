@@ -66,7 +66,7 @@ export const DepartmentsScreen = ({ route }: Props) => {
                     textAlign: 'center',
                     fontSize: 25,
                     fontFamily: 'RegularFont',
-                    color: '#34A853'
+                    color: COLOR.primary
                   }}
                 >
                   {item.name}

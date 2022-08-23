@@ -1,5 +1,6 @@
 import React from 'react'
 import { Text, Pressable } from 'react-native'
+import { COLORS } from '../styles/theme'
 
 type Props = {
   title: string
@@ -32,7 +33,7 @@ export const Card = ({ title, onPress }: Props) => {
           textAlign: 'center',
           fontFamily: 'RegularFont',
           fontSize: 30,
-          color: '#34A853'
+          color: COLORS.primary
         }}
       >
         {title}

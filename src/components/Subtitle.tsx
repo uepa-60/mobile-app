@@ -1,5 +1,6 @@
 import React from 'react'
 import { Text, Linking, View, ViewStyle } from 'react-native'
+import { COLORS } from '../styles/theme'
 
 type Props = {
   type?: 'standard' | 'link'
@@ -20,7 +21,7 @@ export const Subtitle = ({
         style={{
           fontSize: 32,
           fontFamily: 'MediumFont',
-          color: '#34A853'
+          color: COLORS.white
         }}
       >
         {subtitle}
@@ -37,6 +38,7 @@ export const Subtitle = ({
             {
               fontFamily: 'RegularFont',
               fontSize: 20,
+              color: COLORS.white,
               marginTop: 8,
               textAlign: 'justify',
               marginBottom: 13

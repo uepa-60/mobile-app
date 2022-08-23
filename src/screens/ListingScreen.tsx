@@ -7,6 +7,7 @@ import { RootStackParamList } from '../routes/MainRoute'
 import { mappedLocalData } from '../utils/localDataMapping'
 import { ScrollView, View, Text, Pressable } from 'react-native'
 import { NativeStackScreenProps } from '@react-navigation/native-stack'
+import { COLORS } from '../styles/theme'
 
 type Props = NativeStackScreenProps<RootStackParamList, 'ListingScreen'>
 
@@ -79,7 +80,7 @@ export const ListingScreen = ({ route }: Props) => {
                       textAlign: 'center',
                       fontSize: 30,
                       fontFamily: 'RegularFont',
-                      color: '#34A853'
+                      color: COLORS.primary
                     }}
                   >
                     {localidade.name}

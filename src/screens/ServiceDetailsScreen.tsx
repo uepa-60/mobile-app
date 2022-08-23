@@ -7,6 +7,7 @@ import { BackButton } from '../components/BackButton'
 import { RootStackParamList } from '../routes/MainRoute'
 import { ServicesList } from '../components/ServicesList'
 import { NativeStackScreenProps } from '@react-navigation/native-stack'
+import { COLORS } from '../styles/theme'
 
 type Props = NativeStackScreenProps<RootStackParamList, 'ServiceDetailsScreen'>
 
@@ -31,7 +32,7 @@ export const ServiceDetailsScreen = ({ route: { params } }: Props) => {
           marginBottom: 30,
           flex: 1,
           borderRadius: 4,
-          backgroundColor: '#ecfff1',
+          backgroundColor: COLORS.primary2,
           padding: 15,
           shadowColor: '#000',
           shadowOffset: {
@@ -60,9 +61,9 @@ export const ServiceDetailsScreen = ({ route: { params } }: Props) => {
             style={{
               marginTop: 10
             }}
-            content={params.telephones.reduce((telefonesAnteriores, tel, i) => {
+            content={params.telephones.reduce((previous, tel, i) => {
               return (
-                telefonesAnteriores +
+                previous +
                 tel +
                 (i === params.telephones.length - 1 ? '' : ', ')
               )
