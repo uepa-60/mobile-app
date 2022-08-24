@@ -6,6 +6,7 @@ import { useNavigation } from '@react-navigation/native'
 import { RootStackParamList } from '../routes/MainRoute'
 import { NativeStackScreenProps } from '@react-navigation/native-stack'
 import { View, FlatList, Text, Pressable } from 'react-native'
+import { COLORS } from '../styles/theme'
 
 type Props = NativeStackScreenProps<RootStackParamList, 'DepartmentsScreen'>
 
@@ -66,7 +67,7 @@ export const DepartmentsScreen = ({ route }: Props) => {
                     textAlign: 'center',
                     fontSize: 25,
                     fontFamily: 'RegularFont',
-                    color: COLOR.primary
+                    color: COLORS.primary
                   }}
                 >
                   {item.name}
