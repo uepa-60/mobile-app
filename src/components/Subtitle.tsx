@@ -40,7 +40,7 @@ export const Subtitle = ({
               fontSize: 20,
               color: COLORS.white,
               marginTop: 8,
-              textAlign: 'justify',
+              textAlign: 'left',
               marginBottom: 13
             },
             type === 'link'
