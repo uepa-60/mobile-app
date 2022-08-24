@@ -108,7 +108,7 @@
           ]
         }
       ],
-      "description": "Unidades de integração de serviços prestados por órgãos públicos",
+      "description": "Unidades de integração de serviços prestados por órgãos públicos.",
       "address": "Av. José Bonifácio, nº2308, Belém - PA",
       "telephones": ["(91) 3217-4107"],
       "site": null,
@@ -123,7 +123,7 @@
     {
       "city": "Belém",
       "name": "Estação Cidadania - Shopping Pátio Belém",
-      "description": "Unidades de integração de serviços prestados por órgãos públicos",
+      "description": "Unidades de integração de serviços prestados por órgãos públicos.",
       "departments": [
         {
           "name": "BANPARÁ",
@@ -282,7 +282,7 @@
     {
       "city": "Belém",
       "name": "Estação Cidadania - Icoaraci",
-      "description": "Unidades de integração de serviços prestados por órgãos públicos",
+      "description": "Unidades de integração de serviços prestados por órgãos públicos.",
       "departments": [
         {
           "name": "BANPARÁ",
@@ -370,7 +370,7 @@
     {
       "city": "Belém",
       "name": "Usina da Paz - Benguí",
-      "description": "Complexo comunitário integrado ao programa TerPaz, do Governo do Estado do Pará, com mais de 80 serviços gratuitos disponibilizados pelos órgãos estaduais e entidades parceiras",
+      "description": "Complexo comunitário integrado ao programa TerPaz, do Governo do Estado do Pará, com mais de 80 serviços gratuitos disponibilizados pelos órgãos estaduais e entidades parceiras.",
       "services": [
         "Espaços para atividades esportivas",
         "Salas de audiovisual e inclusão digital",
@@ -454,7 +454,7 @@
     {
       "city": "Belém",
       "name": "Usina da Paz - Cabanagem",
-      "description": "Complexo comunitário integrado ao programa TerPaz, do Governo do Estado do Pará, com mais de 80 serviços gratuitos disponibilizados pelos órgãos estaduais e entidades parceiras",
+      "description": "Complexo comunitário integrado ao programa TerPaz, do Governo do Estado do Pará, com mais de 80 serviços gratuitos disponibilizados pelos órgãos estaduais e entidades parceiras.",
       "services": [
         "Espaços para atividades esportivas",
         "Salas de audiovisual e inclusão digital",
@@ -480,7 +480,7 @@
     {
       "city": "Belém",
       "name": "Usina da Paz - Benguí",
-      "description": "Complexo comunitário integrado ao programa TerPaz, do Governo do Estado do Pará, com mais de 80 serviços gratuitos disponibilizados pelos órgãos estaduais e entidades parceiras",
+      "description": "Complexo comunitário integrado ao programa TerPaz, do Governo do Estado do Pará, com mais de 80 serviços gratuitos disponibilizados pelos órgãos estaduais e entidades parceiras.",
       "services": [
         "Espaços para atividades esportivas",
         "Salas de audiovisual e inclusão digital",
@@ -506,7 +506,7 @@
     {
       "city": "Belém",
       "name": "UNITERCI - Universidade da Terceira Idade",
-      "description": "Programa de extensão que trabalha:",
+      "description": "Programa de extensão que trabalha:.",
       "services": [
         "Atividades de atualização social",
         "dança",
@@ -545,7 +545,7 @@
     {
       "city": "Belém",
       "name": "Usina da Paz - Benguí",
-      "description": "Complexo comunitário integrado ao programa TerPaz, do Governo do Estado do Pará, com mais de 80 serviços gratuitos disponibilizados pelos órgãos estaduais e entidades parceiras",
+      "description": "Complexo comunitário integrado ao programa TerPaz, do Governo do Estado do Pará, com mais de 80 serviços gratuitos disponibilizados pelos órgãos estaduais e entidades parceiras.",
       "services": [
         "Confira os dias e horários disponíveis no local da inscrição.",
         "Espaços para atividades esportivas",
@@ -604,7 +604,7 @@
     {
       "city": "Belém",
       "name": "Estação Cidadania - Shopping Grão Pará",
-      "description": "Unidades de integração de serviços prestados por órgãos públicos",
+      "description": "Unidades de integração de serviços prestados por órgãos públicos.",
       "services": [
         "POLÍCIA CIVIL",
         "Emissão de carteira de Identidade",
@@ -890,7 +890,7 @@
     {
       "city": "Belém",
       "name": "UPA Marambaia",
-      "description": "Unidades de Pronto Atendimento da Marambaia",
+      "description": "Unidades de Pronto Atendimento da Marambaia.",
       "services": [
         "Atendimentos de saúde de complexidade intermediária",
         "raio-X",
@@ -912,7 +912,7 @@
     {
       "city": "Belém",
       "name": "UPA Dasac",
-      "description": "Unidade de Pronto Atendimento da Sacramenta",
+      "description": "Unidade de Pronto Atendimento da Sacramenta.",
       "services": [
         "Atendimentos de saúde de complexidade intermediária",
         "raio-X",
@@ -934,7 +934,7 @@
     {
       "city": "Belém",
       "name": "UPA D'água",
-      "description": "Unidade de Pronto Atendimento da Terra Firme",
+      "description": "Unidade de Pronto Atendimento da Terra Firme.",
       "services": [
         "Atendimentos de saúde de complexidade intermediária",
         "raio-X",
@@ -956,7 +956,7 @@
     {
       "city": "Belém",
       "name": "UPA Daico",
-      "description": "Unidade de Pronto Atendimento de Icoaraci",
+      "description": "Unidade de Pronto Atendimento de Icoaraci.",
       "services": [
         "Atendimentos de saúde de complexidade intermediária",
         "raio-X",
@@ -978,7 +978,7 @@
     {
       "city": "Belém",
       "name": "Hospital das Clínicas Gaspar Viana",
-      "description": "Atendimento ambulatorial e hospitalar de média e alta complexidade",
+      "description": "Atendimento ambulatorial e hospitalar de média e alta complexidade.",
       "services": [
         "Hospital de referência em Psiquiatria",
         "Cardiologia e Nefrologia"
@@ -997,7 +997,7 @@
     {
       "city": "Belém",
       "name": "Hospital Ophir Loyola",
-      "description": "Atendimento médico-hospitalar de média e alta complexidade",
+      "description": "Atendimento médico-hospitalar de média e alta complexidade.",
       "services": [
         "Hospital de referência em oncologia",
         "nefrologia",
@@ -1017,7 +1017,7 @@
     {
       "city": "Belém",
       "name": "Hospital Santa Casa de Misericórida",
-      "description": "Serviços Ambulatoriais e de Internação",
+      "description": "Serviços Ambulatoriais e de Internação.",
       "services": [
         "Hospital referência nas áreas médicas de Pediatria",
         "Neonatologia",
@@ -1042,7 +1042,7 @@
     {
       "city": "Belém",
       "name": "Hospital Abelardo Santos",
-      "description": "Serviços de Urgência e Laboratorial",
+      "description": "Serviços de Urgência e Laboratorial.",
       "services": [
         "Atende as áreas de Obstétrica",
         "Ginecológica e Pediátrica"
@@ -1061,7 +1061,7 @@
     {
       "city": "Belém",
       "name": "Hospital Jean Bittar",
-      "description": "Atendimento Ambulatorial; Laboratorial; e Internação",
+      "description": "Atendimento Ambulatorial; Laboratorial; e Internação.",
       "services": [
         "Oferece atendimento para clinica médica e clinica cirúrgica"
       ],
@@ -1195,7 +1195,7 @@
     {
       "city": "Belém",
       "name": "CAPS III Marajoara",
-      "description": "Atende pessoas em intenso sofrimento psíquico derivados de transtornos mentais graves e persistentes",
+      "description": "Atende pessoas em intenso sofrimento psíquico derivados de transtornos mentais graves e persistentes.",
       "services": [
         "Acolhimento",
         "Atendimento clínico, assistencial e medicamentoso",
@@ -1228,7 +1228,7 @@
     {
       "city": "Belém",
       "name": "CAPS III Grão Pará",
-      "description": "Atende pessoas em intenso sofrimento psíquico derivados de transtornos mentais graves e persistentes",
+      "description": "Atende pessoas em intenso sofrimento psíquico derivados de transtornos mentais graves e persistentes.",
       "services": [
         "Acolhimento",
         "Consultas especializadas",
@@ -1254,7 +1254,7 @@
     {
       "city": "Belém",
       "name": "CAPS III Renascer",
-      "description": "Atende pessoas em intenso sofrimento psíquico derivados de transtornos mentais graves e persistentes",
+      "description": "Atende pessoas em intenso sofrimento psíquico derivados de transtornos mentais graves e persistentes.",
       "services": [
         "Acolhimento",
         "Consultas especializadas",
@@ -1280,7 +1280,7 @@
     {
       "city": "Belém",
       "name": "CAPS III Mental Adulto",
-      "description": "Atende pessoas em intenso sofrimento psíquico derivados de transtornos mentais graves e persistentes",
+      "description": "Atende pessoas em intenso sofrimento psíquico derivados de transtornos mentais graves e persistentes.",
       "services": [
         "Acolhimento",
         "Consultas especializadas",
@@ -1306,7 +1306,7 @@
     {
       "city": "Belém",
       "name": "CAPS I Mental Mosqueiro",
-      "description": "Atende pessoas em intenso sofrimento psíquico derivados de transtornos mentais graves e persistentes",
+      "description": "Atende pessoas em intenso sofrimento psíquico derivados de transtornos mentais graves e persistentes.",
       "services": [
         "Acolhimento",
         "Consultas especializadas",
