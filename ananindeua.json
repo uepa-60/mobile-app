@@ -3,7 +3,7 @@
     {
       "city": "Ananindeua",
       "name": "Estação Cidadania - Shopping Metrópole Ananindeua",
-      "description": "Unidades de integração de serviços prestados por órgãos públicos",
+      "description": "Unidades de integração de serviços prestados por órgãos públicos.",
       "departamentos": [
         {
           "name": "BANPARÁ",
@@ -157,7 +157,7 @@
     {
       "city": "Ananindeua",
       "name": "Usina da Paz - Cabanagem",
-      "description": "Complexo comunitário integrado ao programa TerPaz, do Governo do Estado do Pará, com mais de 80 serviços gratuitos disponibilizados pelos órgãos estaduais e entidades parceiras",
+      "description": "Complexo comunitário integrado ao programa TerPaz, do Governo do Estado do Pará, com mais de 80 serviços gratuitos disponibilizados pelos órgãos estaduais e entidades parceiras.",
       "services": [
         "Espaços para atividades esportivas",
         "Salas de audiovisual e inclusão digital",
@@ -166,7 +166,8 @@
         "Emissão de documentos",
         "Ações de segurança",
         "Capacitação técnica e prossionalizante",
-        "Espaço multiuso para feiras, eventos e encontros da comunidade",
+        "Espaço multiuso para feiras", 
+        "Eventos e encontros da comunidade",
         "Espaços para cursos livres e de dança, teatro, robótica, artes marciais, musicalização e biblioteca Internet sem fio gratuita disponibilizada pela empresa de Tecnologia da Informação e Comunicação do Pará (Prodepa) para os frequentadores das Usinas da Paz"
       ],
       "address": "Av. Damasco, nº37, Cabanagem, Belém - PA",
@@ -203,7 +204,7 @@
     {
       "city": "Ananindeua",
       "name": "Usina da Paz - Icuí- Guajará",
-      "description": "Complexo comunitário integrado ao programa TerPaz, do Governo do Estado do Pará, com mais de 80 serviços gratuitos disponibilizados pelos órgãos estaduais e entidades parceiras",
+      "description": "Complexo comunitário integrado ao programa TerPaz, do Governo do Estado do Pará, com mais de 80 serviços gratuitos disponibilizados pelos órgãos estaduais e entidades parceiras.",
       "services": [
         "Espaços para atividades esportivas",
         "Salas de audiovisual e inclusão digital",
@@ -213,7 +214,7 @@
         "Ações de segurança",
         "Capacitação técnica e prossionalizante",
         "Espaço multiuso para feiras",
-        "eventos e encontros da comunidade",
+        "Eventos e encontros da comunidade",
         "Espaços para cursos livres e de dança, teatro, robótica, artes marciais, musicalização e biblioteca Internet sem fio gratuita disponibilizada pela empresa de Tecnologia da Informação e Comunicação do Pará (Prodepa) para os frequentadores das Usinas da Paz"
       ],
       "address": " Estr. Icuí-Guajará - Icuí-Guajará, Ananindeua - PA",
@@ -248,7 +249,7 @@
     {
       "city": "Ananindeua",
       "name": "Usina da Paz - Cabanagem",
-      "description": "Complexo comunitário integrado ao programa TerPaz, do Governo do Estado do Pará, com mais de 80 serviços gratuitos disponibilizados pelos órgãos estaduais e entidades parceiras",
+      "description": "Complexo comunitário integrado ao programa TerPaz, do Governo do Estado do Pará, com mais de 80 serviços gratuitos disponibilizados pelos órgãos estaduais e entidades parceiras.",
       "services": [
         "Espaços para atividades esportivas",
         "Salas de audiovisual e inclusão digital",
@@ -258,7 +259,7 @@
         "Ações de segurança",
         "Capacitação técnica e prossionalizante",
         "Espaço multiuso para feiras",
-        "eventos e encontros da comunidade",
+        "Eventos e encontros da comunidade",
         "Espaços para cursos livres e de dança, teatro, robótica, artes marciais, musicalização e biblioteca Internet sem fio gratuita disponibilizada pela empresa de Tecnologia da Informação e Comunicação do Pará (Prodepa) para os frequentadores das Usinas da Paz"
       ],
       "address": "Av. Damasco, nº37, Cabanagem, Belém - PA",
@@ -293,13 +294,13 @@
     {
       "city": "Ananindeua",
       "name": "UPA Cidade Nova",
-      "description": "Unidade de Pronto Atendimento da Cidade Nova",
+      "description": "Unidade de Pronto Atendimento da Cidade Nova.",
       "services": [
         "Atendimentos de saúde de complexidade intermediária",
-        "raio-X",
-        "eletrocardiografia",
-        "pediatria",
-        "laboratório de exames e leitos de observação."
+        "Raio-X",
+        "Eletrocardiografia",
+        "Pediatria",
+        "Laboratório de exames e leitos de observação"
       ],
       "address": "Tv. WE 16 (Cidade Nova II), S/N, Cidade Nova, Ananindeua - PA",
       "telephones": null,
@@ -315,13 +316,13 @@
     {
       "city": "Ananindeua",
       "name": "UPA Distrito Industrial",
-      "description": "Unidade de Pronto Atendimento do Distrito Industrial",
+      "description": "Unidade de Pronto Atendimento do Distrito Industrial.",
       "services": [
         "Atendimentos de saúde de complexidade intermediária",
-        "raio-X",
-        "eletrocardiografia",
-        "pediatria",
-        "laboratório de exames e leitos de observação."
+        "Raio-X",
+        "Eletrocardiografia",
+        "Pediatria",
+        "Laboratório de exames e leitos de observação"
       ],
       "address": "Rua Primeira Rural, nº2, Distrito Industrial, Ananindeua - PA",
       "telephones": null,
@@ -337,13 +338,13 @@
     {
       "city": "Ananindeua",
       "name": "UPA Mariguella",
-      "description": "Unidade de Pronto Atendimento do Aurá",
+      "description": "Unidade de Pronto Atendimento do Aurá.",
       "services": [
         "Atendimentos de saúde de complexidade intermediária",
-        "raio-X",
-        "eletrocardiografia",
-        "pediatria",
-        "laboratório de exames e leitos de observação."
+        "Raio-X",
+        "Eletrocardiografia",
+        "Pediatria",
+        "Laboratório de exames e leitos de observação"
       ],
       "address": "Passagem Chicó Mendes, nº193, Aurá, Ananindeua - PA",
       "telephones": null,
@@ -359,13 +360,13 @@
     {
       "city": "Ananindeua",
       "name": "UPA Icuí",
-      "description": "Unidade de Pronto Atendimento do Icuí",
+      "description": "Unidade de Pronto Atendimento do Icuí.",
       "services": [
         "Atendimentos de saúde de complexidade intermediária",
-        "raio-X",
-        "eletrocardiografia",
-        "pediatria",
-        "laboratório de exames e leitos de observação."
+        "Raio-X",
+        "Eletrocardiografia",
+        "Pediatria",
+        "Laboratório de exames e leitos de observação"
       ],
       "address": "Estr. Icuí-Guajará, nº895, Icuí-Guajará, Ananindeua - PA",
       "telephones": null,
@@ -381,7 +382,7 @@
     {
       "city": "Ananindeua",
       "name": "Hospital Público Estadual Galileu",
-      "description": "Referência na Rede Estadual do Pará em atendimentos de traumas ortopédicos",
+      "description": "Referência na Rede Estadual do Pará em atendimentos de traumas ortopédicos.",
       "services": ["Atendimento Ambulatorial", "Internação"],
       "address": "Rodovia Mário Covas, nº2553, Una, Belém - PA",
       "telephones": ["(91) 3214-1050"],
@@ -397,7 +398,7 @@
     {
       "city": "Ananindeua",
       "name": "Hospital Metropolitano",
-      "description": "Realiza atendimentos de urgência e emergência a vítimas de trauma e queimados de média e alta complexidades aos usuários do Sistema Único de Saúde (SUS)",
+      "description": "Realiza atendimentos de urgência e emergência a vítimas de trauma e queimados de média e alta complexidades aos usuários do Sistema Único de Saúde (SUS).",
       "services": [
         "Atende as especialidades de Endoscopia",
         "Radiologia Médica",
@@ -430,7 +431,7 @@
     {
       "city": "Ananindeua",
       "name": "CAPS II",
-      "description": "Atende pessoas em intenso sofrimento psíquico derivados de transtornos mentais graves e persistentes, incluindo aqueles relacionados ao uso de substâncias psicoativas e outras necessidades de cuidados clínicos contínuos",
+      "description": "Atende pessoas em intenso sofrimento psíquico derivados de transtornos mentais graves e persistentes, incluindo aqueles relacionados ao uso de substâncias psicoativas e outras necessidades de cuidados clínicos contínuos.",
       "services": [
         "Acolhimento",
         "Consultas especializadas",
