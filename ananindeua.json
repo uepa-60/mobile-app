@@ -166,7 +166,8 @@
         "Emissão de documentos",
         "Ações de segurança",
         "Capacitação técnica e prossionalizante",
-        "Espaço multiuso para feiras, eventos e encontros da comunidade",
+        "Espaço multiuso para feiras", 
+        "Eventos e encontros da comunidade",
         "Espaços para cursos livres e de dança, teatro, robótica, artes marciais, musicalização e biblioteca Internet sem fio gratuita disponibilizada pela empresa de Tecnologia da Informação e Comunicação do Pará (Prodepa) para os frequentadores das Usinas da Paz"
       ],
       "address": "Av. Damasco, nº37, Cabanagem, Belém - PA",
@@ -213,7 +214,7 @@
         "Ações de segurança",
         "Capacitação técnica e prossionalizante",
         "Espaço multiuso para feiras",
-        "eventos e encontros da comunidade",
+        "Eventos e encontros da comunidade",
         "Espaços para cursos livres e de dança, teatro, robótica, artes marciais, musicalização e biblioteca Internet sem fio gratuita disponibilizada pela empresa de Tecnologia da Informação e Comunicação do Pará (Prodepa) para os frequentadores das Usinas da Paz"
       ],
       "address": " Estr. Icuí-Guajará - Icuí-Guajará, Ananindeua - PA",
@@ -258,7 +259,7 @@
         "Ações de segurança",
         "Capacitação técnica e prossionalizante",
         "Espaço multiuso para feiras",
-        "eventos e encontros da comunidade",
+        "Eventos e encontros da comunidade",
         "Espaços para cursos livres e de dança, teatro, robótica, artes marciais, musicalização e biblioteca Internet sem fio gratuita disponibilizada pela empresa de Tecnologia da Informação e Comunicação do Pará (Prodepa) para os frequentadores das Usinas da Paz"
       ],
       "address": "Av. Damasco, nº37, Cabanagem, Belém - PA",
@@ -296,10 +297,10 @@
       "description": "Unidade de Pronto Atendimento da Cidade Nova.",
       "services": [
         "Atendimentos de saúde de complexidade intermediária",
-        "raio-X",
-        "eletrocardiografia",
-        "pediatria",
-        "laboratório de exames e leitos de observação."
+        "Raio-X",
+        "Eletrocardiografia",
+        "Pediatria",
+        "Laboratório de exames e leitos de observação"
       ],
       "address": "Tv. WE 16 (Cidade Nova II), S/N, Cidade Nova, Ananindeua - PA",
       "telephones": null,
@@ -318,10 +319,10 @@
       "description": "Unidade de Pronto Atendimento do Distrito Industrial.",
       "services": [
         "Atendimentos de saúde de complexidade intermediária",
-        "raio-X",
-        "eletrocardiografia",
-        "pediatria",
-        "laboratório de exames e leitos de observação."
+        "Raio-X",
+        "Eletrocardiografia",
+        "Pediatria",
+        "Laboratório de exames e leitos de observação"
       ],
       "address": "Rua Primeira Rural, nº2, Distrito Industrial, Ananindeua - PA",
       "telephones": null,
@@ -340,10 +341,10 @@
       "description": "Unidade de Pronto Atendimento do Aurá.",
       "services": [
         "Atendimentos de saúde de complexidade intermediária",
-        "raio-X",
-        "eletrocardiografia",
-        "pediatria",
-        "laboratório de exames e leitos de observação."
+        "Raio-X",
+        "Eletrocardiografia",
+        "Pediatria",
+        "Laboratório de exames e leitos de observação"
       ],
       "address": "Passagem Chicó Mendes, nº193, Aurá, Ananindeua - PA",
       "telephones": null,
@@ -362,10 +363,10 @@
       "description": "Unidade de Pronto Atendimento do Icuí.",
       "services": [
         "Atendimentos de saúde de complexidade intermediária",
-        "raio-X",
-        "eletrocardiografia",
-        "pediatria",
-        "laboratório de exames e leitos de observação."
+        "Raio-X",
+        "Eletrocardiografia",
+        "Pediatria",
+        "Laboratório de exames e leitos de observação"
       ],
       "address": "Estr. Icuí-Guajará, nº895, Icuí-Guajará, Ananindeua - PA",
       "telephones": null,

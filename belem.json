@@ -6,111 +6,113 @@
       "departments": [
         {
           "name": "IGEPREV",
-          "services": [
-            "Emissão de contracheque",
-            "Comunicado de óbito",
-            "Cadastro de conta corrente",
-            "Pagamentos de valores retroativos",
-            "Liberação de crédito",
-            "Declaração de tempo utilizado para aposentadoria",
-            "Isenção de imposto de renda",
-            "Retificação de dirf/cédula C",
-            "Certidão de tempo de contribuição",
-            "Auxílio funeral",
-            "Concessão de pensão por morte"
+          "services": [ 
+            "Emissão de contracheque", 
+            "Comunicado de óbito", 
+            "Cadastro de conta corrente", 
+            "Pagamentos de valores retroativos", 
+            "Liberação de crédito", 
+            "Declaração de tempo utilizado para aposentadoria", 
+            "Isenção de imposto de renda", 
+            "Retificação de dirf/cédula C", 
+            "Certidão de tempo de contribuição", 
+            "Auxílio funeral", 
+            "Concessão de pensão por morte" 
           ]
         },
         {
           "name": "SRTE/SEAD",
-          "services": [
-            "Emissão de Carteira de trabalho e Previdência Social",
-            "2ª Via d Carteira de trabalho e Previdência Social",
-            "Auditoria e recursos do Seguro Desemprego"
+          "services": [ 
+            "Emissão de Carteira de trabalho e Previdência Social", 
+            "2ª Via d Carteira de trabalho e Previdência Social", 
+            "Auditoria e recursos do Seguro Desemprego" 
           ]
         },
         {
           "name": "SEJUDH",
-          "services": [
-            "Serviços de Proteção e Orientação de Defesa ao Consumidor",
-            "Abertura de reclamação",
-            "Atendimento preliminar"
+          "services": [ 
+            "Serviços de Proteção e Orientação de Defesa ao Consumidor", 
+            "Abertura de reclamação", 
+            "Atendimento preliminar" 
           ]
         },
         {
           "name": "BANPARÁ",
-          "services": [
-            "Saque conta Corrente/Poupança",
-            "Pagamentos de boletos",
-            "Abertura de contas Corrente/Poupança",
-            "Créditos",
-            "Consultas de empréstimos"
+          "services": [ 
+            "Saque conta Corrente/Poupança", 
+            "Pagamentos de boletos", 
+            "Abertura de contas Corrente/Poupança", 
+            "Créditos", 
+            "Consultas de empréstimos" 
           ]
         },
         {
           "name": "SEASTER",
-          "services": [
-            "Solicitação do Seguro Desemprego",
-            "Cadastro de emprego."
+          "services": [ 
+            "Solicitação do Seguro Desemprego", 
+            "Cadastro de emprego." 
           ]
         },
         {
           "name": "SERVIÇOS DE ENERGIA ELÉTRICA",
-          "services": [
-            "Ligação nova",
-            "Reativação de troca de titularidade",
-            "Adesão à tarifa de Baixa Renda",
-            "Troca de padrão",
-            "Religação de energia elétrica",
-            "Ligação provisória",
-            "Afiação",
-            "Fornecimento de documentação",
-            "Serviço emergência elétrica",
-            "Reclamação",
-            "Parcelamento de dívidas",
-            "Desligamento",
-            "Alteração cod",
-            "Segunda via de fatura de energia",
-            "Serviço técnico de rede",
-            "Devolução",
-            "Denúncia de fraude",
-            "Quitação anual"
+          "services": [ 
+            "Ligação nova", 
+            "Reativação de troca de titularidade", 
+            "Adesão à tarifa de Baixa Renda", 
+            "Troca de padrão", 
+            "Religação de energia elétrica", 
+            "Ligação provisória", 
+            "Afiação", 
+            "Fornecimento de documentação", 
+            "Serviço emergência elétrica", 
+            "Reclamação", 
+            "Parcelamento de dívidas", 
+            "Desligamento", 
+            "Alteração cod", 
+            "Segunda via de fatura de energia", 
+            "Serviço técnico de rede", 
+            "Devolução", 
+            "Denúncia de fraude", 
+            "Quitação anual" 
           ]
         },
         {
           "name": "DETRAN/PA",
-          "services": [
-            "Exame biométrico para 1ª Habilitação",
-            "Exame biométrico para renovação de CNH",
-            "Mudança de Categoria",
-            "Adição de Categoria",
-            "2ª Via de CNH",
-            "Troca de Jurisdição",
-            "Alteração de Dados Cadastrais",
-            "Alteração de Endereço",
-            "Prova de Legislação",
-            "Emissão de boleto de renovação de CNH",
-            "Inclusão de Atividade Remunerada"
+          "services": [ 
+            "Exame biométrico para 1ª Habilitação", 
+            "Exame biométrico para renovação de CNH", 
+            "Mudança de Categoria", 
+            "Adição de Categoria", 
+            "2ª Via de CNH", 
+            "Troca de Jurisdição", 
+            "Alteração de Dados Cadastrais", 
+            "Alteração de Endereço", 
+            "Prova de Legislação", 
+            "Emissão de boleto de renovação de CNH", 
+            "Inclusão de Atividade Remunerada" 
           ]
         },
         {
           "name": "POLÍCIA CIVIL",
-          "services": [
-            "Emissão de carteira de Identidade",
-            "Emissão de Carteira de Identidade de nome social"
+          "services": [ 
+            "Emissão de carteira de Identidade", 
+            "Emissão de Carteira de Identidade de nome social" 
           ]
         },
         {
           "name": "DEFENSORIA PÚBLICA DO ESTADO DO PARÁ",
-          "services": [
-            "Emissão de ofícios para isenção da taxa de 2ª via de certidão de nascimento",
-            "Ação de Alimentos",
-            "Ação de divórcio consensual"
+          "services": [ 
+            "Emissão de ofícios para isenção da taxa de 2ª via de certidão de nascimento", 
+            "Ação de Alimentos", 
+            "Ação de divórcio consensual" 
           ]
         }
       ],
       "description": "Unidades de integração de serviços prestados por órgãos públicos.",
       "address": "Av. José Bonifácio, nº2308, Belém - PA",
-      "telephones": ["(91) 3217-4107"],
+      "telephones": [
+        "(91) 3217-4107" 
+      ],
       "site": null,
       "time": "De segunda a sexta 8h às 14h",
       "facebook": null,
@@ -127,144 +129,144 @@
       "departments": [
         {
           "name": "BANPARÁ",
-          "services": [
-            "Saque conta Corrente/Poupança",
-            "Pagamentos de boletos",
-            "Abertura de contas Corrente/Poupança",
-            "Créditos",
-            "Consultas de empréstimos"
+          "services": [ 
+            "Saque conta Corrente/Poupança", 
+            "Pagamentos de boletos", 
+            "Abertura de contas Corrente/Poupança", 
+            "Créditos", 
+            "Consultas de empréstimos" 
           ]
         },
         {
           "name": "DEFENSORIA PÚBLICA DO ESTADO DO PARÁ",
-          "services": [
-            "Emissão de ofícios para isenção da taxa de 2ª via de certidão de nascimento",
-            "Ação de Alimentos"
+          "services": [ 
+            "Emissão de ofícios para isenção da taxa de 2ª via de certidão de nascimento", 
+            "Ação de Alimentos" 
           ]
         },
         {
           "name": "POLÍCIA CIVIL",
-          "services": [
-            "Emissão de carteira de Identidade",
-            "Emissão de Carteira de Identidade de nome social"
+          "services": [ 
+            "Emissão de carteira de Identidade", 
+            "Emissão de Carteira de Identidade de nome social" 
           ]
         },
         {
           "name": "SEJUDH- PROCON",
-          "services": [
-            "Serviços de Proteção ao consumidor",
-            "Orientação de Defesa ao consumidor"
+          "services": [ 
+            "Serviços de Proteção ao consumidor", 
+            "Orientação de Defesa ao consumidor" 
           ]
         },
         {
           "name": "SEASTER",
-          "services": [
-            "Solicitação do Seguro Desemprego",
-            "Cadastro de Emprego"
+          "services": [ 
+            "Solicitação do Seguro Desemprego", 
+            "Cadastro de Emprego" 
           ]
         },
         {
           "name": "CONSAPA",
-          "services": [
-            "Mudança de titularidade da fatura de água",
-            "Ligação Nova (Instalação de ramal)",
-            "Devolução de valores/Pagamento em duplicidade",
-            "Instalação, substituição ou remoção de hidrômetro",
-            "Consulta de Débitos"
+          "services": [ 
+            "Mudança de titularidade da fatura de água", 
+            "Ligação Nova (Instalação de ramal)", 
+            "Devolução de valores/Pagamento em duplicidade", 
+            "Instalação, substituição ou remoção de hidrômetro", 
+            "Consulta de Débitos" 
           ]
         },
         {
           "name": "DETRAN/PA",
-          "services": [
-            "Exame biométrico para 1ª Habilitação",
-            "Exame biométrico para renovação de CNH",
-            "Mudança de Categoria",
-            "Adição de Categoria",
-            "2ª Via de CNH",
-            "Troca de Jurisdição",
-            "Alteração de Dados Cadastrais",
-            "Alteração de Endereço",
-            "Prova de Legislação",
-            "Emissão de boleto de renovação de CNH",
-            "Inclusão de Atividade Remunerada"
+          "services": [ 
+            "Exame biométrico para 1ª Habilitação", 
+            "Exame biométrico para renovação de CNH", 
+            "Mudança de Categoria", 
+            "Adição de Categoria", 
+            "2ª Via de CNH", 
+            "Troca de Jurisdição", 
+            "Alteração de Dados Cadastrais", 
+            "Alteração de Endereço", 
+            "Prova de Legislação", 
+            "Emissão de boleto de renovação de CNH", 
+            "Inclusão de Atividade Remunerada" 
           ]
         },
         {
           "name": "SEFA",
-          "services": [
-            "Antecipação de IPVA",
-            "Cadastro portal de serviços",
-            "Agendamento para ativação de senha do cadastro ou alteração de senha",
-            "Consulta de dívida ativa",
-            "Consulta débitos de IPVA",
-            "Emissão DAE- somente para taxas",
-            "Consulta SINTEGRA",
-            "Emissão de certidão (empresas)",
-            "Emissão de FIC",
-            "Orientações sobre parcelamento",
-            "Consulta a protocolo"
+          "services": [ 
+            "Antecipação de IPVA", 
+            "Cadastro portal de serviços", 
+            "Agendamento para ativação de senha do cadastro ou alteração de senha", 
+            "Consulta de dívida ativa", 
+            "Consulta débitos de IPVA", 
+            "Emissão DAE- somente para taxas", 
+            "Consulta SINTEGRA", 
+            "Emissão de certidão (empresas)", 
+            "Emissão de FIC", 
+            "Orientações sobre parcelamento", 
+            "Consulta a protocolo" 
           ]
         },
         {
           "name": "JUCEPA",
-          "services": [
-            "Registro mercantil",
-            "Alterações empresariais",
-            "Transformação de natureza jurídica",
-            "Extinção de empresas",
-            "Livro Diário",
-            "Balanço Patrimonial",
-            "Enquadramento de MEI (Microempreendedor individual)",
-            "Desenquadramento de MEI (Microempreendedor individual)"
+          "services": [ 
+            "Registro mercantil", 
+            "Alterações empresariais", 
+            "Transformação de natureza jurídica", 
+            "Extinção de empresas", 
+            "Livro Diário", 
+            "Balanço Patrimonial", 
+            "Enquadramento de MEI (Microempreendedor individual)", 
+            "Desenquadramento de MEI (Microempreendedor individual)" 
           ]
         },
         {
           "name": "IGEPREV",
-          "services": [
-            "Emissão de contracheque",
-            "Comunicado de óbito",
-            "Cadastro de conta corrente",
-            "Pagamentos de valores retroativos",
-            "Liberação de crédito",
-            "Declaração de tempo utilizado para aposentadoria",
-            "Isenção de imposto de renda",
-            "Retificação de dirf/cédula C",
-            "Certidão de tempo de contribuição",
-            "Auxílio funerale/ Concessão de pensão por morte"
+          "services": [ 
+            "Emissão de contracheque", 
+            "Comunicado de óbito", 
+            "Cadastro de conta corrente", 
+            "Pagamentos de valores retroativos", 
+            "Liberação de crédito", 
+            "Declaração de tempo utilizado para aposentadoria", 
+            "Isenção de imposto de renda", 
+            "Retificação de dirf/cédula C", 
+            "Certidão de tempo de contribuição", 
+            "Auxílio funerale/ Concessão de pensão por morte" 
           ]
         },
         {
           "name": "SRTE/SEAD",
-          "services": [
-            "Emissão de Carteira de trabalho e Previdência Social",
-            "2ª Via d Carteira de trabalho e Previdência Social",
-            "Auditoria e recursos do Seguro Desemprego"
+          "services": [ 
+            "Emissão de Carteira de trabalho e Previdência Social", 
+            "2ª Via d Carteira de trabalho e Previdência Social", 
+            "Auditoria e recursos do Seguro Desemprego" 
           ]
         },
         {
           "name": "FUNDAÇÃO HEMOPA",
-          "services": [
-            "Orientação e sensibilização dos usuários sobre a importância da Doação de Sangue",
-            "Cadastro para doação de medula óssea"
+          "services": [ 
+            "Orientação e sensibilização dos usuários sobre a importância da Doação de Sangue", 
+            "Cadastro para doação de medula óssea" 
           ]
         },
         {
           "name": "SEFIN",
-          "services": [
-            "Informações e consultas dos tributos municipais",
-            "Consulta cadastral",
-            "Consulta de débito",
-            "Consulta de processos",
-            "Parcelamentos",
-            "Abertura de processos administrativos",
-            "Informações sobre ITB (Imposto de Transmissão de Bens Imóveis)"
+          "services": [ 
+            "Informações e consultas dos tributos municipais", 
+            "Consulta cadastral", 
+            "Consulta de débito", 
+            "Consulta de processos", 
+            "Parcelamentos", 
+            "Abertura de processos administrativos", 
+            "Informações sobre ITB (Imposto de Transmissão de Bens Imóveis)" 
           ]
         },
         {
           "name": "SEMOB",
-          "services": [
-            "Liberação de veículos apreendidos",
-            "Credenciamento de estacionamento especial (Pessoa idosa ou com deficiência)"
+          "services": [ 
+            "Liberação de veículos apreendidos", 
+            "Credenciamento de estacionamento especial (Pessoa idosa ou com deficiência)" 
           ]
         }
       ],
@@ -286,73 +288,73 @@
       "departments": [
         {
           "name": "BANPARÁ",
-          "services": [
-            "Saque conta Corrente/Poupança",
-            "Pagamentos de boletos",
-            "Abertura de contas Corrente/Poupança",
-            "Créditos",
-            "Consultas de empréstimos"
+          "services": [ 
+            "Saque conta Corrente/Poupança", 
+            "Pagamentos de boletos", 
+            "Abertura de contas Corrente/Poupança", 
+            "Créditos", 
+            "Consultas de empréstimos" 
           ]
         },
         {
           "name": "POLÍCIA CIVIL",
-          "services": [
-            "Emissão de carteira de Identidade",
-            "Emissão de Carteira de Identidade de nome social"
+          "services": [ 
+            "Emissão de carteira de Identidade", 
+            "Emissão de Carteira de Identidade de nome social" 
           ]
         },
         {
           "name": "SEASTER",
-          "services": [
-            "Solicitação do Seguro Desemprego",
-            "Cadastro de Emprego"
+          "services": [ 
+            "Solicitação do Seguro Desemprego", 
+            "Cadastro de Emprego" 
           ]
         },
         {
           "name": "DETRAN/PA",
-          "services": [
-            "Exame biométrico para 1ª Habilitação",
-            "Exame biométrico para renovação de CNH",
-            "Mudança de Categoria",
-            "Adição de Categoria",
-            "2ª Via de CNH",
-            "Troca de Jurisdição",
-            "Alteração de Dados Cadastrais",
-            "Alteração de Endereço",
-            "Prova de Legislação",
-            "Emissão de boleto de renovação de CNH",
-            "Inclusão de Atividade Remunerada"
+          "services": [ 
+            "Exame biométrico para 1ª Habilitação", 
+            "Exame biométrico para renovação de CNH", 
+            "Mudança de Categoria", 
+            "Adição de Categoria", 
+            "2ª Via de CNH", 
+            "Troca de Jurisdição", 
+            "Alteração de Dados Cadastrais", 
+            "Alteração de Endereço", 
+            "Prova de Legislação", 
+            "Emissão de boleto de renovação de CNH", 
+            "Inclusão de Atividade Remunerada" 
           ]
         },
         {
           "name": "SEFA",
-          "services": [
-            "Antecipação de IPVA",
-            "Cadastro portal de serviços",
-            "Agendamento para ativação de senha do cadastro ou alteração de senha",
-            "Consulta de dívida ativa",
-            "Consulta débitos de IPVA",
-            "Emissão DAE- somente para taxas",
-            "Consulta SINTEGRA",
-            "Emissão de certidão (empresas)",
-            "Emissão de FIC",
-            "Orientações sobre parcelamento",
-            "Consulta a protocolo"
+          "services": [ 
+            "Antecipação de IPVA", 
+            "Cadastro portal de serviços", 
+            "Agendamento para ativação de senha do cadastro ou alteração de senha", 
+            "Consulta de dívida ativa", 
+            "Consulta débitos de IPVA", 
+            "Emissão DAE- somente para taxas", 
+            "Consulta SINTEGRA", 
+            "Emissão de certidão (empresas)", 
+            "Emissão de FIC", 
+            "Orientações sobre parcelamento", 
+            "Consulta a protocolo" 
           ]
         },
         {
           "name": "SRTE/SEAD",
-          "services": [
-            "Emissão de Carteira de trabalho e Previdência Social",
-            "2ª Via d Carteira de trabalho e Previdência Social",
-            "Auditoria e recursos do Seguro Desemprego"
+          "services": [ 
+            "Emissão de Carteira de trabalho e Previdência Social", 
+            "2ª Via d Carteira de trabalho e Previdência Social", 
+            "Auditoria e recursos do Seguro Desemprego" 
           ]
         },
         {
           "name": "FUNDAÇÃO HEMOPA",
-          "services": [
-            "Orientação e sensibilização dos usuários sobre a importância da Doação de Sangue",
-            "Cadastro para doação de medula óssea."
+          "services": [ 
+            "Orientação e sensibilização dos usuários sobre a importância da Doação de Sangue", 
+            "Cadastro para doação de medula óssea." 
           ]
         }
       ],
@@ -372,14 +374,14 @@
       "name": "Usina da Paz - Benguí",
       "description": "Complexo comunitário integrado ao programa TerPaz, do Governo do Estado do Pará, com mais de 80 serviços gratuitos disponibilizados pelos órgãos estaduais e entidades parceiras.",
       "services": [
-        "Espaços para atividades esportivas",
-        "Salas de audiovisual e inclusão digital",
-        "Atendimento médico e odontológico",
-        "Consultoria jurídica",
-        "Emissão de documentos",
-        "Ações de segurança",
-        "Capacitação técnica e prossionalizante",
-        "Espaço multiuso para feiras, eventos e encontros da comunidade",
+        "Espaços para atividades esportivas", 
+        "Salas de audiovisual e inclusão digital", 
+        "Atendimento médico e odontológico", 
+        "Consultoria jurídica", 
+        "Emissão de documentos", 
+        "Ações de segurança", 
+        "Capacitação técnica e prossionalizante", 
+        "Espaço multiuso para feiras, eventos e encontros da comunidade", 
         "Espaços para cursos livres e de dança, teatro, robótica, artes marciais, musicalização e biblioteca"
       ],
       "address": "Estrada do Benguí, S/N, próximo à Passagem Primeiro de Julho, Benguí, Belém - PA",
@@ -398,14 +400,17 @@
       "name": "Tuna Luso Brasileira",
       "description": "Em parceria com a Secretaria de Estado de Esporte e Lazer, a Tuna oferece atividades físicas/desportivas para pessoas a partir dos 50 anos de idade. Para se inscrever, vá até o Salão Vermelho dentro da Tuna e apresente 1 cópia da carteira de identidade, 1 cópia do comprovante de residência, 2 fotos 3x4, atestado do médico cardiologista e a carteira de vacinação de Covid-19.",
       "services": [
-        "Alongamento",
-        "Aula de ritmos",
-        "Aula de memorização",
-        "Ginástica",
+        "Alongamento", 
+        "Aula de ritmos", 
+        "Aula de memorização", 
+        "Ginástica", 
         "Hidroginástica Confira os dias e horários disponíveis no local da inscrição."
       ],
       "address": "Av. Almirante Barroso, nº4110, Souza, Belém - PA",
-      "telephones": ["(91) 3352-3371", "(91) 98523-4925"],
+      "telephones": [
+        "(91) 3352-3371", 
+        "(91) 98523-4925" 
+      ],
       "site": "https://www.tunalusobrasileira.com.br/",
       "time": null,
       "facebook": null,
@@ -456,14 +461,14 @@
       "name": "Usina da Paz - Cabanagem",
       "description": "Complexo comunitário integrado ao programa TerPaz, do Governo do Estado do Pará, com mais de 80 serviços gratuitos disponibilizados pelos órgãos estaduais e entidades parceiras.",
       "services": [
-        "Espaços para atividades esportivas",
-        "Salas de audiovisual e inclusão digital",
-        "Atendimento médico e odontológico",
-        "Consultoria jurídica",
-        "Emissão de documentos",
-        "Ações de segurança",
-        "Capacitação técnica e prossionalizante",
-        "Espaço multiuso para feiras, eventos e encontros da comunidade",
+        "Espaços para atividades esportivas", 
+        "Salas de audiovisual e inclusão digital", 
+        "Atendimento médico e odontológico", 
+        "Consultoria jurídica", 
+        "Emissão de documentos", 
+        "Ações de segurança", 
+        "Capacitação técnica e prossionalizante", 
+        "Espaço multiuso para feiras, eventos e encontros da comunidade", 
         "Espaços para cursos livres e de dança, teatro, robótica, artes marciais, musicalização e biblioteca Internet sem fio gratuita disponibilizada pela empresa de Tecnologia da Informação e Comunicação do Pará (Prodepa) para os frequentadores das Usinas da Paz."
       ],
       "address": "Av. Damasco, nº37, Cabanagem, Belém - PA",
@@ -482,14 +487,14 @@
       "name": "Usina da Paz - Benguí",
       "description": "Complexo comunitário integrado ao programa TerPaz, do Governo do Estado do Pará, com mais de 80 serviços gratuitos disponibilizados pelos órgãos estaduais e entidades parceiras.",
       "services": [
-        "Espaços para atividades esportivas",
-        "Salas de audiovisual e inclusão digital",
-        "Atendimento médico e odontológico",
-        "Consultoria jurídica",
-        "Emissão de documentos",
-        "Ações de segurança",
-        "Capacitação técnica e prossionalizante",
-        "Espaço multiuso para feiras, eventos e encontros da comunidade",
+        "Espaços para atividades esportivas", 
+        "Salas de audiovisual e inclusão digital", 
+        "Atendimento médico e odontológico", 
+        "Consultoria jurídica", 
+        "Emissão de documentos", 
+        "Ações de segurança", 
+        "Capacitação técnica e prossionalizante", 
+        "Espaço multiuso para feiras, eventos e encontros da comunidade", 
         "Espaços para cursos livres e de dança, teatro, robótica, artes marciais, musicalização e biblioteca Internet sem fio gratuita disponibilizada pela empresa de Tecnologia da Informação e Comunicação do Pará (Prodepa) para os frequentadores das Usinas da Paz."
       ],
       "address": "Estrada do Benguí, S/N, próximo à Passagem Primeiro de Julho, Benguí, Belém - PA",
@@ -508,15 +513,17 @@
       "name": "UNITERCI - Universidade da Terceira Idade",
       "description": "Programa de extensão que trabalha:.",
       "services": [
-        "Atividades de atualização social",
-        "dança",
-        "artesanato e inclusão digital",
-        "Atualização Cultural para Pessoa Idosa",
-        "Educação Permanente em Áreas de Graduação na UFPA",
+        "Atividades de atualização social", 
+        "dança", 
+        "artesanato e inclusão digital", 
+        "Atualização Cultural para Pessoa Idosa", 
+        "Educação Permanente em Áreas de Graduação na UFPA", 
         "Corpo, Movimento e Qualidade de Vida da Pessoa Idosa Para se inscrever basta entrar em contato pelo telefone e saber mais sobre as datas de cadastro e seleção de novos alunos"
       ],
       "address": "Rua Augusto Corrêa, nº1, Guamá, Belém - PA",
-      "telephones": ["(91) 3201-8626"],
+      "telephones": [
+        "(91) 3201-8626" 
+      ],
       "site": null,
       "time": null,
       "facebook": "https://www.facebook.com/uniterciufpa/",
@@ -530,9 +537,14 @@
       "city": "Belém",
       "name": "Tuna Luso Brasileira",
       "description": "Em parceria com a Secretaria de Estado de Esporte e Lazer, a Tuna oferece atividades físicas/desportivas para pessoas a partir dos 50 anos de idade. Para se inscrever, vá até o Salão Vermelho dentro da Tuna e apresente 1 cópia da carteira de identidade, 1 cópia do comprovante de residência, 2 fotos 3x4, atestado do médico cardiologista e a carteira de vacinação de Covid-19.",
-      "services": ["Aula de memorização"],
+      "services": [
+        "Aula de memorização" 
+      ],
       "address": "Av. Almirante Barroso, nº4110, Souza, Belém - PA",
-      "telephones": ["(91) 3352-3371", "(91) 98523-4925"],
+      "telephones": [
+        "(91) 3352-3371", 
+        "(91) 98523-4925" 
+      ],
       "site": "https://www.tunalusobrasileira.com.br/",
       "time": null,
       "facebook": null,
@@ -547,15 +559,15 @@
       "name": "Usina da Paz - Benguí",
       "description": "Complexo comunitário integrado ao programa TerPaz, do Governo do Estado do Pará, com mais de 80 serviços gratuitos disponibilizados pelos órgãos estaduais e entidades parceiras.",
       "services": [
-        "Confira os dias e horários disponíveis no local da inscrição.",
-        "Espaços para atividades esportivas",
-        "Salas de audiovisual e inclusão digital",
-        "Atendimento médico e odontológico",
-        "Consultoria jurídica",
-        "Emissão de documentos",
-        "Ações de segurança",
-        "Capacitação técnica e prosssionalizante",
-        "Espaço multiuso para feiras, eventos e encontros da comunidade",
+        "Confira os dias e horários disponíveis no local da inscrição.", 
+        "Espaços para atividades esportivas", 
+        "Salas de audiovisual e inclusão digital", 
+        "Atendimento médico e odontológico", 
+        "Consultoria jurídica", 
+        "Emissão de documentos", 
+        "Ações de segurança", 
+        "Capacitação técnica e prosssionalizante", 
+        "Espaço multiuso para feiras, eventos e encontros da comunidade", 
         "Espaços para cursos livres e de dança, teatro, robótica, artes marciais, musicalização e biblioteca Internet sem fio gratuita disponibilizada pela empresa de Tecnologia da Informação e Comunicação do Pará (Prodepa) para os frequentadores das Usinas da Paz."
       ],
       "address": "Estrada do Benguí, S/N, próximo à Passagem Primeiro de Julho, Benguí, Belém - PA",
@@ -573,9 +585,13 @@
       "city": "Belém",
       "name": " Núcleo de Oficinas Curro Velho",
       "description": "A Fundação Cultural do Pará desenvolve cursos e oficinas de iniciação e aprofundamento em arte e ofício; leitura e informação; e de incentivo à cultura, divididos em módulos que são ministrados todos os meses.",
-      "services": ["Confira os módulos oferecidos para o mês."],
+      "services": [
+        "Confira os módulos oferecidos para o mês." 
+      ],
       "address": "Rua Prof. Nelson Ribeiro, nº287, Telégrafo, Belém - PA",
-      "telephones": ["(91) 3323-0049"],
+      "telephones": [
+        "(91) 3323-0049" 
+      ],
       "site": null,
       "time": "De segunda a sexta 9h às 17h",
       "facebook": null,
@@ -589,9 +605,13 @@
       "city": "Belém",
       "name": "Casa da Linguagem",
       "description": "O espaço é voltado para cursos, oficinas e programações centradas em ações de linguagem verbal. A programação é de responsabilidade da Fundação Cultural do Pará.",
-      "services": ["Confira os módulos oferecidos para o mês."],
+      "services": [
+        "Confira os módulos oferecidos para o mês." 
+      ],
       "address": "Av. Nazaré, nº31, Nazaré, Belém - PA",
-      "telephones": ["(91) 3323-0300"],
+      "telephones": [
+        "(91) 3323-0300" 
+      ],
       "site": null,
       "time": "De segunda a sexta 9h às 17h",
       "facebook": null,
@@ -606,139 +626,139 @@
       "name": "Estação Cidadania - Shopping Grão Pará",
       "description": "Unidades de integração de serviços prestados por órgãos públicos.",
       "services": [
-        "POLÍCIA CIVIL",
-        "Emissão de carteira de Identidade",
-        "Emissão de Carteira de Identidade de nome social",
-        "SEJUDH",
-        "Serviços de Proteção ao consumidor",
-        "Orientação de Defesa ao consumidor",
-        "Atendimento preliminar",
-        "SEASTER",
-        "Solicitação do Seguro Desemprego",
-        "Cadastro de Emprego",
-        "DEFENSORIA PÚBLICA DO ESTADO DO PARÁ",
-        "Emissão de ofícios para isenção da taxa de 2ª via de certidão de nascimento",
-        "Ação de Alimentos",
-        "Ação de divórcio consensual",
-        "JUCEPA",
-        "Registro mercantil",
-        "Alterações empresariais",
-        "Transformação de natureza jurídica",
-        "Extinção de empresas",
-        "Livro Diário",
-        "Balanço Patrimonial",
-        "Enquadramento de MEI (Microempreendedor individual)",
-        "Desenquadramento de MEI (Microempreendedor individual)",
-        "SEFA",
-        "Antecipação de IPVA",
-        "Cadastro portal de serviços",
-        "Agendamento para ativação de senha do cadastro ou alteração de senha",
-        "Consulta de dívida ativa",
-        "Consulta débitos de IPVA",
-        "Emissão DAE- somente para taxas",
-        "Consulta SINTEGRA",
-        "Emissão de certidão (empresas)",
-        "Emissão de FIC",
-        "Orientações sobre parcelamento",
-        "Consulta a protocolo",
-        "COSANPA",
-        "Mudança de titularidade da fatura de água",
-        "Ligação Nova (Instalação de ramal)",
-        "Devolução de valores/Pagamento em duplicidade",
-        "Instalação, substituição ou remoção de hidrômetro",
-        "Consulta de Débitos.",
-        "Religação de água",
-        "Emissão de 2ª via",
-        "Emissão de extrato de débito",
-        "Emissão de Certidão Negativa de Débito/e de Quitação Anual",
-        "Negociação de débito",
-        "Revisão de atualização cadastral (Taxa)",
-        "Alteração de vencimento da conta",
-        "Verificação de não recebimento da conta",
-        "Reforma de Ramal",
-        "Instalação de Ramal de esgoto",
-        "Desobstrução de rede de esgoto",
-        "Verificação de falta de água",
-        "Revisão de consumo",
-        "Aferição de hidrômetro",
-        "Retirada de vazamento",
-        "Supressão de Ramal",
-        "Confirmação de Ramal cortado/suprimido",
-        "ARCON",
-        "Credenciamento e descredenciamento de motorista auxiliar alternativo",
-        "Vistoria Anual – veículo alternativo",
-        "Re-vistoria – veículo alternativo",
-        "Licenciamento anual Alternativo",
-        "Baixa com Inclusão de Veículo",
-        "Atualização cadastral de Transporte Alternativo",
-        "Atualização cadastral de empresas ou cooperativas",
-        "Guia de Frente A/C",
-        "Guia de Frente sob contrato",
-        "Cadastro inicial e concessão de linha (transporte hidroviário)",
-        "Documentos referentes às embarcações",
-        "FUNDAÇÃO PRO PAZ - CONFIRMAR",
-        "Orientação Vocacional (Parceiros Privados)",
-        "Informações sobre o Programa de Saúde para a Juventude (SESPA)",
-        "Distribuição de preservativos e orientações sobre doenças sexualmente transmissíveis (Sespa)",
-        "Comissão Triparte da Meia Passagem Intermunicipal (Arcon)",
-        "Informações culturais (Fundação Cultural do Pará e Secult)",
-        "Informações sobre qualificação profissional e educação profissional (Sectet,Seduc,Seaster)",
-        "Orientação Jurídica",
-        "ID Jovem",
-        "IGEPREV",
-        "Emissão de contracheque",
-        "Comunicado de óbito",
-        "Cadastro de conta corrente",
-        "Pagamentos de valores retroativos",
-        "Liberação de crédito",
-        "Declaração de tempo utilizado para aposentadoria",
-        "Isenção de imposto de renda",
-        "Retificação de dirf/cédula C",
-        "Certidão de tempo de contribuição",
-        "Auxílio funerale/ Concessão de pensão por morte",
-        "DETRAN/PA",
-        "Exame biométrico para 1ª Habilitação",
-        "Exame biométrico para renovação de CNH",
-        "Mudança de Categoria",
-        "Adição de Categoria",
-        "2ª Via de CNH",
-        "Troca de Jurisdição",
-        "Alteração de Dados Cadastrais",
-        "Alteração de Endereço",
-        "Prova de Legislação",
-        "Emissão de boleto de renovação de CNH",
-        "Inclusão de Atividade Remunerada",
-        "BANPARÁ",
-        "Saque conta Corrente/Poupança",
-        "Pagamentos de boletos",
-        "Abertura de contas Corrente/Poupança",
-        "Créditos",
-        "Consultas de empréstimos",
-        "SRTE/SEAD",
-        "Emissão de Carteira de trabalho e Previdência Social -2ª Via d Carteira de trabalho e Previdência Social",
-        "Auditoria e recursos do Seguro Desemprego",
-        "RECEITA FEDERAL",
-        "Agendamento de serviços na RFB",
-        "Consulta de processo",
-        "Consulta de restituição/situação da DIRPF",
-        "Emissão de certidão pessoa física",
-        "Emissão de DARF",
-        "Extrato do processamento da DIRPF",
-        "Número de recibo do IRPF",
-        "Parcelamento simplificado não previdenciário",
-        "Parcelamento simplificado previdenciário",
-        "Situação fiscal",
-        "Alteração e Regularização de CPF",
-        "Emissão de comprovante de CPF",
-        "Conclusão de inscrição de CPF",
-        "Código de acesso ao portal E-CAC",
-        "Compensação da restituição x malha débito",
-        "Cópia declaração IRPF",
-        "Emissão de certidão do imóvel rural",
-        "Emissão de DAS (Documento de Arrecadação do Simples Nacional) para MEI (Microempreendedor Individual)",
-        "Orientação SITIO RFB/portal E-CAC",
-        "Preenchimento PER/DCOMP",
-        "Termo de atendimento à intimação. "
+        "POLÍCIA CIVIL", 
+        "Emissão de carteira de Identidade", 
+        "Emissão de Carteira de Identidade de nome social", 
+        "SEJUDH", 
+        "Serviços de Proteção ao consumidor", 
+        "Orientação de Defesa ao consumidor", 
+        "Atendimento preliminar", 
+        "SEASTER", 
+        "Solicitação do Seguro Desemprego", 
+        "Cadastro de Emprego", 
+        "DEFENSORIA PÚBLICA DO ESTADO DO PARÁ", 
+        "Emissão de ofícios para isenção da taxa de 2ª via de certidão de nascimento", 
+        "Ação de Alimentos", 
+        "Ação de divórcio consensual", 
+        "JUCEPA", 
+        "Registro mercantil", 
+        "Alterações empresariais", 
+        "Transformação de natureza jurídica", 
+        "Extinção de empresas", 
+        "Livro Diário", 
+        "Balanço Patrimonial", 
+        "Enquadramento de MEI (Microempreendedor individual)", 
+        "Desenquadramento de MEI (Microempreendedor individual)", 
+        "SEFA", 
+        "Antecipação de IPVA", 
+        "Cadastro portal de serviços", 
+        "Agendamento para ativação de senha do cadastro ou alteração de senha", 
+        "Consulta de dívida ativa", 
+        "Consulta débitos de IPVA", 
+        "Emissão DAE- somente para taxas", 
+        "Consulta SINTEGRA", 
+        "Emissão de certidão (empresas)", 
+        "Emissão de FIC", 
+        "Orientações sobre parcelamento", 
+        "Consulta a protocolo", 
+        "COSANPA", 
+        "Mudança de titularidade da fatura de água", 
+        "Ligação Nova (Instalação de ramal)", 
+        "Devolução de valores/Pagamento em duplicidade", 
+        "Instalação, substituição ou remoção de hidrômetro", 
+        "Consulta de Débitos.", 
+        "Religação de água", 
+        "Emissão de 2ª via", 
+        "Emissão de extrato de débito", 
+        "Emissão de Certidão Negativa de Débito/e de Quitação Anual", 
+        "Negociação de débito", 
+        "Revisão de atualização cadastral (Taxa)", 
+        "Alteração de vencimento da conta", 
+        "Verificação de não recebimento da conta", 
+        "Reforma de Ramal", 
+        "Instalação de Ramal de esgoto", 
+        "Desobstrução de rede de esgoto", 
+        "Verificação de falta de água", 
+        "Revisão de consumo", 
+        "Aferição de hidrômetro", 
+        "Retirada de vazamento", 
+        "Supressão de Ramal", 
+        "Confirmação de Ramal cortado/suprimido", 
+        "ARCON", 
+        "Credenciamento e descredenciamento de motorista auxiliar alternativo", 
+        "Vistoria Anual – veículo alternativo", 
+        "Re-vistoria – veículo alternativo", 
+        "Licenciamento anual Alternativo", 
+        "Baixa com Inclusão de Veículo", 
+        "Atualização cadastral de Transporte Alternativo", 
+        "Atualização cadastral de empresas ou cooperativas", 
+        "Guia de Frente A/C", 
+        "Guia de Frente sob contrato", 
+        "Cadastro inicial e concessão de linha (transporte hidroviário)", 
+        "Documentos referentes às embarcações", 
+        "FUNDAÇÃO PRO PAZ - CONFIRMAR", 
+        "Orientação Vocacional (Parceiros Privados)", 
+        "Informações sobre o Programa de Saúde para a Juventude (SESPA)", 
+        "Distribuição de preservativos e orientações sobre doenças sexualmente transmissíveis (Sespa)", 
+        "Comissão Triparte da Meia Passagem Intermunicipal (Arcon)", 
+        "Informações culturais (Fundação Cultural do Pará e Secult)", 
+        "Informações sobre qualificação profissional e educação profissional (Sectet,Seduc,Seaster)", 
+        "Orientação Jurídica", 
+        "ID Jovem", 
+        "IGEPREV", 
+        "Emissão de contracheque", 
+        "Comunicado de óbito", 
+        "Cadastro de conta corrente", 
+        "Pagamentos de valores retroativos", 
+        "Liberação de crédito", 
+        "Declaração de tempo utilizado para aposentadoria", 
+        "Isenção de imposto de renda", 
+        "Retificação de dirf/cédula C", 
+        "Certidão de tempo de contribuição", 
+        "Auxílio funerale/ Concessão de pensão por morte", 
+        "DETRAN/PA", 
+        "Exame biométrico para 1ª Habilitação", 
+        "Exame biométrico para renovação de CNH", 
+        "Mudança de Categoria", 
+        "Adição de Categoria", 
+        "2ª Via de CNH", 
+        "Troca de Jurisdição", 
+        "Alteração de Dados Cadastrais", 
+        "Alteração de Endereço", 
+        "Prova de Legislação", 
+        "Emissão de boleto de renovação de CNH", 
+        "Inclusão de Atividade Remunerada", 
+        "BANPARÁ", 
+        "Saque conta Corrente/Poupança", 
+        "Pagamentos de boletos", 
+        "Abertura de contas Corrente/Poupança", 
+        "Créditos", 
+        "Consultas de empréstimos", 
+        "SRTE/SEAD", 
+        "Emissão de Carteira de trabalho e Previdência Social -2ª Via d Carteira de trabalho e Previdência Social", 
+        "Auditoria e recursos do Seguro Desemprego", 
+        "RECEITA FEDERAL", 
+        "Agendamento de serviços na RFB", 
+        "Consulta de processo", 
+        "Consulta de restituição/situação da DIRPF", 
+        "Emissão de certidão pessoa física", 
+        "Emissão de DARF", 
+        "Extrato do processamento da DIRPF", 
+        "Número de recibo do IRPF", 
+        "Parcelamento simplificado não previdenciário", 
+        "Parcelamento simplificado previdenciário", 
+        "Situação fiscal", 
+        "Alteração e Regularização de CPF", 
+        "Emissão de comprovante de CPF", 
+        "Conclusão de inscrição de CPF", 
+        "Código de acesso ao portal E-CAC", 
+        "Compensação da restituição x malha débito", 
+        "Cópia declaração IRPF", 
+        "Emissão de certidão do imóvel rural", 
+        "Emissão de DAS (Documento de Arrecadação do Simples Nacional) para MEI (Microempreendedor Individual)", 
+        "Orientação SITIO RFB/portal E-CAC", 
+        "Preenchimento PER/DCOMP", 
+        "Termo de atendimento à intimação"
       ],
       "address": "Av. Centenário, nº1052 - Térreo - Val de Cães, Belém - PA",
       "telephones": null,
@@ -758,21 +778,24 @@
       "name": "UMS do Guamá",
       "description": "Oferece atendimento de urgência e emergência, de alta e média complexidade, 24 horas por dia, e também atende outras especialidades.",
       "services": [
-        "Urgência e emergência",
-        "Clínica Médica",
-        "Enfermagem",
-        "Pediatria",
-        "Traumatologia",
-        "Terapia Intensiva",
-        "Anestesiologia",
-        "Cirurgia Geral",
-        "Ultrasom",
-        "Eletrocardiograma",
-        "Projeto Sorria",
+        "Urgência e emergência", 
+        "Clínica Médica", 
+        "Enfermagem", 
+        "Pediatria", 
+        "Traumatologia", 
+        "Terapia Intensiva", 
+        "Anestesiologia", 
+        "Cirurgia Geral", 
+        "Ultrasom", 
+        "Eletrocardiograma", 
+        "Projeto Sorria", 
         "Laboratório biomédico."
       ],
       "address": "Rua São Miguel, nº100, Guamá, Belém - PA",
-      "telephones": ["(91) 3344-2450", "(91) 3344-2480"],
+      "telephones": [
+        "(91) 3344-2450", 
+        "(91) 3344-2480" 
+      ],
       "site": "http://www.belem.pa.gov.br/app/c2ms/v/?id=12&amp;conteudo=4672",
       "time": "24 horas (urgência e emergência)",
       "facebook": null,
@@ -788,7 +811,9 @@
       "description": "Oferece atendimento ambulatorial e de urgência e emergência.",
       "services": null,
       "address": "Rua do Fio S/N, entre Passagem São João e São Pedro, Telégrafo, Belém - PA",
-      "telephones": ["(91) 3244-0471"],
+      "telephones": [
+        "(91) 3244-0471" 
+      ],
       "site": null,
       "time": "24 horas (urgência e emergência) Ambulatorial: de segunda a sexta das 7h às 19h",
       "facebook": null,
@@ -804,7 +829,10 @@
       "description": "Oferece atendimento ambulatorial e de urgência e emergência.",
       "services": null,
       "address": "Rua São Clemente, S/N, ao lado do Conj. Cordeiro de Farias, Tapanã, Belém - PA",
-      "telephones": ["(91) 3278-3331", "(91) 3278-1002"],
+      "telephones": [
+        "(91) 3278-3331", 
+        "(91) 3278-1002" 
+      ],
       "site": null,
       "time": "24 horas (urgência e emergência) Ambulatorial: de segunda a sexta das 8h às 18h",
       "facebook": null,
@@ -820,7 +848,9 @@
       "description": "Oferece atendimento ambulatorial.",
       "services": null,
       "address": "Avenida Norte S/N, na rua da Estação do Marex, Val de Cães, Belém - PA",
-      "telephones": ["(91) 3257-6588"],
+      "telephones": [
+        "(91) 3257-6588" 
+      ],
       "site": null,
       "time": "Ambulatorial: de segunda a sexta, 7h às 18h",
       "facebook": null,
@@ -836,7 +866,9 @@
       "description": "Oferece atendimento ambulatorial.",
       "services": null,
       "address": "Rua Manoel Barata, nº840, entre Itaboraí e São Roque, próximo ao Colégio Madre Celeste, Centro, Icoaraci, Belém - PA",
-      "telephones": ["(91) 3227-1550"],
+      "telephones": [
+        "(91) 3227-1550" 
+      ],
       "site": null,
       "time": "Ambulatorial: de segunda a sexta, 8h às 18h",
       "facebook": null,
@@ -851,32 +883,34 @@
       "name": "HPSM 14 de Março - Hospital e Pronto Socorro Municipal Mario Pinotti",
       "description": "Oferece atendimento de urgência e emergência, de alta e média complexidade, 24 horas por dia, e também atende outras especialidades.",
       "services": [
-        "Urgência e emergência",
-        "Clínica Médica",
-        "Enfermagem",
-        "Pediatria",
-        "Traumato - ortopedia",
-        "Otorrinolaringologia",
-        "Oftalmologia",
-        "Neurologia",
-        "Anestesiologia",
-        "Cirurgia Geral",
-        "Cirurgia Vascular",
-        "Cirurgia Toráxica",
-        "Cirurgia Pediátrica",
-        "Cirurgia Reparadora",
-        "Neurocirurgia",
-        "Cardiologia",
-        "Urologia",
-        "Ultra-som",
-        "Tomografia Computadorizada",
-        "Eletrocardiograma",
-        "Raio - X",
+        "Urgência e emergência", 
+        "Clínica Médica", 
+        "Enfermagem", 
+        "Pediatria", 
+        "Traumato - ortopedia", 
+        "Otorrinolaringologia", 
+        "Oftalmologia", 
+        "Neurologia", 
+        "Anestesiologia", 
+        "Cirurgia Geral", 
+        "Cirurgia Vascular", 
+        "Cirurgia Toráxica", 
+        "Cirurgia Pediátrica", 
+        "Cirurgia Reparadora", 
+        "Neurocirurgia", 
+        "Cardiologia", 
+        "Urologia", 
+        "Ultra-som", 
+        "Tomografia Computadorizada", 
+        "Eletrocardiograma", 
+        "Raio - X", 
         "Laboratório biomédico"
       ],
       "address": "Travessa 14 de Março, nº500, entre Bernal do Couto e Oliveira Belo,Umarizal, Belém - PA",
       "telephones": [
-        "(91) 3184-6353 (Direção) (91) 3184-6302 (Administração) (91) 3184-6349 (Direção Clínica)"
+        "(91) 3184-6353 (Direção)", 
+        "(91) 3184-6302 (Administração)",
+        "(91) 3184-6349 (Direção Clínica)"
       ],
       "site": "http://www.belem.pa.gov.br/app/c2ms/v/?id=12&amp;conteudo=4672",
       "time": "24 horas (urgência e emergência)",
@@ -892,11 +926,11 @@
       "name": "UPA Marambaia",
       "description": "Unidades de Pronto Atendimento da Marambaia.",
       "services": [
-        "Atendimentos de saúde de complexidade intermediária",
-        "raio-X",
-        "eletrocardiografia",
-        "pediatria",
-        "laboratório de exames e leitos de observação."
+        "Atendimentos de saúde de complexidade intermediária", 
+        "Raio-X", 
+        "Eletrocardiografia", 
+        "Pediatria", 
+        "Laboratório de exames e leitos de observação"
       ],
       "address": "Rua Maravalho Belo, S/N, Marambaia, Belém – PA",
       "telephones": null,
@@ -914,11 +948,11 @@
       "name": "UPA Dasac",
       "description": "Unidade de Pronto Atendimento da Sacramenta.",
       "services": [
-        "Atendimentos de saúde de complexidade intermediária",
-        "raio-X",
-        "eletrocardiografia",
-        "pediatria",
-        "laboratório de exames e leitos de observação."
+        "Atendimentos de saúde de complexidade intermediária", 
+        "Raio-X", 
+        "Eletrocardiografia", 
+        "Pediatria", 
+        "Laboratório de exames e leitos de observação"
       ],
       "address": "Av. Doutor Freitas, nº860, Sacramenta, Belém - PA",
       "telephones": null,
@@ -936,11 +970,11 @@
       "name": "UPA D'água",
       "description": "Unidade de Pronto Atendimento da Terra Firme.",
       "services": [
-        "Atendimentos de saúde de complexidade intermediária",
-        "raio-X",
-        "eletrocardiografia",
-        "pediatria",
-        "laboratório de exames e leitos de observação."
+        "Atendimentos de saúde de complexidade intermediária", 
+        "Raio-X", 
+        "Eletrocardiografia", 
+        "Pediatria", 
+        "Laboratório de exames e leitos de observação"
       ],
       "address": "Av. Perimetral, Terra Firme, Belém - PA",
       "telephones": null,
@@ -958,11 +992,11 @@
       "name": "UPA Daico",
       "description": "Unidade de Pronto Atendimento de Icoaraci.",
       "services": [
-        "Atendimentos de saúde de complexidade intermediária",
-        "raio-X",
-        "eletrocardiografia",
-        "pediatria",
-        "laboratório de exames e leitos de observação."
+        "Atendimentos de saúde de complexidade intermediária", 
+        "Raio-X", 
+        "Eletrocardiografia", 
+        "Pediatria", 
+        "Laboratório de exames e leitos de observação"
       ],
       "address": "Rua Paraíso, Parque Guajará, Belém - PA",
       "telephones": null,
@@ -980,11 +1014,13 @@
       "name": "Hospital das Clínicas Gaspar Viana",
       "description": "Atendimento ambulatorial e hospitalar de média e alta complexidade.",
       "services": [
-        "Hospital de referência em Psiquiatria",
+        "Hospital de referência em Psiquiatria", 
         "Cardiologia e Nefrologia"
       ],
       "address": "Trav. Alferes Costa, S/N, Pedreira, Belém - PA",
-      "telephones": ["(91) 4005-2500"],
+      "telephones": [
+        "(91) 4005-2500" 
+      ],
       "site": null,
       "time": null,
       "facebook": null,
@@ -999,12 +1035,14 @@
       "name": "Hospital Ophir Loyola",
       "description": "Atendimento médico-hospitalar de média e alta complexidade.",
       "services": [
-        "Hospital de referência em oncologia",
-        "nefrologia",
-        "transplantes e neurocirurgia"
+        "Hospital de referência em oncologia", 
+        "Nefrologia", 
+        "Transplantes e neurocirurgia"
       ],
       "address": "Av. Magalhães Barata, nº992, São Braz, Belém - PA",
-      "telephones": ["(91) 3342-1100"],
+      "telephones": [
+        "(91) 3342-1100" 
+      ],
       "site": null,
       "time": null,
       "facebook": null,
@@ -1019,17 +1057,19 @@
       "name": "Hospital Santa Casa de Misericórida",
       "description": "Serviços Ambulatoriais e de Internação.",
       "services": [
-        "Hospital referência nas áreas médicas de Pediatria",
-        "Neonatologia",
-        "Nefrologia Pediátrica",
-        "Ginecologia e Obstetrícia",
-        "Clínica Médica",
-        "Dermatologia",
-        "Cirurgia Geral",
+        "Hospital referência nas áreas médicas de Pediatria", 
+        "Neonatologia", 
+        "Nefrologia Pediátrica", 
+        "Ginecologia e Obstetrícia", 
+        "Clínica Médica", 
+        "Dermatologia", 
+        "Cirurgia Geral", 
         "Cirurgia Pediátrica e Radiologia."
       ],
       "address": "Rua Oliveira Belo, nº395, Umarizal, Belém - PA",
-      "telephones": ["(91) 4009-2200"],
+      "telephones": [
+        "(91) 4009-2200" 
+      ],
       "site": null,
       "time": null,
       "facebook": null,
@@ -1044,7 +1084,7 @@
       "name": "Hospital Abelardo Santos",
       "description": "Serviços de Urgência e Laboratorial.",
       "services": [
-        "Atende as áreas de Obstétrica",
+        "Atende as áreas de Obstétrica", 
         "Ginecológica e Pediátrica"
       ],
       "address": "Avenida Augusto Montenegro KM13, S/N, Campina de Icoaraci, Belém - PA",
@@ -1066,7 +1106,9 @@
         "Oferece atendimento para clinica médica e clinica cirúrgica"
       ],
       "address": "Rua Cônego Jerônimo Pimentel, nº543, Belém - PA",
-      "telephones": ["(91) 3241-1811"],
+      "telephones": [
+        "(91) 3241-1811" 
+      ],
       "site": null,
       "time": null,
       "facebook": null,
@@ -1084,7 +1126,9 @@
         "Realiza atendimentos em casos de emergência psiquiátrica. "
       ],
       "address": "Tv. Alferes Costa, S/N - Pedreira, Belém - PA",
-      "telephones": ["(91) 4005-2595"],
+      "telephones": [
+        "(91) 4005-2595" 
+      ],
       "site": null,
       "time": "24 horas",
       "facebook": null,
@@ -1099,20 +1143,22 @@
       "name": "CAPS Amazônia",
       "description": "Oferece atendimento para casos graves, que necessitem de cuidados mais intensivos, e/ou de reinserção psicossocial.",
       "services": [
-        "Oferece serviços de:",
-        "Acolhimento",
-        "Consultas especializadas",
-        "Atendimentos individualizados",
-        "Atendimentos em grupos",
-        "Atividades sócio-recreativas",
-        "Oficinas terapêuticas",
-        "Apoio as Unidades Municipais de Saúde (UMS) de abrangência",
-        "Atividades extra muro",
-        "Assistência farmacêutica",
+        "Oferece serviços de:", 
+        "Acolhimento", 
+        "Consultas especializadas", 
+        "Atendimentos individualizados", 
+        "Atendimentos em grupos", 
+        "Atividades sócio-recreativas", 
+        "Oficinas terapêuticas", 
+        "Apoio as Unidades Municipais de Saúde (UMS) de abrangência", 
+        "Atividades extra muro", 
+        "Assistência farmacêutica", 
         "Prestação de serviços de apoio da residência terapêutica."
       ],
       "address": "Pass. Dalva, nº377, próximo a Av. Tavares Bastos, Belém - PA",
-      "telephones": ["(91) 3231-2599"],
+      "telephones": [
+        "(91) 3231-2599" 
+      ],
       "site": null,
       "time": "Segunda a sexta das 8h às 18h",
       "facebook": null,
@@ -1130,7 +1176,9 @@
         "Acolhe pacientes do Centro Integrado de Assistência Psiquiátrica do Pará (Ciaspa)"
       ],
       "address": "Conj. Cohab Gleba I, Passagem P-2, nº50, Próximo a Rua da Marinha, Belém - PA",
-      "telephones": ["(91) 3223-1624"],
+      "telephones": [
+        "(91) 3223-1624" 
+      ],
       "site": null,
       "time": "Segunda a sexta das 8h às 18h",
       "facebook": null,
@@ -1145,18 +1193,20 @@
       "name": "CAPS I Icoaraci",
       "description": "Atende adultos com transtornos mentais graves e persistentes e transtornos derivados do uso de álcool e outras drogas.",
       "services": [
-        "Acolhimento",
-        "Consultas especializadas",
-        "Atendimentos individuais",
-        "Atendimentos em grupos",
-        "Atividades sócio-recreativas",
-        "Oficinas Terapêuticas",
-        "Apoio as Unidades Municipais de Saúde (UMS) de abrangência",
-        "Atividades extra muro",
+        "Acolhimento", 
+        "Consultas especializadas", 
+        "Atendimentos individuais", 
+        "Atendimentos em grupos", 
+        "Atividades sócio-recreativas", 
+        "Oficinas Terapêuticas", 
+        "Apoio as Unidades Municipais de Saúde (UMS) de abrangência", 
+        "Atividades extra muro", 
         "Assistência farmacêutica."
       ],
       "address": "Rua Monsenhor Azevedo, nº 237, Belém - PA",
-      "telephones": ["(91) 3227-9137"],
+      "telephones": [
+        "(91) 3227-9137" 
+      ],
       "site": null,
       "time": "Segunda a sexta das 8h às 18h",
       "facebook": null,
@@ -1171,18 +1221,20 @@
       "name": "CAPS AD",
       "description": "Atende pessoas com sofrimento psíquico intenso, decorrentes do uso de crack, álcool e outras drogas e outras necessidades de cuidados clínicos contínuos.",
       "services": [
-        "Acolhimento",
-        "Consultas especializadas",
-        "Atendimentos individuais",
-        "Atendimentos em grupos",
-        "Atividades sócio-recreativas",
-        "Oficinas Terapêuticas",
-        "Apoio as Unidades Municipais de Saúde (UMS) de abrangência",
-        "Atividades extra muro",
+        "Acolhimento", 
+        "Consultas especializadas", 
+        "Atendimentos individuais", 
+        "Atendimentos em grupos", 
+        "Atividades sócio-recreativas", 
+        "Oficinas Terapêuticas", 
+        "Apoio as Unidades Municipais de Saúde (UMS) de abrangência", 
+        "Atividades extra muro", 
         "Assistência farmacêutica."
       ],
       "address": "Av. Gov. José Malcher, nº1457, Nazaré, Belém - PA",
-      "telephones": [" (91) 3276-0890"],
+      "telephones": [
+        "(91) 3276-0890" 
+      ],
       "site": null,
       "time": "Segunda a sexta das 8h às 18h",
       "facebook": null,
@@ -1197,25 +1249,27 @@
       "name": "CAPS III Marajoara",
       "description": "Atende pessoas em intenso sofrimento psíquico derivados de transtornos mentais graves e persistentes.",
       "services": [
-        "Acolhimento",
-        "Atendimento clínico, assistencial e medicamentoso",
-        "Atendimentos individuais, em grupo e familiar",
-        "Oficina terapêutica",
-        "Atividades físicas",
-        "Terapia ocupacional",
-        "Atividades psicoterapêuticas",
-        "Palestras educativas e profissionais",
-        "Assistente Social",
-        "Enfermeiros",
-        "Farmacêuticos",
-        "Médicos",
-        "Educadores físicos",
-        "Psicólogos",
-        "Técnica de enfermagem",
+        "Acolhimento", 
+        "Atendimento clínico, assistencial e medicamentoso", 
+        "Atendimentos individuais, em grupo e familiar", 
+        "Oficina terapêutica", 
+        "Atividades físicas", 
+        "Terapia ocupacional", 
+        "Atividades psicoterapêuticas", 
+        "Palestras educativas e profissionais", 
+        "Assistente Social", 
+        "Enfermeiros", 
+        "Farmacêuticos", 
+        "Médicos", 
+        "Educadores físicos", 
+        "Psicólogos", 
+        "Técnica de enfermagem", 
         "Nutricionistas."
       ],
       "address": "Conj. Cohab Gleba 1, WE 2, nº451, ao lado da Seccional da Marambaia, Belém - PA",
-      "telephones": ["(91) 3231-4443"],
+      "telephones": [
+        "(91) 3231-4443" 
+      ],
       "site": null,
       "time": "24 horas",
       "facebook": null,
@@ -1230,18 +1284,21 @@
       "name": "CAPS III Grão Pará",
       "description": "Atende pessoas em intenso sofrimento psíquico derivados de transtornos mentais graves e persistentes.",
       "services": [
-        "Acolhimento",
-        "Consultas especializadas",
-        "Atendimentos individuais",
-        "Atendimentos em grupos",
-        "Atividades sócio-recreativas",
-        "Oficinas Terapêuticas",
-        "Apoio as Unidades Municipais de Saúde (UMS) de abrangência",
-        "Atividades extra muro",
+        "Acolhimento", 
+        "Consultas especializadas", 
+        "Atendimentos individuais", 
+        "Atendimentos em grupos", 
+        "Atividades sócio-recreativas", 
+        "Oficinas Terapêuticas", 
+        "Apoio as Unidades Municipais de Saúde (UMS) de abrangência", 
+        "Atividades extra muro", 
         "Assistência farmacêutica."
       ],
       "address": "Rua dos Tamoios, nº1840, Belém - PA",
-      "telephones": ["(91) 3269-6732", "(91) 3249-0504"],
+      "telephones": [
+        "(91) 3269-6732", 
+        "(91) 3249-0504" 
+      ],
       "site": null,
       "time": "24 horas",
       "facebook": null,
@@ -1256,18 +1313,21 @@
       "name": "CAPS III Renascer",
       "description": "Atende pessoas em intenso sofrimento psíquico derivados de transtornos mentais graves e persistentes.",
       "services": [
-        "Acolhimento",
-        "Consultas especializadas",
-        "Atendimentos individuais",
-        "Atendimentos em grupos",
-        "Atividades sócio-recreativas",
-        "Oficinas Terapêuticas",
-        "Apoio as Unidades Municipais de Saúde (UMS) de abrangência",
-        "Atividades extra muro",
+        "Acolhimento", 
+        "Consultas especializadas", 
+        "Atendimentos individuais", 
+        "Atendimentos em grupos", 
+        "Atividades sócio-recreativas", 
+        "Oficinas Terapêuticas", 
+        "Apoio as Unidades Municipais de Saúde (UMS) de abrangência", 
+        "Atividades extra muro", 
         "Assistência farmacêutica."
       ],
       "address": "Trav. Mauriti, nº2179, entre Av. Duque de Caxias e Trav. Visconde de Inhaúma, Belém - PA",
-      "telephones": ["(91) 3276-3448", "(91) 3261-9010"],
+      "telephones": [
+        "(91) 3276-3448", 
+        "(91) 3261-9010" 
+      ],
       "site": null,
       "time": "24 horas",
       "facebook": null,
@@ -1282,18 +1342,20 @@
       "name": "CAPS III Mental Adulto",
       "description": "Atende pessoas em intenso sofrimento psíquico derivados de transtornos mentais graves e persistentes.",
       "services": [
-        "Acolhimento",
-        "Consultas especializadas",
-        "Atendimentos individuais",
-        "Atendimentos em grupos",
-        "Atividades sócio-recreativas",
-        "Oficinas Terapêuticas",
-        "Apoio as Unidades Municipais de Saúde (UMS) de abrangência",
-        "Atividades extra muro",
+        "Acolhimento", 
+        "Consultas especializadas", 
+        "Atendimentos individuais", 
+        "Atendimentos em grupos", 
+        "Atividades sócio-recreativas", 
+        "Oficinas Terapêuticas", 
+        "Apoio as Unidades Municipais de Saúde (UMS) de abrangência", 
+        "Atividades extra muro", 
         "Assistência farmacêutica."
       ],
       "address": "Rua Dom Romualdo de Seixas, nº1854, Belém - PA",
-      "telephones": ["(91) 3229-9678"],
+      "telephones": [
+        "(91) 3229-9678" 
+      ],
       "site": null,
       "time": "24 horas",
       "facebook": null,
@@ -1308,18 +1370,20 @@
       "name": "CAPS I Mental Mosqueiro",
       "description": "Atende pessoas em intenso sofrimento psíquico derivados de transtornos mentais graves e persistentes.",
       "services": [
-        "Acolhimento",
-        "Consultas especializadas",
-        "Atendimentos individuais",
-        "Atendimentos em grupos",
-        "Atividades sócio-recreativas",
-        "Oficinas Terapêuticas",
-        "Apoio as Unidades Municipais de Saúde (UMS) de abrangência",
-        "Atividades extra muro",
+        "Acolhimento", 
+        "Consultas especializadas", 
+        "Atendimentos individuais", 
+        "Atendimentos em grupos", 
+        "Atividades sócio-recreativas", 
+        "Oficinas Terapêuticas", 
+        "Apoio as Unidades Municipais de Saúde (UMS) de abrangência", 
+        "Atividades extra muro", 
         "Assistência farmacêutica."
       ],
       "address": "Avenida 15 de Novembro, nº551, Belém - PA",
-      "telephones": ["(91) 3771-1362"],
+      "telephones": [
+        "(91) 3771-1362" 
+      ],
       "site": null,
       "time": "Segunda a sexta das 8h às 18h",
       "facebook": null,
