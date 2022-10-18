@@ -2,6 +2,44 @@
   "social": [
     {
       "city": "Ananindeua",
+      "name": "Associação dos Servidores da Assembleia Legislativa do Pará (ASALP)",
+      "description": "Em parceria com a Secretaria de Estado de Esporte e Lazer, a ASALP oferece atividades físicas/desportivas para pessoas a partir dos 50 anos de idade. Para se inscrever, basta apresentar 1 cópia da carteira de identidade, 1 cópia do comprovante de residência, 2 fotos 3x4, atestado do médico cardiologista e a carteira de vacinação de Covid-19.",
+      "services": [
+        "Hidroginástica",
+        "Natação",
+        "Yoga Confira os dias e horários disponíveis no local da inscrição."
+      ],
+      "address": "Rodovia Mário Covas, Alameda São Jorge, nº293, Ananindeua - PA",
+      "telephones": null,
+      "site": null,
+      "time": null,
+      "facebook": null,
+      "instagram": "https://www.instagram.com/asalpoficial/",
+      "coordinates": {
+        "latitude": -1.348575,
+        "longitude": -48.452509
+      }
+    },
+    {
+      "city": "Ananindeua",
+      "name": "Associação dos Servidores da Assembleia Legislativa do Pará (ASALP)",
+      "description": "Em parceria com a Secretaria de Estado de Esporte e Lazer, a ASALP oferece atividades físicas/desportivas para pessoas a partir dos 50 anos de idade. Para se inscrever, basta apresentar 1 cópia da carteira de identidade, 1 cópia do comprovante de residência, 2 fotos 3x4, atestado do médico cardiologista e a carteira de vacinação de Covid-19.",
+      "services": [
+        "Aula de memorização Confira os dias e horários disponíveis no local da inscrição."
+      ],
+      "address": "Rodovia Mário Covas, Alameda São Jorge, nº293, Ananindeua - PA",
+      "telephones": null,
+      "site": null,
+      "time": null,
+      "facebook": null,
+      "instagram": "https://www.instagram.com/asalpoficial/",
+      "coordinates": {
+        "latitude": -1.348575,
+        "longitude": -48.452509
+      }
+    },
+    {
+      "city": "Ananindeua",
       "name": "Estação Cidadania - Shopping Metrópole Ananindeua",
       "description": "Unidades de integração de serviços prestados por órgãos públicos.",
       "departamentos": [
@@ -166,7 +204,7 @@
         "Emissão de documentos",
         "Ações de segurança",
         "Capacitação técnica e prossionalizante",
-        "Espaço multiuso para feiras", 
+        "Espaço multiuso para feiras",
         "Eventos e encontros da comunidade",
         "Espaços para cursos livres e de dança, teatro, robótica, artes marciais, musicalização e biblioteca Internet sem fio gratuita disponibilizada pela empresa de Tecnologia da Informação e Comunicação do Pará (Prodepa) para os frequentadores das Usinas da Paz"
       ],
@@ -179,71 +217,6 @@
       "coordinates": {
         "latitude": -1.367013,
         "longitude": -48.431661
-      }
-    },
-    {
-      "city": "Ananindeua",
-      "name": "Associação dos Servidores da Assembleia Legislativa do Pará (ASALP)",
-      "description": "Em parceria com a Secretaria de Estado de Esporte e Lazer, a ASALP oferece atividades físicas/desportivas para pessoas a partir dos 50 anos de idade. Para se inscrever, basta apresentar 1 cópia da carteira de identidade, 1 cópia do comprovante de residência, 2 fotos 3x4, atestado do médico cardiologista e a carteira de vacinação de Covid-19.",
-      "services": [
-        "Hidroginástica",
-        "Natação",
-        "Yoga Confira os dias e horários disponíveis no local da inscrição."
-      ],
-      "address": "Rodovia Mário Covas, Alameda São Jorge, nº293, Ananindeua - PA",
-      "telephones": null,
-      "site": null,
-      "time": null,
-      "facebook": null,
-      "instagram": "https://www.instagram.com/asalpoficial/",
-      "coordinates": {
-        "latitude": -1.348575,
-        "longitude": -48.452509
-      }
-    },
-    {
-      "city": "Ananindeua",
-      "name": "Usina da Paz - Icuí- Guajará",
-      "description": "Complexo comunitário integrado ao programa TerPaz, do Governo do Estado do Pará, com mais de 80 serviços gratuitos disponibilizados pelos órgãos estaduais e entidades parceiras.",
-      "services": [
-        "Espaços para atividades esportivas",
-        "Salas de audiovisual e inclusão digital",
-        "Atendimento médico e odontológico",
-        "Consultoria jurídica",
-        "Emissão de documentos",
-        "Ações de segurança",
-        "Capacitação técnica e prossionalizante",
-        "Espaço multiuso para feiras",
-        "Eventos e encontros da comunidade",
-        "Espaços para cursos livres e de dança, teatro, robótica, artes marciais, musicalização e biblioteca Internet sem fio gratuita disponibilizada pela empresa de Tecnologia da Informação e Comunicação do Pará (Prodepa) para os frequentadores das Usinas da Paz"
-      ],
-      "address": " Estr. Icuí-Guajará - Icuí-Guajará, Ananindeua - PA",
-      "telephones": null,
-      "site": null,
-      "time": "De segunda a sexta 8h às 18h",
-      "facebook": null,
-      "instagram": null,
-      "coordinates": {
-        "latitude": -1.343752,
-        "longitude": -48.407417
-      }
-    },
-    {
-      "city": "Ananindeua",
-      "name": "Associação dos Servidores da Assembleia Legislativa do Pará (ASALP)",
-      "description": "Em parceria com a Secretaria de Estado de Esporte e Lazer, a ASALP oferece atividades físicas/desportivas para pessoas a partir dos 50 anos de idade. Para se inscrever, basta apresentar 1 cópia da carteira de identidade, 1 cópia do comprovante de residência, 2 fotos 3x4, atestado do médico cardiologista e a carteira de vacinação de Covid-19.",
-      "services": [
-        "Aula de memorização Confira os dias e horários disponíveis no local da inscrição."
-      ],
-      "address": "Rodovia Mário Covas, Alameda São Jorge, nº293, Ananindeua - PA",
-      "telephones": null,
-      "site": null,
-      "time": null,
-      "facebook": null,
-      "instagram": "https://www.instagram.com/asalpoficial/",
-      "coordinates": {
-        "latitude": -1.348575,
-        "longitude": -48.452509
       }
     },
     {
@@ -272,16 +245,126 @@
         "latitude": -1.367013,
         "longitude": -48.431661
       }
+    },
+    {
+      "city": "Ananindeua",
+      "name": "Usina da Paz - Icuí- Guajará",
+      "description": "Complexo comunitário integrado ao programa TerPaz, do Governo do Estado do Pará, com mais de 80 serviços gratuitos disponibilizados pelos órgãos estaduais e entidades parceiras.",
+      "services": [
+        "Espaços para atividades esportivas",
+        "Salas de audiovisual e inclusão digital",
+        "Atendimento médico e odontológico",
+        "Consultoria jurídica",
+        "Emissão de documentos",
+        "Ações de segurança",
+        "Capacitação técnica e prossionalizante",
+        "Espaço multiuso para feiras",
+        "Eventos e encontros da comunidade",
+        "Espaços para cursos livres e de dança, teatro, robótica, artes marciais, musicalização e biblioteca Internet sem fio gratuita disponibilizada pela empresa de Tecnologia da Informação e Comunicação do Pará (Prodepa) para os frequentadores das Usinas da Paz"
+      ],
+      "address": " Estr. Icuí-Guajará - Icuí-Guajará, Ananindeua - PA",
+      "telephones": null,
+      "site": null,
+      "time": "De segunda a sexta 8h às 18h",
+      "facebook": null,
+      "instagram": null,
+      "coordinates": {
+        "latitude": -1.343752,
+        "longitude": -48.407417
+      }
     }
   ],
   "health": [
+    {
+      "city": "Ananindeua",
+      "name": "CAPS II",
+      "description": "Atende pessoas em intenso sofrimento psíquico derivados de transtornos mentais graves e persistentes, incluindo aqueles relacionados ao uso de substâncias psicoativas e outras necessidades de cuidados clínicos contínuos.",
+      "services": [
+        "Acolhimento",
+        "Consultas especializadas",
+        "Atendimentos individuais",
+        "Atendimentos em grupos",
+        "Atividades sócio-recreativas",
+        "Oficinas Terapêuticas",
+        "Apoio as Unidades Municipais de Saúde (UMS) de abrangência",
+        "Atividades extra muro",
+        "Assistência farmacêutica."
+      ],
+      "address": "Estrada do Maguari nº2000, Ananindeua - PA",
+      "telephones": [
+        "(91) 98265-7139"
+      ],
+      "site": null,
+      "time": "Segunda a sexta das 8h às 18h",
+      "facebook": null,
+      "instagram": null,
+      "coordinates": null
+    },
+    {
+      "city": "Ananindeua",
+      "name": "Hospital Metropolitano",
+      "description": "Realiza atendimentos de urgência e emergência a vítimas de trauma e queimados de média e alta complexidades aos usuários do Sistema Único de Saúde (SUS).",
+      "services": [
+        "Atende as especialidades de Endoscopia",
+        "Radiologia Médica",
+        "Clínica Médica",
+        "Nefrologia",
+        "Pediatria Clínica;Cirurgia Geral e do Trauma",
+        "Medicina Intensiva",
+        "Buco-Maxilo-Facial",
+        "Cirurgia Vascular Cirurgia Plástica Reparadora",
+        "Traumato-Ortopedia",
+        "Urologia",
+        "Oftalmologia",
+        "Anestesiologia",
+        "Hemoterapia",
+        "Cirurgia Torácica Otorrinolaringologia",
+        "Neurocirurgia",
+        "Infectologia "
+      ],
+      "address": "Rodovia BR 316, Km 03, Ananindeua - PA",
+      "telephones": [
+        "(91) 3073-3700"
+      ],
+      "site": null,
+      "time": null,
+      "facebook": null,
+      "instagram": null,
+      "coordinates": {
+        "latitude": -1.392320152731473,
+        "longitude": -48.42001263487786
+      }
+    },
+    {
+      "city": "Ananindeua",
+      "name": "Hospital Público Estadual Galileu",
+      "description": "Referência na Rede Estadual do Pará em atendimentos de traumas ortopédicos.",
+      "services": [
+        "Atendimento Ambulatorial",
+        "Internação"
+      ],
+      "address": "Rodovia Mário Covas, nº2553, Una, Belém - PA",
+      "telephones": [
+        "(91) 3214-1050"
+      ],
+      "site": null,
+      "time": null,
+      "facebook": null,
+      "instagram": null,
+      "coordinates": {
+        "latitude": -1.3676688946946949,
+        "longitude": -48.42416095622687
+      }
+    },
     {
       "city": "Ananindeua",
       "name": "UMS Maguari",
       "description": "Oferece atendimento ambulatorial.",
       "services": null,
       "address": "Conj. Maguari, Alameda 15, S/N, passando o centro comercial, Coqueiro, Ananindeua - PA",
-      "telephones": ["(91) 3248-3233"],
+      "telephones": [
+        "(91) 3248-3233"
+      ],
       "site": null,
       "time": "Ambulatorial: de segunda a sexta, 7h às 18h",
       "facebook": null,
@@ -337,28 +420,6 @@
     },
     {
       "city": "Ananindeua",
-      "name": "UPA Mariguella",
-      "description": "Unidade de Pronto Atendimento do Aurá.",
-      "services": [
-        "Atendimentos de saúde de complexidade intermediária",
-        "Raio-X",
-        "Eletrocardiografia",
-        "Pediatria",
-        "Laboratório de exames e leitos de observação"
-      ],
-      "address": "Passagem Chicó Mendes, nº193, Aurá, Ananindeua - PA",
-      "telephones": null,
-      "site": null,
-      "time": "24 horas",
-      "facebook": null,
-      "instagram": null,
-      "coordinates": {
-        "latitude": -1.382164259869635,
-        "longitude": -48.36928576053331
-      }
-    },
-    {
-      "city": "Ananindeua",
       "name": "UPA Icuí",
       "description": "Unidade de Pronto Atendimento do Icuí.",
       "services": [
@@ -381,75 +442,25 @@
     },
     {
       "city": "Ananindeua",
-      "name": "Hospital Público Estadual Galileu",
-      "description": "Referência na Rede Estadual do Pará em atendimentos de traumas ortopédicos.",
-      "services": ["Atendimento Ambulatorial", "Internação"],
-      "address": "Rodovia Mário Covas, nº2553, Una, Belém - PA",
-      "telephones": ["(91) 3214-1050"],
+      "name": "UPA Mariguella",
+      "description": "Unidade de Pronto Atendimento do Aurá.",
+      "services": [
+        "Atendimentos de saúde de complexidade intermediária",
+        "Raio-X",
+        "Eletrocardiografia",
+        "Pediatria",
+        "Laboratório de exames e leitos de observação"
+      ],
+      "address": "Passagem Chicó Mendes, nº193, Aurá, Ananindeua - PA",
+      "telephones": null,
       "site": null,
-      "time": null,
+      "time": "24 horas",
       "facebook": null,
       "instagram": null,
       "coordinates": {
-        "latitude": -1.3676688946946949,
-        "longitude": -48.42416095622687
+        "latitude": -1.382164259869635,
+        "longitude": -48.36928576053331
       }
-    },
-    {
-      "city": "Ananindeua",
-      "name": "Hospital Metropolitano",
-      "description": "Realiza atendimentos de urgência e emergência a vítimas de trauma e queimados de média e alta complexidades aos usuários do Sistema Único de Saúde (SUS).",
-      "services": [
-        "Atende as especialidades de Endoscopia",
-        "Radiologia Médica",
-        "Clínica Médica",
-        "Nefrologia",
-        "Pediatria Clínica;Cirurgia Geral e do Trauma",
-        "Medicina Intensiva",
-        "Buco-Maxilo-Facial",
-        "Cirurgia Vascular Cirurgia Plástica Reparadora",
-        "Traumato-Ortopedia",
-        "Urologia",
-        "Oftalmologia",
-        "Anestesiologia",
-        "Hemoterapia",
-        "Cirurgia Torácica Otorrinolaringologia",
-        "Neurocirurgia",
-        "Infectologia "
-      ],
-      "address": "Rodovia BR 316, Km 03, Ananindeua - PA",
-      "telephones": ["(91) 3073-3700"],
-      "site": null,
-      "time": null,
-      "facebook": null,
-      "instagram": null,
-      "coordinates": {
-        "latitude": -1.392320152731473,
-        "longitude": -48.42001263487786
-      }
-    },
-    {
-      "city": "Ananindeua",
-      "name": "CAPS II",
-      "description": "Atende pessoas em intenso sofrimento psíquico derivados de transtornos mentais graves e persistentes, incluindo aqueles relacionados ao uso de substâncias psicoativas e outras necessidades de cuidados clínicos contínuos.",
-      "services": [
-        "Acolhimento",
-        "Consultas especializadas",
-        "Atendimentos individuais",
-        "Atendimentos em grupos",
-        "Atividades sócio-recreativas",
-        "Oficinas Terapêuticas",
-        "Apoio as Unidades Municipais de Saúde (UMS) de abrangência",
-        "Atividades extra muro",
-        "Assistência farmacêutica."
-      ],
-      "address": "Estrada do Maguari nº2000, Ananindeua - PA",
-      "telephones": ["(91) 98265-7139"],
-      "site": null,
-      "time": "Segunda a sexta das 8h às 18h",
-      "facebook": null,
-      "instagram": null,
-      "coordinates": null
     }
   ]
 }
